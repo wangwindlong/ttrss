@@ -3,11 +3,12 @@ package org.fox.ttrss.glide;
 import android.graphics.drawable.Drawable;
 
 import com.bumptech.glide.request.Request;
-import com.bumptech.glide.request.animation.GlideAnimation;
 import com.bumptech.glide.request.target.SizeReadyCallback;
 import com.bumptech.glide.request.target.Target;
+import com.bumptech.glide.request.transition.Transition;
 
 import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 
 public class WrappingTarget<Z> implements Target<Z> {
     protected final @NonNull Target<? super Z> target;
@@ -21,15 +22,23 @@ public class WrappingTarget<Z> implements Target<Z> {
         target.getSize(cb);
     }
 
+    @Override
+    public void removeCallback(@NonNull SizeReadyCallback cb) {
+
+    }
+
     @Override public void onLoadStarted(Drawable placeholder) {
         target.onLoadStarted(placeholder);
     }
-    @Override public void onLoadFailed(Exception e, Drawable errorDrawable) {
-        target.onLoadFailed(e, errorDrawable);
+
+    @Override
+    public void onLoadFailed(@Nullable Drawable errorDrawable) {
+        target.onLoadFailed(errorDrawable);
     }
+
     @SuppressWarnings("unchecked")
-    @Override public void onResourceReady(Z resource, GlideAnimation<? super Z> glideAnimation) {
-        target.onResourceReady(resource, (GlideAnimation)glideAnimation);
+    @Override public void onResourceReady(Z resource, Transition<? super Z> glideAnimation) {
+        target.onResourceReady(resource, (Transition)glideAnimation);
     }
     @Override public void onLoadCleared(Drawable placeholder) {
         target.onLoadCleared(placeholder);
