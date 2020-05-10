@@ -13,13 +13,20 @@ import com.bumptech.glide.integration.okhttp3.OkHttpUrlLoader;
 import com.bumptech.glide.load.model.GlideUrl;
 import com.bumptech.glide.module.AppGlideModule;
 import com.bumptech.glide.module.GlideModule;
+import com.bumptech.glide.module.LibraryGlideModule;
 
 import okhttp3.*;
 import okio.*;
 
 public class OkHttpProgressGlideModule extends AppGlideModule {
-    @Override public void applyOptions(Context context, GlideBuilder builder) {
+    @Override
+    public void applyOptions(@NonNull Context context, @NonNull GlideBuilder builder) {
+        super.applyOptions(context, builder);
+    }
 
+    @Override
+    public boolean isManifestParsingEnabled() {
+        return false;
     }
 
     @Override
@@ -41,6 +48,7 @@ public class OkHttpProgressGlideModule extends AppGlideModule {
             }
         };
     }
+
 
     public interface UIProgressListener {
         void onProgress(long bytesRead, long expectedLength);
