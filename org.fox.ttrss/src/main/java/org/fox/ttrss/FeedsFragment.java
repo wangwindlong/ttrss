@@ -37,6 +37,7 @@ import com.google.gson.reflect.TypeToken;
 import org.fox.ttrss.types.Feed;
 import org.fox.ttrss.types.FeedCategory;
 import org.fox.ttrss.types.FeedList;
+import org.jetbrains.annotations.NotNull;
 
 import java.lang.reflect.Type;
 import java.util.ArrayList;
@@ -93,7 +94,7 @@ public class FeedsFragment extends BaseFeedlistFragment implements OnItemClickLi
 	}
 
 	@Override
-	public void onLoadFinished(Loader<JsonElement> loader, JsonElement result) {
+	public void onLoadFinished(@NotNull Loader<JsonElement> loader, JsonElement result) {
 		if (m_swipeLayout != null) m_swipeLayout.setRefreshing(false);
 
 		if (result != null) {
@@ -189,13 +190,13 @@ public class FeedsFragment extends BaseFeedlistFragment implements OnItemClickLi
 	}
 
 	@Override
-	public void onLoaderReset(Loader<JsonElement> loader) {
+	public void onLoaderReset(@NotNull Loader<JsonElement> loader) {
 		/*m_feeds.clear();
 		m_adapter.notifyDataSetChanged();*/
 	}
 
 	@SuppressLint("DefaultLocale")
-	class FeedUnreadComparator implements Comparator<Feed> {
+	static class FeedUnreadComparator implements Comparator<Feed> {
 
 		@Override
 		public int compare(Feed a, Feed b) {
@@ -209,8 +210,7 @@ public class FeedsFragment extends BaseFeedlistFragment implements OnItemClickLi
 	
 
 	@SuppressLint("DefaultLocale")
-	class FeedTitleComparator implements Comparator<Feed> {
-
+	static class FeedTitleComparator implements Comparator<Feed> {
 		@Override
 		public int compare(Feed a, Feed b) {
 			if (a.is_cat && b.is_cat)
@@ -228,7 +228,7 @@ public class FeedsFragment extends BaseFeedlistFragment implements OnItemClickLi
 	}
 
 	@SuppressLint("DefaultLocale")
-	class FeedOrderComparator implements Comparator<Feed> {
+	static class FeedOrderComparator implements Comparator<Feed> {
 
 		@Override
 		public int compare(Feed a, Feed b) {
@@ -616,7 +616,7 @@ public class FeedsFragment extends BaseFeedlistFragment implements OnItemClickLi
 			cmp = new FeedUnreadComparator();
 		} else {
 			if (m_activity.getApiLevel() >= 3) {
-				cmp = new FeedOrderComparator();				
+				cmp = new FeedOrderComparator();
 			} else {
 				cmp = new FeedTitleComparator();
 			}

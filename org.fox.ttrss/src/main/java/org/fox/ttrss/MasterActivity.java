@@ -28,6 +28,7 @@ import java.util.HashMap;
 
 import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.widget.Toolbar;
+import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
@@ -111,7 +112,7 @@ public class MasterActivity extends OnlineActivity implements HeadlinesEventList
 
         if (savedInstanceState == null) {
             if (m_drawerLayout != null && m_prefs.getBoolean("drawer_open_on_start", true)) {
-                m_drawerLayout.openDrawer(Gravity.START);
+                m_drawerLayout.openDrawer(GravityCompat.START);
             }
 
 			final Intent i = getIntent();
@@ -186,7 +187,7 @@ public class MasterActivity extends OnlineActivity implements HeadlinesEventList
 
                 ft.replace(R.id.headlines_fragment, hf, FRAG_HEADLINES);
             } else if (m_drawerLayout != null) {
-                m_drawerLayout.openDrawer(Gravity.START);
+                m_drawerLayout.openDrawer(GravityCompat.START);
             }
 
 			ft.commit();
@@ -198,7 +199,7 @@ public class MasterActivity extends OnlineActivity implements HeadlinesEventList
 		} else { // savedInstanceState != null
 
 			if (m_drawerLayout != null && !m_feedIsSelected) {
-				m_drawerLayout.openDrawer(Gravity.START);
+				m_drawerLayout.openDrawer(GravityCompat.START);
 			}
 		}
 	}
@@ -219,7 +220,7 @@ public class MasterActivity extends OnlineActivity implements HeadlinesEventList
 			HeadlinesFragment hf = (HeadlinesFragment)getSupportFragmentManager().findFragmentByTag(FRAG_HEADLINES);
 			
 			/* if (m_drawerLayout != null) {
-                boolean isDrawerOpen = m_drawerLayout.isDrawerOpen(Gravity.START);
+                boolean isDrawerOpen = m_drawerLayout.isDrawerOpen(GravityCompat.START);
 
 				m_menu.setGroupVisible(R.id.menu_group_feeds, isDrawerOpen);
 				m_menu.setGroupVisible(R.id.menu_group_headlines, hf != null && hf.isAdded() && !isDrawerOpen);
@@ -411,10 +412,10 @@ public class MasterActivity extends OnlineActivity implements HeadlinesEventList
 
     @Override
     public void onBackPressed() {
-        if (m_drawerLayout != null && !m_drawerLayout.isDrawerOpen(Gravity.START) &&
+        if (m_drawerLayout != null && !m_drawerLayout.isDrawerOpen(GravityCompat.START) &&
                 (getSupportFragmentManager().getBackStackEntryCount() > 0 || m_userFeedSelected)) {
 
-            m_drawerLayout.openDrawer(Gravity.START);
+            m_drawerLayout.openDrawer(GravityCompat.START);
         } else {
 			try {
 				super.onBackPressed();

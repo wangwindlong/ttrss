@@ -1462,30 +1462,22 @@ public class OnlineActivity extends CommonActivity {
 			if (result != null) {
 				try {
 					JsonObject content = result.getAsJsonObject();
-					
 					if (content != null) {
 						setSessionId(content.get("session_id").getAsString());
-						
 						JsonElement apiLevel = content.get("api_level");
-
 						Log.d(TAG, "Authenticated!");
-						
 						if (apiLevel != null) {
 							setApiLevel(apiLevel.getAsInt());
 							Log.d(TAG, "Received API level: " + getApiLevel());
-							
 							if (m_listener != null) {
 								m_listener.OnLoginSuccess();
 							} else {
 								loginSuccess(m_refreshAfterLogin);
 							}
-							
 						} else {
-
 							ApiRequest req = new ApiRequest(m_context) {
 								protected void onPostExecute(JsonElement result) {
 									setApiLevel(0);
-	
 									if (result != null) {
 										try {
 											setApiLevel(result.getAsJsonObject().get("level").getAsInt());
@@ -1494,28 +1486,21 @@ public class OnlineActivity extends CommonActivity {
 										}
 									} else if (m_lastError != ApiCommon.ApiError.API_UNKNOWN_METHOD) {
 										// Unknown method means old tt-rss, in that case we assume API 0 and continue
-										
 										setLoadingStatus(getErrorMessage());
-
 										if (m_lastErrorMessage != null) {
 											setLoadingStatus(getString(getErrorMessage()) + "\n\n" + m_lastErrorMessage);
 										} else {
 											setLoadingStatus(getErrorMessage());
 										}
-										
 										if (m_listener != null) {
 											m_listener.OnLoginFailed();
 										} else {
 											loginFailure();
 										}
-										
 										return;
 									}
-	
 									Log.d(TAG, "Received API level: " + getApiLevel());
-	
 									loginSuccess(m_refreshAfterLogin);
-	
 									return;
 								}
 							};
