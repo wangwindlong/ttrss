@@ -153,7 +153,7 @@ public class ApiCommon {
 
                 switch (statusCode) {
                     case API_STATUS_OK:
-                        return result.getAsJsonObject().get("content");
+                        return resultObj.get("content");
                     case API_STATUS_ERR:
                         JsonObject contentObj = resultObj.get("content").getAsJsonObject();
                         String error = contentObj.get("error").getAsString();

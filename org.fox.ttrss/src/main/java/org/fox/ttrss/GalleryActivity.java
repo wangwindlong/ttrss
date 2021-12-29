@@ -121,8 +121,8 @@ public class GalleryActivity extends CommonActivity {
                     if (item.type == GalleryEntry.GalleryEntryType.TYPE_IMAGE) {
                         try {
                             Bitmap bmp = Glide.with(GalleryActivity.this)
-                                    .load(item.url)
                                     .asBitmap()
+                                    .load(item.url)
                                     .skipMemoryCache(false)
                                     .diskCacheStrategy(DiskCacheStrategy.ALL)
                                     //.dontTransform()

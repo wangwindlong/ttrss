@@ -5,17 +5,17 @@ buildscript {
         google()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.5.2'
+        classpath 'com.android.tools.build:gradle:7.0.4'
     }
 }
 
 allprojects {
     repositories {
         google()
-        maven { url "http://dl.bintray.com/populov/maven" }
-        maven { url "http://jzaccone.github.io/SlidingMenu-aar" }
+        maven { url "https://dl.bintray.com/populov/maven" }
+        maven { url "https://jzaccone.github.io/SlidingMenu-aar" }
         maven { url "https://jitpack.io" }
-        maven {url "https://clojars.org/repo/"}
+        maven { url "https://clojars.org/repo/"}
         jcenter()
     }
 }

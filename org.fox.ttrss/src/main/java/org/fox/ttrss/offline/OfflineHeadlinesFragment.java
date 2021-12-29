@@ -46,8 +46,9 @@ import android.widget.TextView;
 import com.amulyakhare.textdrawable.TextDrawable;
 import com.amulyakhare.textdrawable.util.ColorGenerator;
 import com.bumptech.glide.Glide;
+import com.bumptech.glide.load.DataSource;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
-import com.bumptech.glide.load.resource.drawable.GlideDrawable;
+import com.bumptech.glide.load.engine.GlideException;
 import com.bumptech.glide.request.RequestListener;
 import com.bumptech.glide.request.target.Target;
 
@@ -69,6 +70,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.TimeZone;
 
+import androidx.annotation.Nullable;
 import androidx.core.app.ActivityCompat;
 import androidx.core.app.ActivityOptionsCompat;
 import androidx.core.view.ViewCompat;
@@ -633,18 +635,17 @@ public class OfflineHeadlinesFragment extends Fragment implements OnItemClickLis
 					Glide.with(getContext())
 							.load(afi.flavorImageUri)
 							.placeholder(textDrawable)
-							.bitmapTransform(new CropCircleTransformation(getActivity()))
+							.transform(new CropCircleTransformation())
 							.diskCacheStrategy(DiskCacheStrategy.NONE)
 							.skipMemoryCache(false)
-							.listener(new RequestListener<String, GlideDrawable>() {
+							.listener(new RequestListener<Drawable>() {
 								@Override
-								public boolean onException(Exception e, String model, Target<GlideDrawable> target, boolean isFirstResource) {
+								public boolean onLoadFailed(@Nullable GlideException e, Object model, Target<Drawable> target, boolean isFirstResource) {
 									return false;
 								}
 
 								@Override
-								public boolean onResourceReady(GlideDrawable resource, String model, Target<GlideDrawable> target, boolean isFromMemoryCache, boolean isFirstResource) {
-
+								public boolean onResourceReady(Drawable resource, Object model, Target<Drawable> target, DataSource dataSource, boolean isFirstResource) {
 									return resource.getIntrinsicWidth() < HeadlinesFragment.THUMB_IMG_MIN_SIZE ||
 											resource.getIntrinsicHeight() < HeadlinesFragment.THUMB_IMG_MIN_SIZE;
 								}
@@ -991,19 +992,16 @@ public class OfflineHeadlinesFragment extends Fragment implements OnItemClickLis
 									//.dontTransform()
 									.diskCacheStrategy(DiskCacheStrategy.NONE)
 									.skipMemoryCache(false)
-									.listener(new RequestListener<String, GlideDrawable>() {
+									.listener(new RequestListener<Drawable>() {
 										@Override
-										public boolean onException(Exception e, String model, Target<GlideDrawable> target, boolean isFirstResource) {
-
+										public boolean onLoadFailed(@Nullable GlideException e, Object model, Target<Drawable> target, boolean isFirstResource) {
 											holder.flavorImageLoadingBar.setVisibility(View.GONE);
 											holder.flavorImageView.setVisibility(View.GONE);
-
 											return false;
 										}
 
 										@Override
-										public boolean onResourceReady(GlideDrawable resource, String model, Target<GlideDrawable> target, boolean isFromMemoryCache, boolean isFirstResource) {
-
+										public boolean onResourceReady(Drawable resource, Object model, Target<Drawable> target, DataSource dataSource, boolean isFirstResource) {
 											holder.flavorImageLoadingBar.setVisibility(View.GONE);
 
 											if (resource.getIntrinsicWidth() > HeadlinesFragment.FLAVOR_IMG_MIN_SIZE &&

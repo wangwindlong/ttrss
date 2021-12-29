@@ -51,6 +51,8 @@ import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.core.app.ActivityCompat;
 import androidx.core.app.ActivityOptionsCompat;
 import androidx.core.view.ViewCompat;
@@ -64,10 +66,12 @@ import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 import com.amulyakhare.textdrawable.TextDrawable;
 import com.amulyakhare.textdrawable.util.ColorGenerator;
 import com.bumptech.glide.Glide;
+import com.bumptech.glide.load.DataSource;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
-import com.bumptech.glide.load.resource.drawable.GlideDrawable;
+import com.bumptech.glide.load.engine.GlideException;
 import com.bumptech.glide.request.RequestListener;
-import com.bumptech.glide.request.target.GlideDrawableImageViewTarget;
+import com.bumptech.glide.request.target.DrawableImageViewTarget;
+import com.bumptech.glide.request.target.SizeReadyCallback;
 import com.bumptech.glide.request.target.Target;
 import com.google.android.material.snackbar.Snackbar;
 import com.google.gson.JsonElement;
@@ -722,7 +726,7 @@ public class HeadlinesFragment extends StateSavedFragment {
 		public ImageView attachmentsView;
 		//public int position;
 		public boolean flavorImageEmbedded;
-		public ProgressTarget<String, GlideDrawable> flavorProgressTarget;
+		public ProgressTarget<String, Drawable> flavorProgressTarget;
 
 		public ArticleViewHolder(View v) {
 			super(v);
@@ -766,7 +770,7 @@ public class HeadlinesFragment extends StateSavedFragment {
 			attachmentsView = v.findViewById(R.id.attachments);
 
 			if (flavorImageView != null && flavorImageLoadingBar != null) {
-				flavorProgressTarget = new FlavorProgressTarget<>(new GlideDrawableImageViewTarget(flavorImageView), flavorImageLoadingBar);
+				flavorProgressTarget = new FlavorProgressTarget<>(new DrawableImageViewTarget(flavorImageView), flavorImageLoadingBar);
 			}
 		}
 
@@ -799,6 +803,21 @@ public class HeadlinesFragment extends StateSavedFragment {
 		}
 		@Override protected void onDelivered() {
 			progress.setVisibility(View.INVISIBLE);
+		}
+
+		@Override
+		public void onLoadFailed(@Nullable Drawable errorDrawable) {
+
+		}
+
+		@Override
+		public void onResourceReady(@NonNull Z resource, @Nullable com.bumptech.glide.request.transition.Transition<? super Z> transition) {
+
+		}
+
+		@Override
+		public void removeCallback(@NonNull SizeReadyCallback cb) {
+
 		}
 	}
 
@@ -1183,8 +1202,8 @@ public class HeadlinesFragment extends StateSavedFragment {
 				holder.flavorImageOverflow.setVisibility(View.GONE);
 				holder.flavorVideoView.setVisibility(View.GONE);
 				holder.headlineHeader.setBackgroundDrawable(null);
-
-				Glide.clear(holder.flavorImageView);
+				
+				Glide.with(holder.flavorImageView.getContext()).clear(holder.flavorImageView);
 
 				// this is needed if our flavor image goes behind base listview element
 				holder.headlineHeader.setOnClickListener(new OnClickListener() {
@@ -1265,7 +1284,7 @@ public class HeadlinesFragment extends StateSavedFragment {
 					holder.flavorImageView.setVisibility(View.VISIBLE);
 
 					holder.flavorImageView.setMaxHeight((int)(m_screenHeight * 0.8f));
-					holder.flavorProgressTarget.setModel(article.flavorImageUri);
+					holder.flavorProgressTarget.setModel(getContext(), article.flavorImageUri);
 
 					if (article.flavorViewHeight > 0) {
 						RelativeLayout.LayoutParams lp = (RelativeLayout.LayoutParams) holder.flavorImageView.getLayoutParams();
@@ -1289,19 +1308,16 @@ public class HeadlinesFragment extends StateSavedFragment {
 								//.dontTransform()
 								.diskCacheStrategy(DiskCacheStrategy.ALL)
 								.skipMemoryCache(false)
-								.listener(new RequestListener<String, GlideDrawable>() {
+								.listener(new RequestListener<Drawable>() {
 									@Override
-									public boolean onException(Exception e, String model, Target<GlideDrawable> target, boolean isFirstResource) {
-
+									public boolean onLoadFailed(@Nullable GlideException e, Object model, Target<Drawable> target, boolean isFirstResource) {
 										holder.flavorImageLoadingBar.setVisibility(View.GONE);
 										holder.flavorImageView.setVisibility(View.GONE);
-
 										return false;
 									}
 
 									@Override
-									public boolean onResourceReady(GlideDrawable resource, String model, Target<GlideDrawable> target, boolean isFromMemoryCache, boolean isFirstResource) {
-
+									public boolean onResourceReady(Drawable resource, Object model, Target<Drawable> target, DataSource dataSource, boolean isFirstResource) {
 										holder.flavorImageLoadingBar.setVisibility(View.GONE);
 
 										if (resource.getIntrinsicWidth() > FLAVOR_IMG_MIN_SIZE && resource.getIntrinsicHeight() > FLAVOR_IMG_MIN_SIZE) {
@@ -1327,6 +1343,7 @@ public class HeadlinesFragment extends StateSavedFragment {
 											return true;
 										}
 									}
+
 								})
 								.into(holder.flavorProgressTarget);
 					} catch (OutOfMemoryError e) {
@@ -1581,18 +1598,17 @@ public class HeadlinesFragment extends StateSavedFragment {
 							.load(article.flavorImageUri)
 							.placeholder(textDrawable)
 							.thumbnail(0.5f)
-							.bitmapTransform(new CropCircleTransformation(getActivity()))
+							.transform(new CropCircleTransformation())
 							.diskCacheStrategy(DiskCacheStrategy.ALL)
 							.skipMemoryCache(false)
-							.listener(new RequestListener<String, GlideDrawable>() {
+							.listener(new RequestListener<Drawable>() {
 								@Override
-								public boolean onException(Exception e, String model, Target<GlideDrawable> target, boolean isFirstResource) {
+								public boolean onLoadFailed(@Nullable GlideException e, Object model, Target<Drawable> target, boolean isFirstResource) {
 									return false;
 								}
 
 								@Override
-								public boolean onResourceReady(GlideDrawable resource, String model, Target<GlideDrawable> target, boolean isFromMemoryCache, boolean isFirstResource) {
-
+								public boolean onResourceReady(Drawable resource, Object model, Target<Drawable> target, DataSource dataSource, boolean isFirstResource) {
 									return resource.getIntrinsicWidth() < THUMB_IMG_MIN_SIZE || resource.getIntrinsicHeight() < THUMB_IMG_MIN_SIZE;
 								}
 							})
@@ -1692,7 +1708,7 @@ public class HeadlinesFragment extends StateSavedFragment {
 			return px;
 		}
 
-		private void maybeRepositionFlavorImage(View view, GlideDrawable resource, ArticleViewHolder holder, boolean forceDown) {
+		private void maybeRepositionFlavorImage(View view, Drawable resource, ArticleViewHolder holder, boolean forceDown) {
 			RelativeLayout.LayoutParams lp = (RelativeLayout.LayoutParams) view.getLayoutParams();
 
 			int w = resource.getIntrinsicWidth();

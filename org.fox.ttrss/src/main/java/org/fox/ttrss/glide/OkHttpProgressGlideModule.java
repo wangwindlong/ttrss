@@ -6,6 +6,8 @@ import java.util.*;
 import android.content.Context;
 import android.os.*;
 
+import androidx.annotation.NonNull;
+
 import com.bumptech.glide.*;
 import com.bumptech.glide.integration.okhttp3.OkHttpUrlLoader;
 import com.bumptech.glide.load.model.GlideUrl;
@@ -18,12 +20,6 @@ public class OkHttpProgressGlideModule implements GlideModule {
     @Override public void applyOptions(Context context, GlideBuilder builder) {
 
     }
-    @Override public void registerComponents(Context context, Glide glide) {
-        OkHttpClient client = new OkHttpClient.Builder()
-                .addNetworkInterceptor(createInterceptor(new DispatchingProgressListener()))
-                .build();
-        glide.register(GlideUrl.class, InputStream.class, new OkHttpUrlLoader.Factory(client));
-    }
 
     private static Interceptor createInterceptor(final ResponseProgressListener listener) {
         return new Interceptor() {
@@ -35,6 +31,14 @@ public class OkHttpProgressGlideModule implements GlideModule {
                         .build();
             }
         };
+    }
+
+    @Override
+    public void registerComponents(@NonNull Context context, @NonNull Glide glide, @NonNull Registry registry) {
+        OkHttpClient client = new OkHttpClient.Builder()
+                .addNetworkInterceptor(createInterceptor(new DispatchingProgressListener()))
+                .build();
+        glide.getRegistry().append(GlideUrl.class, InputStream.class, new OkHttpUrlLoader.Factory(client));
     }
 
     public interface UIProgressListener {
