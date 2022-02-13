@@ -1,0 +1,3786 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: tt-rss git\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-06-18 13:34+0300\n"
+"Last-Translator: Brendan <brendan@tucows.com>\n"
+"Language-Team: OpenSRS brendan@tucows.com>\n"
+"Language: da_DK\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: unknown\n"
+
+#: backend.php:60
+msgid "Use default"
+msgstr "Brug standard"
+
+#: backend.php:61
+msgid "Never purge"
+msgstr "Tøm aldrig"
+
+#: backend.php:62
+msgid "1 week old"
+msgstr "1 uge gammel"
+
+#: backend.php:63
+msgid "2 weeks old"
+msgstr "2 uge gammel"
+
+#: backend.php:64
+msgid "1 month old"
+msgstr "1 måned gammel"
+
+#: backend.php:65
+msgid "2 months old"
+msgstr "2 måneder gammel"
+
+#: backend.php:66
+msgid "3 months old"
+msgstr "3 måneder gammel"
+
+#: backend.php:69
+msgid "Default interval"
+msgstr "Standardinterval"
+
+#: backend.php:70 backend.php:80
+msgid "Disable updates"
+msgstr "Deaktiver opdateringer"
+
+#: backend.php:71 backend.php:81
+#, fuzzy
+msgid "15 minutes"
+msgstr "Hvert 15. minut"
+
+#: backend.php:72 backend.php:82
+#, fuzzy
+msgid "30 minutes"
+msgstr "Hvert 30. minut"
+
+#: backend.php:73 backend.php:83
+msgid "Hourly"
+msgstr "Hver time"
+
+#: backend.php:74 backend.php:84
+#, fuzzy
+msgid "4 hours"
+msgstr "Hver 4. time"
+
+#: backend.php:75 backend.php:85
+#, fuzzy
+msgid "12 hours"
+msgstr "Hver 12. time"
+
+#: backend.php:76 backend.php:86
+msgid "Daily"
+msgstr "Dagligt"
+
+#: backend.php:77 backend.php:87
+msgid "Weekly"
+msgstr "Ugentligt"
+
+#: backend.php:90 classes/pref/system.php:124
+msgid "User"
+msgstr "Bruger"
+
+#: backend.php:91
+msgid "Power User"
+msgstr "Superbruger"
+
+#: backend.php:92
+msgid "Administrator"
+msgstr "Administrator"
+
+#: index.php:134 index.php:148 index.php:272 prefs.php:119
+#: classes/pref/prefs.php:877 classes/pref/prefs.php:927
+#: classes/pref/system.php:219 js/Feeds.js:475 js/PrefFeedTree.js:165
+#: js/PrefFeedTree.js:172 js/PrefFeedTree.js:296 js/PrefFeedTree.js:373
+#: js/CommonDialogs.js:289 js/CommonDialogs.js:446 js/CommonDialogs.js:598
+#: js/PrefHelpers.js:27 js/PrefHelpers.js:39 js/PrefHelpers.js:62
+#: js/PrefHelpers.js:115 js/PrefHelpers.js:243 js/PrefHelpers.js:294
+#: js/PrefHelpers.js:438 js/PrefHelpers.js:449 js/Headlines.js:354
+#: js/Headlines.js:539 js/PrefFilterTree.js:100 js/Article.js:290
+#: js/Article.js:352 js/PrefUsers.js:112 js/CommonFilters.js:277
+#: js/CommonFilters.js:405 plugins/af_psql_trgm/init.js:7
+#: plugins/note/note.js:28 plugins/af_readability/init.js:19
+#: plugins/share/share.js:56 js/CommonFilters.js:181
+msgid "Loading, please wait..."
+msgstr "Indlæser, vent venligst ..."
+
+#: index.php:163 prefs.php:128 js/App.js:460
+msgid "Communication problem with server."
+msgstr "Kommunikationsproblem med server"
+
+#: index.php:166 prefs.php:130
+msgid "Recent entries found in event log."
+msgstr ""
+
+#: index.php:169
+msgid "Updates are available from Git."
+msgstr ""
+
+#: index.php:184
+msgid "Show articles"
+msgstr "Vis artikler"
+
+#: index.php:187
+msgid "Adaptive"
+msgstr "Tilpasset"
+
+#: index.php:188
+msgid "All Articles"
+msgstr "Alle artikler"
+
+#: index.php:189 classes/rpc.php:623
+msgid "Starred"
+msgstr "Markeret"
+
+#: index.php:190 classes/rpc.php:624
+msgid "Published"
+msgstr "Udgivet"
+
+#: index.php:191
+msgid "Unread"
+msgstr "Ulæst"
+
+#: index.php:192
+msgid "With Note"
+msgstr "Med note"
+
+#: index.php:195
+msgid "Sort articles"
+msgstr "Sorter artikler"
+
+#: index.php:199
+msgid "Default"
+msgstr "Standard"
+
+#: index.php:200
+msgid "Newest first"
+msgstr "Nyeste først"
+
+#: index.php:201
+msgid "Oldest first"
+msgstr "Ældste først"
+
+#: index.php:202
+msgid "Title"
+msgstr "Overskrift"
+
+#: index.php:214 index.php:248 classes/rpc.php:610 js/FeedTree.js:92
+#: js/FeedTree.js:122
+msgid "Mark as read"
+msgstr "Marker som læst"
+
+#: index.php:217
+msgid "Older than one day"
+msgstr "Ældre end en dag"
+
+#: index.php:220
+msgid "Older than one week"
+msgstr "Ældre end en uge"
+
+#: index.php:223
+msgid "Older than two weeks"
+msgstr "Ældre end to uger"
+
+#: index.php:238
+msgid "Actions..."
+msgstr "Handlinger ..."
+
+#: index.php:241
+msgid "Preferences..."
+msgstr "Præferencer ..."
+
+#: index.php:242
+msgid "Search..."
+msgstr "Søg ..."
+
+#: index.php:243
+msgid "Feed actions:"
+msgstr "Feed-handlinger:"
+
+#: index.php:244 plugins/bookmarklets/init.php:38
+#: plugins/bookmarklets/init.php:72
+msgid "Subscribe to feed..."
+msgstr "Abonner på feedet ..."
+
+#: index.php:245
+msgid "Edit this feed..."
+msgstr "Rediger dette feed"
+
+#: index.php:246 classes/pref/feeds.php:925 js/PrefFeedTree.js:99
+#: js/CommonDialogs.js:585
+msgid "Unsubscribe"
+msgstr "Aflys abonnement"
+
+#: index.php:247
+msgid "All feeds:"
+msgstr "Alle feeds:"
+
+#: index.php:249
+msgid "(Un)hide read feeds"
+msgstr "Vis/skjul læste feeds"
+
+#: index.php:250
+msgid "Other actions:"
+msgstr "Andre handlinger:"
+
+#: index.php:251 classes/rpc.php:596
+msgid "Toggle widescreen mode"
+msgstr "Skift til widescreen"
+
+#: index.php:252
+msgid "Keyboard shortcuts help"
+msgstr "Hjælp til tastaturgenveje"
+
+#: index.php:261
+msgid "Logout"
+msgstr "Log af"
+
+#: prefs.php:20 prefs.php:139 classes/rpc.php:626 classes/pref/prefs.php:929
+msgid "Preferences"
+msgstr "Præferencer"
+
+#: prefs.php:132
+msgid "Exit preferences"
+msgstr "Luk præferencer"
+
+#: prefs.php:142 classes/pref/prefs.php:38 classes/pref/feeds.php:127
+#: classes/pref/feeds.php:914
+msgid "Feeds"
+msgstr "Feeds"
+
+#: prefs.php:146 classes/pref/filters.php:228
+msgid "Filters"
+msgstr "Filtre"
+
+#: prefs.php:150 classes/pref/labels.php:23 classes/feeds.php:1254
+msgid "Labels"
+msgstr "Etiketter"
+
+#: prefs.php:155
+msgid "Users"
+msgstr "Brugere"
+
+#: prefs.php:158
+msgid "System"
+msgstr "System"
+
+#: classes/rpc.php:565
+msgid "Navigation"
+msgstr "Navigation"
+
+#: classes/rpc.php:566
+msgid "Open next feed"
+msgstr "Åbn næste feed"
+
+#: classes/rpc.php:567
+#, fuzzy
+#| msgid "Open next feed"
+msgid "Open next unread feed"
+msgstr "Åbn næste feed"
+
+#: classes/rpc.php:568
+msgid "Open previous feed"
+msgstr "Åbn forrige feed"
+
+#: classes/rpc.php:569
+#, fuzzy
+#| msgid "Open previous feed"
+msgid "Open previous unread feed"
+msgstr "Åbn forrige feed"
+
+#: classes/rpc.php:570
+#, fuzzy
+msgid "Open next article (in combined mode, scroll down)"
+msgstr "Skift kombineret modus"
+
+#: classes/rpc.php:571
+msgid "Open previous article (in combined mode, scroll up)"
+msgstr ""
+
+#: classes/rpc.php:572
+#, fuzzy
+msgid "Scroll headlines by one page down"
+msgstr "Vælg artikler i gruppen"
+
+#: classes/rpc.php:573
+#, fuzzy
+msgid "Scroll headlines by one page up"
+msgstr "Vælg artikler i gruppen"
+
+#: classes/rpc.php:574
+msgid "Open next article"
+msgstr "Åbn næste artikel"
+
+#: classes/rpc.php:575
+msgid "Open previous article"
+msgstr "Åbn forrige artikel"
+
+#: classes/rpc.php:576
+msgid "Move to next article (don't expand)"
+msgstr ""
+
+#: classes/rpc.php:577
+#, fuzzy
+msgid "Move to previous article (don't expand)"
+msgstr "Åbn forrige artikel"
+
+#: classes/rpc.php:578
+msgid "Show search dialog"
+msgstr "Vise søgedialog"
+
+#: classes/rpc.php:579
+#, fuzzy
+msgid "Cancel active search"
+msgstr "Annuller søgning"
+
+#: classes/rpc.php:580
+msgid "Article"
+msgstr "Artikel"
+
+#: classes/rpc.php:581 js/Headlines.js:1388 js/Headlines.js:658
+msgid "Toggle starred"
+msgstr "Skift markeret"
+
+#: classes/rpc.php:582 js/Headlines.js:1400
+msgid "Toggle published"
+msgstr "Skift udgivne"
+
+#: classes/rpc.php:583 js/Headlines.js:1375
+msgid "Toggle unread"
+msgstr "Skift ulæst"
+
+#: classes/rpc.php:584
+msgid "Edit tags"
+msgstr "Rediger tags"
+
+#: classes/rpc.php:585
+msgid "Open in new window"
+msgstr "Åbn i et nyt vindue"
+
+#: classes/rpc.php:586 js/Headlines.js:1421
+msgid "Mark below as read"
+msgstr "Marker nedenstående som læst"
+
+#: classes/rpc.php:587 js/Headlines.js:1414
+msgid "Mark above as read"
+msgstr "Marker ovenstående som læst"
+
+#: classes/rpc.php:588
+msgid "Scroll down"
+msgstr "Rul nedad"
+
+#: classes/rpc.php:589
+msgid "Scroll up"
+msgstr "Rul opad"
+
+#: classes/rpc.php:590
+#, fuzzy
+msgid "Scroll down page"
+msgstr "Rul nedad"
+
+#: classes/rpc.php:591
+#, fuzzy
+msgid "Scroll up page"
+msgstr "Rul opad"
+
+#: classes/rpc.php:592
+msgid "Select article under cursor"
+msgstr "Vælg artikel under markør"
+
+#: classes/rpc.php:593
+msgid "Email article"
+msgstr "E-mail-artikel"
+
+#: classes/rpc.php:594
+msgid "Close/collapse article"
+msgstr "Luk/skjul artikel"
+
+#: classes/rpc.php:595
+#, fuzzy
+msgid "Toggle article expansion (combined mode)"
+msgstr "Skift kombineret modus"
+
+#: classes/rpc.php:597
+msgid "Toggle full article text via Readability"
+msgstr ""
+
+#: classes/rpc.php:598
+msgid "Article selection"
+msgstr "Artikelvalg"
+
+#: classes/rpc.php:599
+msgid "Select all articles"
+msgstr "Vælg alle artikler"
+
+#: classes/rpc.php:600
+msgid "Select unread"
+msgstr "Vælg ulæste"
+
+#: classes/rpc.php:601
+msgid "Select starred"
+msgstr "Vælg markerede"
+
+#: classes/rpc.php:602
+msgid "Select published"
+msgstr "Vælg udgivne"
+
+#: classes/rpc.php:603
+msgid "Invert selection"
+msgstr "Inverter valg"
+
+#: classes/rpc.php:604
+msgid "Deselect everything"
+msgstr "Fravælg alt"
+
+#: classes/rpc.php:605
+msgid "Feed"
+msgstr "Feed"
+
+#: classes/rpc.php:606
+msgid "Refresh current feed"
+msgstr "Opdater aktuelt feed"
+
+#: classes/rpc.php:607
+msgid "Un/hide read feeds"
+msgstr "Vis/skjul læste feeds"
+
+#: classes/rpc.php:608 classes/pref/feeds.php:917 js/CommonDialogs.js:19
+msgid "Subscribe to feed"
+msgstr "Abonner på feedet"
+
+#: classes/rpc.php:609 js/PrefFeedTree.js:93 js/CommonDialogs.js:336
+#: js/Headlines.js:1544 js/FeedTree.js:99
+msgid "Edit feed"
+msgstr "Rediger feed"
+
+#: classes/rpc.php:611
+msgid "Reverse headlines"
+msgstr "Reverser overskrifter"
+
+#: classes/rpc.php:612
+msgid "Toggle headline grouping"
+msgstr ""
+
+#: classes/rpc.php:613
+#, fuzzy
+msgid "Toggle grid view"
+msgstr "Skift markeret"
+
+#: classes/rpc.php:614
+msgid "Debug feed update"
+msgstr "Udfør fejlfinding i feed-opdatering"
+
+#: classes/rpc.php:615
+#, fuzzy
+msgid "Debug viewfeed()"
+msgstr "Udfør fejlfinding i feed-opdatering"
+
+#: classes/rpc.php:616 js/FeedTree.js:155
+#, fuzzy
+msgid "Mark all feeds as read"
+msgstr "Marker feed som læst"
+
+#: classes/rpc.php:617
+msgid "Un/collapse current category"
+msgstr "Vis/skjul aktuel kategori"
+
+#: classes/rpc.php:618
+#, fuzzy
+msgid "Toggle auto expand in combined mode"
+msgstr "Skift kombineret modus"
+
+#: classes/rpc.php:619
+msgid "Toggle combined mode"
+msgstr "Skift kombineret modus"
+
+#: classes/rpc.php:620
+msgid "Go to"
+msgstr "Gå til"
+
+#: classes/rpc.php:621 classes/feeds.php:1120
+msgid "All articles"
+msgstr "Alle artikler"
+
+#: classes/rpc.php:622
+msgid "Fresh"
+msgstr "Ny"
+
+#: classes/rpc.php:625 classes/feeds.php:1124
+msgid "Recently read"
+msgstr "Senest læst"
+
+#: classes/rpc.php:627
+msgid "Other"
+msgstr "Andet"
+
+#: classes/rpc.php:628
+msgid "Create label"
+msgstr "Opret etiket"
+
+#: classes/rpc.php:629 classes/pref/filters.php:659
+msgid "Create filter"
+msgstr "Opret filter"
+
+#: classes/rpc.php:630
+msgid "Un/collapse sidebar"
+msgstr "Vis/skjul sidebjælke"
+
+#: classes/rpc.php:631
+msgid "Show help dialog"
+msgstr "Vis hjælpedialog"
+
+#: classes/rpc.php:766
+msgid "Shift"
+msgstr "Shift"
+
+#: classes/rpc.php:769
+msgid "Ctrl"
+msgstr "Ctrl"
+
+#: classes/rpc.php:794 plugins/af_psql_trgm/init.php:112
+#: plugins/share/init.php:274 js/PrefHelpers.js:491 js/Feeds.js:272
+#: js/CommonDialogs.js:273 js/PrefHelpers.js:66 js/PrefHelpers.js:814
+#: js/CommonFilters.js:101
+msgid "Close this window"
+msgstr "Luk dette vindue"
+
+#: classes/handler/public.php:277 classes/pref/prefs.php:1424
+#: include/login_form.php:132
+msgid "Default profile"
+msgstr "Standardprofil"
+
+#: classes/handler/public.php:389
+msgid "Incorrect username or password"
+msgstr "Forkert brugernavn eller adgangskode"
+
+#: classes/handler/public.php:441
+msgid "Password recovery"
+msgstr "Genoprettelse af adgangskode"
+
+#: classes/handler/public.php:478 classes/handler/public.php:508
+#: classes/handler/public.php:568 classes/handler/public.php:685
+#: classes/handler/public.php:692 classes/handler/public.php:715
+#: plugins/bookmarklets/init.php:91 plugins/bookmarklets/init.php:136
+#: plugins/bookmarklets/init.php:154 plugins/bookmarklets/init.php:159
+#, fuzzy
+msgid "Return to Tiny Tiny RSS"
+msgstr "Opdater Tiny Tiny RSS"
+
+#: classes/handler/public.php:481
+msgid ""
+"You will need to provide valid account name and email. Password reset link "
+"will be sent to your email address."
+msgstr ""
+
+#: classes/handler/public.php:488 classes/pref/feeds.php:641
+#: plugins/bookmarklets/init.php:302 include/login_form.php:103
+#: js/CommonDialogs.js:543 js/PrefUsers.js:64
+msgid "Login:"
+msgstr "Logon:"
+
+#: classes/handler/public.php:493
+msgid "Email:"
+msgstr "E-mail:"
+
+#: classes/handler/public.php:501
+#, php-format
+msgid "How much is %d + %d:"
+msgstr ""
+
+#: classes/handler/public.php:507 classes/pref/users.php:240
+msgid "Reset password"
+msgstr "Nulstil adgangskode"
+
+#: classes/handler/public.php:518
+msgid "Some of the required form parameters are missing or incorrect."
+msgstr ""
+
+#: classes/handler/public.php:522 classes/handler/public.php:574
+msgid "Go back"
+msgstr "Gå tilbage"
+
+#: classes/handler/public.php:560
+#, fuzzy
+msgid "[tt-rss] Password reset request"
+msgstr "[tt-rss] meddelelse om adgangskodeændring"
+
+#: classes/handler/public.php:570
+msgid "Sorry, login and email combination not found."
+msgstr ""
+
+#: classes/handler/public.php:590
+msgid "Your access level is insufficient to run this script."
+msgstr ""
+
+#: classes/handler/public.php:652
+msgid "Database Updater"
+msgstr "Opdatering af database"
+
+#: classes/handler/public.php:665
+#, fuzzy, php-format
+msgid "Performing updates to version %d"
+msgstr "Udfør opdateringer"
+
+#: classes/handler/public.php:680 classes/handler/public.php:707
+#: js/PrefHelpers.js:411 js/PrefHelpers.js:757
+msgid "Update"
+msgstr "Opdater"
+
+#: classes/handler/public.php:700
+#, php-format
+msgid "Database schema needs update to the latest version (%d to %d)."
+msgstr ""
+
+#: classes/pref/labels.php:168
+#, fuzzy, php-format
+msgid "Created label <b>%s</b>"
+msgstr "Opret etiket"
+
+#: classes/pref/labels.php:180 classes/pref/prefs.php:836
+#: classes/pref/prefs.php:1463 classes/pref/filters.php:649
+#: classes/pref/users.php:222 classes/pref/feeds.php:904
+#: js/CommonFilters.js:440 js/CommonFilters.js:473 js/CommonDialogs.js:236
+msgid "Select"
+msgstr "Vælg"
+
+#: classes/pref/prefs.php:30 classes/pref/feeds.php:601
+msgid "General"
+msgstr "Generelt"
+
+#: classes/pref/prefs.php:51
+#, fuzzy
+msgid "Articles"
+msgstr "Artikel"
+
+#: classes/pref/prefs.php:65
+msgid "Digest"
+msgstr "Digest"
+
+#: classes/pref/prefs.php:70
+msgid "Advanced"
+msgstr "Avanceret"
+
+#: classes/pref/prefs.php:81
+msgid "Debugging"
+msgstr ""
+
+#: classes/pref/prefs.php:87
+msgid "Never apply these tags automatically (comma-separated list)."
+msgstr ""
+
+#: classes/pref/prefs.php:91
+msgid "Blacklisted tags"
+msgstr "Tags på forbudt liste"
+
+#: classes/pref/prefs.php:92
+#, fuzzy
+msgid "Default language"
+msgstr "Standardprofil"
+
+#: classes/pref/prefs.php:92
+msgid "Used for full-text search"
+msgstr ""
+
+#: classes/pref/prefs.php:93
+#, fuzzy
+msgid "Mark read on scroll"
+msgstr "Marker ovenstående som læst"
+
+#: classes/pref/prefs.php:93
+#, fuzzy
+msgid "Mark articles as read as you scroll past them"
+msgstr "Marker ovenstående som læst"
+
+#: classes/pref/prefs.php:94
+#, fuzzy
+msgid "Always expand articles"
+msgstr "Klik for at udvide artikel"
+
+#: classes/pref/prefs.php:95
+#, fuzzy
+msgid "Combined mode"
+msgstr "Skift kombineret modus"
+
+#: classes/pref/prefs.php:95
+msgid "Show flat list of articles instead of separate panels"
+msgstr ""
+
+#: classes/pref/prefs.php:96
+#, fuzzy
+msgid "Confirm marking feeds as read"
+msgstr "marker feed som læst"
+
+#: classes/pref/prefs.php:97
+#, fuzzy
+msgid "Default update interval"
+msgstr "Opdateringsinterval for standardfeed"
+
+#: classes/pref/prefs.php:98
+#, fuzzy
+msgid "Mark sent articles as read"
+msgstr "Marker ovenstående som læst"
+
+#: classes/pref/prefs.php:99
+#, fuzzy
+msgid "Enable digest"
+msgstr "Aktiver e-mail-digest"
+
+#: classes/pref/prefs.php:99
+msgid "Send daily digest of new (and unread) headlines to your e-mail address"
+msgstr ""
+
+#: classes/pref/prefs.php:100
+msgid "Try to send around this time"
+msgstr ""
+
+#: classes/pref/prefs.php:100
+#, fuzzy
+msgid "Time in UTC"
+msgstr "Tidszone"
+
+#: classes/pref/prefs.php:101
+#, fuzzy
+msgid "Enable API"
+msgstr "Aktiver OTP"
+
+#: classes/pref/prefs.php:101
+msgid "Allows accessing this account through the API"
+msgstr ""
+
+#: classes/pref/prefs.php:102
+#, fuzzy
+msgid "Enable categories"
+msgstr "Aktiver feed-kategorier"
+
+#: classes/pref/prefs.php:103
+#, fuzzy
+msgid "Maximum age of fresh articles"
+msgstr "Nye artikler"
+
+#: classes/pref/prefs.php:103
+#, fuzzy
+msgid "hours"
+msgstr "Hver 4. time"
+
+#: classes/pref/prefs.php:104
+#, fuzzy
+msgid "Hide read feeds"
+msgstr "Vis/skjul læste feeds"
+
+#: classes/pref/prefs.php:105
+msgid "Always show special feeds"
+msgstr ""
+
+#: classes/pref/prefs.php:105
+#, fuzzy
+msgid "While hiding read feeds"
+msgstr "Vis/skjul læste feeds"
+
+#: classes/pref/prefs.php:106
+msgid "Long date format"
+msgstr "Langt datoformat"
+
+#: classes/pref/prefs.php:106
+msgid ""
+"Syntax is identical to PHP <a href='http://php.net/manual/function.date."
+"php'>date()</a> function."
+msgstr ""
+
+#: classes/pref/prefs.php:107
+#, fuzzy
+msgid "Automatically show next feed"
+msgstr "Åbn næste feed"
+
+#: classes/pref/prefs.php:107
+#, fuzzy
+msgid "After marking one as read"
+msgstr "marker feed som læst"
+
+#: classes/pref/prefs.php:108
+#, fuzzy
+msgid "Purge articles older than"
+msgstr "Tøm ulæste artikler"
+
+#: classes/pref/prefs.php:108
+msgid "<strong>days</strong> (0 disables)"
+msgstr ""
+
+#: classes/pref/prefs.php:109
+msgid "Purge unread articles"
+msgstr "Tøm ulæste artikler"
+
+#: classes/pref/prefs.php:110
+msgid "Short date format"
+msgstr "Kort datoformat"
+
+#: classes/pref/prefs.php:111
+msgid "Show content preview in headlines"
+msgstr ""
+
+#: classes/pref/prefs.php:112
+msgid "SSL client certificate"
+msgstr ""
+
+#: classes/pref/prefs.php:113 classes/pref/feeds.php:588
+#: js/CommonDialogs.js:462
+#, fuzzy
+msgid "Do not embed media"
+msgstr "Inkorporer ikke billeder"
+
+#: classes/pref/prefs.php:114
+msgid "Time zone"
+msgstr "Tidszone"
+
+#: classes/pref/prefs.php:115
+msgid "Group by feed"
+msgstr ""
+
+#: classes/pref/prefs.php:115
+msgid "Group multiple-feed output by originating feed"
+msgstr ""
+
+#: classes/pref/prefs.php:116
+msgid "Language"
+msgstr "Sprog"
+
+#: classes/pref/prefs.php:117
+msgid "Theme"
+msgstr "Tema"
+
+#: classes/pref/prefs.php:118
+msgid "Don't enforce DISTINCT headlines"
+msgstr ""
+
+#: classes/pref/prefs.php:118
+#, fuzzy
+msgid "May produce duplicate entries"
+msgstr "Tillad duplikerede artikler"
+
+#: classes/pref/prefs.php:119
+#, fuzzy
+msgid "Show article and feed IDs"
+msgstr "Vis artikler"
+
+#: classes/pref/prefs.php:119
+msgid "In the headlines buffer"
+msgstr ""
+
+#: classes/pref/prefs.php:120
+#, fuzzy
+#| msgid "Disable updates"
+msgid "Disable conditional counter updates"
+msgstr "Deaktiver opdateringer"
+
+#: classes/pref/prefs.php:120
+msgid "May increase server load"
+msgstr ""
+
+#: classes/pref/prefs.php:121
+#, fuzzy
+msgid "Grid view"
+msgstr "Nye artikler"
+
+#: classes/pref/prefs.php:121
+msgid "On wider screens, if always expanded"
+msgstr ""
+
+#: classes/pref/prefs.php:222
+msgid "The configuration was saved."
+msgstr "Konfigurationen blev gemt."
+
+#: classes/pref/prefs.php:264
+msgid "Your personal data has been saved."
+msgstr ""
+
+#: classes/pref/prefs.php:294
+#, fuzzy
+msgid "Full name:"
+msgstr "Fulde navn"
+
+#: classes/pref/prefs.php:299 js/PrefUsers.js:98
+#, fuzzy
+msgid "E-mail:"
+msgstr "E-mail"
+
+#: classes/pref/prefs.php:307 classes/pref/feeds.php:670
+#: plugins/af_psql_trgm/init.php:193 plugins/note/init.php:51
+#: plugins/af_readability/init.php:91 plugins/nsfw/init.php:98
+#: plugins/af_redditimgur/init.php:101 js/CommonDialogs.js:586
+#: js/CommonFilters.js:236 js/CommonFilters.js:320 js/CommonFilters.js:520
+#: js/PrefLabelTree.js:170 js/Article.js:358 js/PrefUsers.js:119
+msgid "Save"
+msgstr "Gem"
+
+#: classes/pref/prefs.php:358
+#, fuzzy
+msgid "Old password:"
+msgstr "Tidligere adgangskode"
+
+#: classes/pref/prefs.php:363 js/PrefUsers.js:84
+#, fuzzy
+msgid "New password:"
+msgstr "Ny adgangskode"
+
+#: classes/pref/prefs.php:368
+#, fuzzy
+msgid "Confirm password:"
+msgstr "Bekræft adgangskode"
+
+#: classes/pref/prefs.php:376
+msgid "Change password"
+msgstr "Skift adgangskode"
+
+#: classes/pref/prefs.php:383
+#, php-format
+msgid ""
+"Authentication module used for this session (<b>%s</b>) does not provide an "
+"ability to set passwords."
+msgstr ""
+
+#: classes/pref/prefs.php:400
+#, fuzzy
+msgid "Generate password"
+msgstr "Generer ny webadresse"
+
+#: classes/pref/prefs.php:406 classes/pref/feeds.php:938 js/PrefHelpers.js:227
+msgid "Remove selected"
+msgstr "Fjern valgte"
+
+#: classes/pref/prefs.php:442 classes/pref/prefs.php:494
+#, fuzzy
+msgid "Your password:"
+msgstr "Bekræft adgangskode"
+
+#: classes/pref/prefs.php:450
+msgid "Disable OTP"
+msgstr "Deaktiver OTP"
+
+#: classes/pref/prefs.php:472
+msgid "OTP secret:"
+msgstr ""
+
+#: classes/pref/prefs.php:499
+msgid "Verification code:"
+msgstr ""
+
+#: classes/pref/prefs.php:507
+msgid "Enable OTP"
+msgstr "Aktiver OTP"
+
+#: classes/pref/prefs.php:521
+msgid "Personal data"
+msgstr "Personlige oplysninger"
+
+#: classes/pref/prefs.php:524
+msgid "Password"
+msgstr "Adgangskode"
+
+#: classes/pref/prefs.php:527
+#, fuzzy
+msgid "App passwords"
+msgstr "Tidligere adgangskode"
+
+#: classes/pref/prefs.php:530
+#, fuzzy
+msgid "Authenticator (OTP)"
+msgstr "Godkendelse"
+
+#: classes/pref/prefs.php:541
+msgid "Some preferences are only available in default profile."
+msgstr ""
+
+#: classes/pref/prefs.php:630
+#, fuzzy
+msgid "default"
+msgstr "Standard"
+
+#: classes/pref/prefs.php:638
+msgid "Customize"
+msgstr "Tilpas"
+
+#: classes/pref/prefs.php:640
+#, fuzzy
+msgid "More themes..."
+msgstr "Flere handlinger ..."
+
+#: classes/pref/prefs.php:671
+#, fuzzy
+msgid "Preview"
+msgstr "Nye artikler"
+
+#: classes/pref/prefs.php:697
+msgid "Register"
+msgstr "Registrer"
+
+#: classes/pref/prefs.php:701 classes/pref/system.php:101
+msgid "Clear"
+msgstr "Ryd"
+
+#: classes/pref/prefs.php:705 classes/pref/prefs.php:871
+#: plugins/bookmarklets/init.php:364 js/CommonDialogs.js:641
+#, fuzzy
+msgid "More info..."
+msgstr "flere oplysninger"
+
+#: classes/pref/prefs.php:713
+#, php-format
+msgid "Current server time: %s"
+msgstr ""
+
+#: classes/pref/prefs.php:761
+msgid "Save configuration"
+msgstr "Gem konfiguration"
+
+#: classes/pref/prefs.php:764
+#, fuzzy
+msgid "Save and exit"
+msgstr "Marker ovenstående som læst"
+
+#: classes/pref/prefs.php:771 js/PrefHelpers.js:127
+msgid "Manage profiles"
+msgstr "Administrer profiler"
+
+#: classes/pref/prefs.php:776
+msgid "Reset to defaults"
+msgstr "Nulstil til standardindstillinger"
+
+#: classes/pref/prefs.php:831 classes/pref/filters.php:645
+#: classes/pref/users.php:217 classes/pref/feeds.php:900 js/Feeds.js:644
+#: js/Feeds.js:639
+msgid "Search"
+msgstr "Søg"
+
+#: classes/pref/prefs.php:839 classes/pref/prefs.php:1466
+#: classes/pref/filters.php:652 classes/pref/users.php:225
+#: classes/pref/feeds.php:907 js/CommonFilters.js:444 js/CommonFilters.js:476
+#: js/PrefFeedTree.js:506 js/PrefHelpers.js:187 js/Headlines.js:652
+msgid "All"
+msgstr "Alle"
+
+#: classes/pref/prefs.php:841 classes/pref/prefs.php:1468
+#: classes/pref/filters.php:654 classes/pref/users.php:227
+#: classes/pref/feeds.php:909 js/CommonFilters.js:446 js/CommonFilters.js:478
+#: js/CommonDialogs.js:241
+msgid "None"
+msgstr "Ingen"
+
+#: classes/pref/prefs.php:869
+#, php-format
+msgid ""
+"The following plugins use per-feed content hooks. This may cause excessive "
+"data usage and origin server load resulting in a ban of your instance: <b>"
+"%s</b>"
+msgstr ""
+
+#: classes/pref/prefs.php:885 js/CommonFilters.js:234
+#, fuzzy
+msgid "More info"
+msgstr "flere oplysninger"
+
+#: classes/pref/prefs.php:888
+#, fuzzy
+#| msgid "Enable selected plugins"
+msgid "Enable selected"
+msgstr "Aktiver valgte plugins"
+
+#: classes/pref/prefs.php:891
+msgid "Reload"
+msgstr ""
+
+#: classes/pref/prefs.php:898
+#, fuzzy
+#| msgid "Perform updates"
+msgid "Check for updates"
+msgstr "Udfør opdateringer"
+
+#: classes/pref/prefs.php:905
+#, fuzzy
+msgid "Install plugin"
+msgstr "Brugerplugins"
+
+#: classes/pref/prefs.php:918
+msgid "Personal data / Authentication"
+msgstr "Personlige oplysninger / Godkendelse"
+
+#: classes/pref/prefs.php:932 classes/pref/feeds.php:1067
+msgid "Plugins"
+msgstr "Plugins"
+
+#: classes/pref/prefs.php:965
+msgid "Incorrect one time password"
+msgstr "Forkert engangsadgangskode"
+
+#: classes/pref/prefs.php:968 classes/pref/prefs.php:1006
+msgid "Incorrect password"
+msgstr "Forkert adgangskode"
+
+#: classes/pref/prefs.php:1021
+#, php-format
+msgid "v%.2f, by %s"
+msgstr ""
+
+#: classes/pref/prefs.php:1034
+#, php-format
+msgid "v%s, by %s"
+msgstr ""
+
+#: classes/pref/prefs.php:1477
+msgid "Description"
+msgstr "Beskrivelse"
+
+#: classes/pref/prefs.php:1478
+#, fuzzy
+msgid "Created"
+msgstr "Opret"
+
+#: classes/pref/prefs.php:1479
+#, fuzzy
+msgid "Last used"
+msgstr "Sidste opdatering:"
+
+#: classes/pref/prefs.php:1524
+#, php-format
+msgid ""
+"Generated password <strong>%s</strong> for %s. Please remember it for future "
+"reference."
+msgstr ""
+
+#: classes/pref/system.php:24
+msgid "Test message from tt-rss"
+msgstr ""
+
+#: classes/pref/system.php:82 js/PrefHelpers.js:615
+msgid "Refresh"
+msgstr "Opdater"
+
+#: classes/pref/system.php:87
+msgid "&lt;&lt;"
+msgstr ""
+
+#: classes/pref/system.php:91
+#, php-format
+msgid "Page %d of %d"
+msgstr ""
+
+#: classes/pref/system.php:96
+msgid "&gt;&gt;"
+msgstr ""
+
+#: classes/pref/system.php:105
+msgid "Severity:"
+msgstr ""
+
+#: classes/pref/system.php:109
+#, fuzzy
+msgid "Errors"
+msgstr "Fejl"
+
+#: classes/pref/system.php:110
+msgid "Warnings"
+msgstr ""
+
+#: classes/pref/system.php:111
+#, fuzzy
+msgid "Everything"
+msgstr "Fravælg alt"
+
+#: classes/pref/system.php:121
+msgid "Error"
+msgstr "Fejl"
+
+#: classes/pref/system.php:122
+msgid "Filename"
+msgstr "Filnavn"
+
+#: classes/pref/system.php:123
+msgid "Message"
+msgstr "Meddelelse"
+
+#: classes/pref/system.php:125
+msgid "Date"
+msgstr "Dato"
+
+#: classes/pref/system.php:169
+#, fuzzy
+msgid "Event log"
+msgstr "Ryd log"
+
+#: classes/pref/system.php:175
+#, fuzzy
+#| msgid "Save configuration"
+msgid "Mail configuration"
+msgstr "Gem konfiguration"
+
+#: classes/pref/system.php:202
+msgid "To:"
+msgstr "Til:"
+
+#: classes/pref/system.php:204
+#, fuzzy
+msgid "Send test email"
+msgstr "Send e-mail"
+
+#: classes/pref/system.php:210
+#, fuzzy
+msgid "PHP Information"
+msgstr "Udfør handling"
+
+#: classes/pref/filters.php:197 classes/pref/filters.php:208
+#: classes/pref/filters.php:426 classes/pref/filters.php:847
+msgid "All feeds"
+msgstr "Alle feeds"
+
+#: classes/pref/filters.php:219 classes/pref/filters.php:446
+msgid "(inverse)"
+msgstr "(inverter)"
+
+#: classes/pref/filters.php:215 classes/pref/filters.php:445
+#, php-format
+msgid "%s on %s in %s %s"
+msgstr ""
+
+#: classes/pref/filters.php:661
+msgid "Combine"
+msgstr "Kombiner"
+
+#: classes/pref/filters.php:663 classes/pref/feeds.php:921
+#: classes/pref/feeds.php:936
+msgid "Reset sort order"
+msgstr "Nulstil sorteringsrækkefølge"
+
+#: classes/pref/filters.php:665 classes/pref/users.php:236
+#: js/CommonDialogs.js:578 js/CommonFilters.js:518
+msgid "Remove"
+msgstr "Fjern"
+
+#: classes/pref/filters.php:720
+msgid "[No caption]"
+msgstr "[Ingen billedtekst]"
+
+#: classes/pref/filters.php:722
+#, fuzzy, php-format
+msgid "%s (%d rule)"
+msgid_plural "%s (%d rules)"
+msgstr[0] "Tilføj regel"
+msgstr[1] "Tilføj regel"
+
+#: classes/pref/filters.php:736
+#, fuzzy
+msgid "matches any rule"
+msgstr "Match enhver regel"
+
+#: classes/pref/filters.php:737
+#, fuzzy
+msgid "inverse"
+msgstr "(inverter)"
+
+#: classes/pref/filters.php:740
+#, fuzzy, php-format
+msgid "%s (+%d action)"
+msgid_plural "%s (+%d actions)"
+msgstr[0] "Tilføj handling"
+msgstr[1] "Tilføj handling"
+
+#: classes/pref/filters.php:900 classes/pref/feeds.php:247
+#: classes/digest.php:116 classes/opml.php:544 classes/feeds.php:1250
+#: include/controls.php:177
+msgid "Uncategorized"
+msgstr "Ikke kategoriseret"
+
+#: classes/pref/users.php:56
+msgid "Registered"
+msgstr "Registreret"
+
+#: classes/pref/users.php:61
+msgid "Last logged in"
+msgstr "Sidst logget på"
+
+#: classes/pref/users.php:66
+msgid "Subscribed feeds"
+msgstr "Abonnerede feeds"
+
+#: classes/pref/users.php:71
+#, fuzzy
+msgid "Stored articles"
+msgstr "Markerede artikler"
+
+#: classes/pref/users.php:101 classes/userhelper.php:223
+msgid "User not found"
+msgstr "Bruger ikke fundet"
+
+#: classes/pref/users.php:171
+#, php-format
+msgid "Added user %s with password %s"
+msgstr ""
+
+#: classes/pref/users.php:174
+#, fuzzy, php-format
+msgid "Could not create user %s"
+msgstr "Opret bruger"
+
+#: classes/pref/users.php:177
+#, php-format
+msgid "User %s already exists."
+msgstr ""
+
+#: classes/pref/users.php:232
+msgid "Create user"
+msgstr "Opret bruger"
+
+#: classes/pref/users.php:272
+msgid "Click to edit"
+msgstr "Klik for at redigere"
+
+#: classes/pref/feeds.php:77 classes/pref/feeds.php:233
+#: classes/pref/feeds.php:281 classes/pref/feeds.php:287
+#: classes/pref/feeds.php:316
+#, fuzzy, php-format
+msgid "(%d feed)"
+msgid_plural "(%d feeds)"
+msgstr[0] "Rediger feed"
+msgstr[1] "Rediger feed"
+
+#: classes/pref/feeds.php:533
+#, fuzzy, php-format
+msgid "(%d day)"
+msgid_plural "(%d days)"
+msgstr[0] "Rediger feed"
+msgstr[1] "Rediger feed"
+
+#: classes/pref/feeds.php:535 classes/pref/feeds.php:583
+#, fuzzy
+msgid "Disabled"
+msgstr "Deaktiver OTP"
+
+#: classes/pref/feeds.php:539
+#, php-format
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: classes/pref/feeds.php:565
+msgid "Check to enable field"
+msgstr "Sæt flueben for at aktivere felt"
+
+#: classes/pref/feeds.php:581
+#, fuzzy, php-format
+msgid "(%d days)"
+msgstr "Rediger feed"
+
+#: classes/pref/feeds.php:586 js/CommonDialogs.js:460
+msgid "Include in e-mail digest"
+msgstr "Inkluder i e-mail-digest"
+
+#: classes/pref/feeds.php:587 js/CommonDialogs.js:461
+msgid "Always display image attachments"
+msgstr "Vis altid billedvedhæftninger"
+
+#: classes/pref/feeds.php:589 js/CommonDialogs.js:463
+msgid "Cache media"
+msgstr ""
+
+#: classes/pref/feeds.php:590 js/CommonDialogs.js:464
+#, fuzzy
+msgid "Mark updated articles as unread"
+msgstr "Marker feed som læst"
+
+#: classes/pref/feeds.php:605 js/PrefFeedTree.js:426 js/CommonDialogs.js:500
+msgid "Place in category:"
+msgstr "Placer i kategori:"
+
+#: classes/pref/feeds.php:613 js/Feeds.js:626 js/CommonDialogs.js:516
+#, fuzzy
+msgid "Language:"
+msgstr "Sprog"
+
+#: classes/pref/feeds.php:624 js/CommonDialogs.js:526
+#, fuzzy
+msgid "Update interval:"
+msgstr "Opdateringsinterval for standardfeed"
+
+#: classes/pref/feeds.php:631 js/CommonDialogs.js:530
+msgid "Article purging:"
+msgstr "Artikeltømning:"
+
+#: classes/pref/feeds.php:638 plugins/auth_internal/init.php:101
+#: js/PrefFeedTree.js:434
+msgid "Authentication"
+msgstr "Godkendelse"
+
+#: classes/pref/feeds.php:647 plugins/bookmarklets/init.php:309
+#: include/login_form.php:112 js/CommonDialogs.js:549
+msgid "Password:"
+msgstr "Adgangskode:"
+
+#: classes/pref/feeds.php:654
+msgid "Options"
+msgstr "Indstillinger"
+
+#: classes/pref/feeds.php:671 plugins/note/init.php:52
+#: plugins/bookmarklets/init.php:282 js/CommonDialogs.js:587
+#: js/CommonFilters.js:237 js/CommonFilters.js:321 js/CommonFilters.js:521
+#: js/CommonFilters.js:525 js/Feeds.js:640 js/PrefFeedTree.js:454
+#: js/PrefHelpers.js:232 js/PrefHelpers.js:306
+msgid "Cancel"
+msgstr "Annuller"
+
+#: classes/pref/feeds.php:876
+msgid "Feeds with errors"
+msgstr "Feeds med fejl"
+
+#: classes/pref/feeds.php:882
+msgid "Inactive feeds"
+msgstr "Inaktive feeds"
+
+#: classes/pref/feeds.php:919
+msgid "Edit selected feeds"
+msgstr "Rediger valgte feeds"
+
+#: classes/pref/feeds.php:923 js/PrefFeedTree.js:396
+msgid "Batch subscribe"
+msgstr "Batchabonnement"
+
+#: classes/pref/feeds.php:931
+msgid "Categories"
+msgstr "Kategorier"
+
+#: classes/pref/feeds.php:934
+msgid "Add category"
+msgstr "Tilføj kategori"
+
+#: classes/pref/feeds.php:987
+#, fuzzy
+msgid "Choose file..."
+msgstr "Opret filter ..."
+
+#: classes/pref/feeds.php:995
+#, fuzzy
+msgid "Import OPML"
+msgstr "Importer min OPML"
+
+#: classes/pref/feeds.php:1006
+msgid "Export OPML"
+msgstr "Eksporter OPML"
+
+#: classes/pref/feeds.php:1011
+#, fuzzy
+#| msgid "Include settings"
+msgid "Include tt-rss settings"
+msgstr "Inkluder indstillinger"
+
+#: classes/pref/feeds.php:1027
+msgid "Display URL"
+msgstr "Vis webadresse"
+
+#: classes/pref/feeds.php:1032
+msgid "Clear all generated URLs"
+msgstr "Ryd alle genererede webadresser"
+
+#: classes/pref/feeds.php:1044
+#, fuzzy
+msgid "My feeds"
+msgstr "Flere feeds"
+
+#: classes/pref/feeds.php:1049
+msgid "OPML"
+msgstr "OPML"
+
+#: classes/pref/feeds.php:1054
+#, fuzzy
+msgid "Sharing"
+msgstr "Del"
+
+#: classes/userhelper.php:221
+#, fuzzy, php-format
+msgid "Changed password of user %s to %s"
+msgstr "Skift adgangskode"
+
+#: classes/opml.php:28 classes/opml.php:32
+msgid "OPML Utility"
+msgstr "OPML-hjælpeprogram"
+
+#: classes/opml.php:36
+msgid "Importing OPML..."
+msgstr "Importerer OPML ..."
+
+#: classes/opml.php:41
+msgid "Return to preferences"
+msgstr "Vend tilbage til præferencer"
+
+#: classes/opml.php:321
+#, php-format
+msgid "Adding feed: %s"
+msgstr "Tilføjer feed: %s"
+
+#: classes/opml.php:341
+#, php-format
+msgid "Duplicate feed: %s"
+msgstr "Dupliker feed: %s"
+
+#: classes/opml.php:355
+#, php-format
+msgid "Adding label %s"
+msgstr "Tilføjer etiket: %s"
+
+#: classes/opml.php:358
+#, php-format
+msgid "Duplicate label: %s"
+msgstr "Dupliker etiket: %s"
+
+#: classes/opml.php:370
+#, php-format
+msgid "Setting preference key %s to %s"
+msgstr ""
+
+#: classes/opml.php:406
+#, fuzzy, php-format
+msgid "Adding filter %s..."
+msgstr "Tilføjer filter ..."
+
+#: classes/opml.php:544
+#, php-format
+msgid "Processing category: %s"
+msgstr "Behandler kategori: %s"
+
+#: classes/opml.php:590
+#, php-format
+msgid "Upload failed with error code %d"
+msgstr ""
+
+#: classes/opml.php:602
+msgid "Unable to move uploaded file."
+msgstr ""
+
+#: classes/opml.php:606
+msgid "Error: please upload OPML file."
+msgstr ""
+
+#: classes/opml.php:619
+msgid "Error: unable to find moved OPML file."
+msgstr ""
+
+#: classes/opml.php:628
+msgid "Error while parsing document."
+msgstr "Fejl under dokumentparsing."
+
+#: classes/config.php:335
+#, php-format
+msgid "Git error [RC=%d]: %s"
+msgstr ""
+
+#: classes/feeds.php:54 classes/feeds.php:467
+msgid "Feed not found."
+msgstr "Feed ikke fundet."
+
+#: classes/feeds.php:119
+msgid "Never"
+msgstr "Aldrig"
+
+#: classes/feeds.php:198 classes/feeds.php:1122
+msgid "Archived articles"
+msgstr "Arkiverede artikler"
+
+#: classes/feeds.php:257
+msgid "Collapse article"
+msgstr "Skjul artikel"
+
+#: classes/feeds.php:280
+#, php-format
+msgid "Imported at %s"
+msgstr "Importeret på %s"
+
+#: classes/feeds.php:356
+msgid "No unread articles found to display."
+msgstr ""
+
+#: classes/feeds.php:359
+msgid "No updated articles found to display."
+msgstr ""
+
+#: classes/feeds.php:362
+msgid "No starred articles found to display."
+msgstr ""
+
+#: classes/feeds.php:366
+msgid ""
+"No articles found to display. You can assign articles to labels manually "
+"from article header context menu (applies to all selected articles) or use a "
+"filter."
+msgstr ""
+
+#: classes/feeds.php:368
+msgid "No articles found to display."
+msgstr ""
+
+#: classes/feeds.php:385 classes/feeds.php:536
+#, fuzzy, php-format
+msgid "Feeds last updated at %s"
+msgstr "Sidste opdatering: %s"
+
+#: classes/feeds.php:397 classes/feeds.php:548
+msgid "Some feeds have update errors (click for details)"
+msgstr ""
+
+#: classes/feeds.php:525
+msgid "No feed selected."
+msgstr "Der er ikke valgt noget feed."
+
+#: classes/feeds.php:1114
+msgid "Starred articles"
+msgstr "Markerede artikler"
+
+#: classes/feeds.php:1116
+msgid "Published articles"
+msgstr "Udgivne artikler"
+
+#: classes/feeds.php:1118
+msgid "Fresh articles"
+msgstr "Nye artikler"
+
+#: classes/feeds.php:1252
+msgid "Special"
+msgstr "Speciel"
+
+#: classes/feeds.php:1343
+#, php-format
+msgid "Incorrect search syntax: %s."
+msgstr ""
+
+#: classes/feeds.php:1533
+#, php-format
+msgid "Search results: %s"
+msgstr "Søgeresultater: %s"
+
+#: classes/timehelper.php:8
+#, php-format
+msgid "%d min"
+msgstr ""
+
+#: plugins/auth_internal/init.php:112
+#, fuzzy
+#| msgid "Please enter label caption:"
+msgid "Please enter verification code (OTP):"
+msgstr "Indtast mærketekst:"
+
+#: plugins/auth_internal/init.php:114
+#, fuzzy
+#| msgid "Content:"
+msgid "Continue"
+msgstr "Indhold:"
+
+#: plugins/auth_internal/init.php:166
+msgid "Too many authentication attempts, throttled."
+msgstr ""
+
+#: plugins/auth_internal/init.php:247
+msgid "Password has been changed."
+msgstr "Adgangskoden er blevet ændret."
+
+#: plugins/auth_internal/init.php:249
+msgid "Old password is incorrect."
+msgstr "Gammel adgangskode er forkert."
+
+#: plugins/af_psql_trgm/init.php:31
+#, php-format
+msgid "Data saved (%s, %d)"
+msgstr ""
+
+#: plugins/af_psql_trgm/init.php:121
+#, fuzzy
+msgid "Show related articles"
+msgstr "Delte artikler"
+
+#: plugins/af_psql_trgm/init.php:134
+#, fuzzy
+msgid "Mark similar articles as read (af_psql_trgm)"
+msgstr "Marker ovenstående som læst"
+
+#: plugins/af_psql_trgm/init.php:164
+msgid "Minimum similarity:"
+msgstr ""
+
+#: plugins/af_psql_trgm/init.php:172
+msgid ""
+"PostgreSQL trigram extension returns string similarity as a floating point "
+"number (0-1). Setting it too low might produce false positives, zero "
+"disables checking."
+msgstr ""
+
+#: plugins/af_psql_trgm/init.php:177
+msgid "Minimum title length:"
+msgstr ""
+
+#: plugins/af_psql_trgm/init.php:187
+#, fuzzy
+msgid "Enable for all feeds."
+msgstr "Aktiver feed-kategorier"
+
+#: plugins/af_psql_trgm/init.php:206 plugins/af_readability/init.php:108
+msgid "Currently enabled for (click to edit):"
+msgstr ""
+
+#: plugins/af_psql_trgm/init.php:226
+msgid "Similarity (af_psql_trgm)"
+msgstr ""
+
+#: plugins/af_psql_trgm/init.php:232
+#, fuzzy
+msgid "Mark similar articles as read"
+msgstr "Marker ovenstående som læst"
+
+#: plugins/note/init.php:26 plugins/note/note.js:6
+msgid "Edit article note"
+msgstr "Rediger artikelnote"
+
+#: plugins/af_readability/init.php:27
+msgid "Data saved."
+msgstr ""
+
+#: plugins/af_readability/init.php:44
+#, fuzzy
+msgid "Inline content"
+msgstr "Rediger artikelnote"
+
+#: plugins/af_readability/init.php:45
+#, fuzzy
+msgid "Append content"
+msgstr "Rediger artikelnote"
+
+#: plugins/af_readability/init.php:54
+#, fuzzy
+msgid "Toggle full article text"
+msgstr "Rediger artikelnote"
+
+#: plugins/af_readability/init.php:64
+msgid "Readability settings (af_readability)"
+msgstr ""
+
+#: plugins/af_readability/init.php:85
+msgid ""
+"Provide full-text services to core code (bookmarklets) and other plugins"
+msgstr ""
+
+#: plugins/af_readability/init.php:115
+msgid "(append)"
+msgstr ""
+
+#: plugins/af_readability/init.php:130
+#, fuzzy
+msgid "Readability"
+msgstr "Tjek tilgængelighed"
+
+#: plugins/af_readability/init.php:135
+#, fuzzy
+msgid "Inline article content"
+msgstr "Rediger artikelnote"
+
+#: plugins/af_readability/init.php:141
+msgid "Append to summary, instead of replacing it"
+msgstr ""
+
+#: plugins/bookmarklets/init.php:88 js/CommonDialogs.js:93
+msgid "Subscribe"
+msgstr "Abonner"
+
+#: plugins/bookmarklets/init.php:101
+#, fuzzy, php-format
+msgid "Already subscribed to <b>%s</b>."
+msgstr "Abonneret på %s"
+
+#: plugins/bookmarklets/init.php:104
+#, fuzzy, php-format
+msgid "Subscribed to <b>%s</b>."
+msgstr "Abonneret på %s"
+
+#: plugins/bookmarklets/init.php:107
+#, php-format
+msgid "Could not subscribe to <b>%s</b>."
+msgstr ""
+
+#: plugins/bookmarklets/init.php:110
+#, fuzzy, php-format
+msgid "No feeds found in <b>%s</b>."
+msgstr "Der blev ikke fundet nogen feeds."
+
+#: plugins/bookmarklets/init.php:116
+#, php-format
+msgid "Could not subscribe to <b>%s</b>.<br>Can't download the Feed URL."
+msgstr ""
+
+#: plugins/bookmarklets/init.php:127
+#, fuzzy
+msgid "Multiple feed URLs found:"
+msgstr "Der er fundet flere webadresser til feed"
+
+#: plugins/bookmarklets/init.php:135
+msgid "Subscribe to selected feed"
+msgstr "Abonner på valgte feed"
+
+#: plugins/bookmarklets/init.php:153
+msgid "Edit subscription options"
+msgstr "Rediger abonnementsindstillinger"
+
+#: plugins/bookmarklets/init.php:184 plugins/bookmarklets/init.php:361
+#, fuzzy
+msgid "Share with Tiny Tiny RSS"
+msgstr "Opdater Tiny Tiny RSS"
+
+#: plugins/bookmarklets/init.php:256
+msgid "Title:"
+msgstr "Overskrift:"
+
+#: plugins/bookmarklets/init.php:261
+msgid "URL:"
+msgstr "URL:"
+
+#: plugins/bookmarklets/init.php:266
+msgid "Content:"
+msgstr "Indhold:"
+
+#: plugins/bookmarklets/init.php:271
+msgid "Labels:"
+msgstr "Etiketter:"
+
+#: plugins/bookmarklets/init.php:281
+msgid "Share"
+msgstr "Del"
+
+#: plugins/bookmarklets/init.php:283
+msgid "Shared article will appear in the Published feed."
+msgstr ""
+
+#: plugins/bookmarklets/init.php:322 include/login_form.php:177
+msgid "Log in"
+msgstr "Log på"
+
+#: plugins/bookmarklets/init.php:343
+#, fuzzy, php-format
+msgid "Subscribe to %s in Tiny Tiny RSS?"
+msgstr "Abonneret på %s"
+
+#: plugins/bookmarklets/init.php:350
+msgid "Bookmarklets"
+msgstr "Bogmærker"
+
+#: plugins/bookmarklets/init.php:352
+msgid ""
+"Drag the link below to your browser toolbar, open the feed you're interested "
+"in in your browser and click on the link to subscribe to it."
+msgstr ""
+
+#: plugins/bookmarklets/init.php:355
+#, fuzzy
+msgid "Subscribe in Tiny Tiny RSS"
+msgstr "Opdater Tiny Tiny RSS"
+
+#: plugins/bookmarklets/init.php:358
+msgid "Use this bookmarklet to publish arbitrary pages using Tiny Tiny RSS"
+msgstr ""
+
+#: plugins/af_comics/init.php:62
+msgid "Feeds supported by af_comics"
+msgstr ""
+
+#: plugins/af_comics/init.php:64
+msgid "The following comics are currently supported:"
+msgstr ""
+
+#: plugins/nsfw/init.php:39
+msgid "Not safe for work (click to toggle)"
+msgstr ""
+
+#: plugins/nsfw/init.php:73
+msgid "NSFW Plugin"
+msgstr "NSFW-plugin"
+
+#: plugins/nsfw/init.php:88
+msgid "Tags to consider NSFW (comma-separated):"
+msgstr ""
+
+#: plugins/nsfw/init.php:110
+msgid "Configuration saved."
+msgstr "Konfiguration gemt."
+
+#: plugins/af_redditimgur/init.php:45
+msgid "Reddit content settings (af_redditimgur)"
+msgstr ""
+
+#: plugins/af_redditimgur/init.php:63
+msgid "Apply tags to NSFW posts (comma-separated list):"
+msgstr ""
+
+#: plugins/af_redditimgur/init.php:72
+msgid "Extract missing content using Readability (requires af_readability)"
+msgstr ""
+
+#: plugins/af_redditimgur/init.php:79
+msgid "Enable additional duplicate checking"
+msgstr ""
+
+#: plugins/af_redditimgur/init.php:86
+#, php-format
+msgid "Rewrite Reddit URLs to %s"
+msgstr ""
+
+#: plugins/af_redditimgur/init.php:94
+msgid "Import score, limit maximum to:"
+msgstr ""
+
+#: plugins/af_redditimgur/init.php:125
+#, fuzzy
+msgid "Configuration saved"
+msgstr "Konfiguration gemt."
+
+#: plugins/toggle_sidebar/init.php:27
+#, fuzzy
+msgid "Toggle sidebar"
+msgstr "Skift markeret"
+
+#: plugins/share/init.php:42
+#, fuzzy
+msgid "Article unshared"
+msgstr "Artikel"
+
+#: plugins/share/init.php:54
+msgid "Unshare all articles"
+msgstr "Annuller deling af alle artikler"
+
+#: plugins/share/init.php:64
+msgid "Shared URLs cleared."
+msgstr "Delte webadresser er ryddet."
+
+#: plugins/share/init.php:83
+msgid "Share by URL"
+msgstr "Del via webadresse"
+
+#: plugins/share/init.php:255
+msgid "You can share this article by the following unique URL:"
+msgstr ""
+
+#: plugins/share/init.php:267
+msgid "Article not found."
+msgstr "Artikel ikke fundet"
+
+#: plugins/share/init.php:272
+msgid "Unshare article"
+msgstr "Annuller deling af artikel"
+
+#: plugins/share/init.php:273 js/CommonDialogs.js:644
+msgid "Generate new URL"
+msgstr "Generer ny webadresse"
+
+#: include/login_form.php:124
+msgid "I forgot my password"
+msgstr "Jeg har glemt min adgangskode"
+
+#: include/login_form.php:129
+msgid "Profile:"
+msgstr "Profil:"
+
+#: include/login_form.php:142
+msgid "Use less traffic"
+msgstr "Brug mindre trafik"
+
+#: include/login_form.php:146
+msgid "Does not display images in articles, reduces automatic refreshes."
+msgstr ""
+
+#: include/login_form.php:154 js/Feeds.js:282
+msgid "Safe mode"
+msgstr ""
+
+#: include/login_form.php:159
+msgid "Uses default theme and prevents all plugins from loading."
+msgstr ""
+
+#: include/login_form.php:167
+msgid "Remember me"
+msgstr "Husk mig"
+
+#: include/sessions.php:32
+msgid "Session failed to validate (password changed)"
+msgstr ""
+
+#: include/sessions.php:36
+msgid "Session failed to validate (user not found)"
+msgstr ""
+
+#: include/functions.php:49
+msgid "Detect automatically"
+msgstr ""
+
+#: js/Feeds.js:262
+msgid "Your password is at default value"
+msgstr ""
+
+#: js/Feeds.js:264
+msgid ""
+"You are using default tt-rss password. Please change it in the Preferences "
+"(Personal data / Authentication)."
+msgstr ""
+
+#: js/Feeds.js:426
+#, fuzzy
+msgid "Mark all articles as read?"
+msgstr "Marker ovenstående som læst"
+
+#: js/Feeds.js:430
+#, fuzzy
+msgid "Marking all feeds as read..."
+msgstr "Marker feed som læst"
+
+#: js/Feeds.js:447
+#, fuzzy
+msgid "Mark %w in %s older than 1 day as read?"
+msgstr "Ændr resultater af artikler i %s?"
+
+#: js/Feeds.js:450
+#, fuzzy
+msgid "Mark %w in %s older than 1 week as read?"
+msgstr "Ændr resultater af artikler i %s?"
+
+#: js/Feeds.js:453
+#, fuzzy
+msgid "Mark %w in %s older than 2 weeks as read?"
+msgstr "Ændr resultater af artikler i %s?"
+
+#: js/Feeds.js:456
+#, fuzzy
+msgid "Mark %w in %s as read?"
+msgstr "Ændr resultater af artikler i %s?"
+
+#: js/Feeds.js:459
+#, fuzzy
+msgid "search results"
+msgstr "Søgeresultater: %s"
+
+#: js/Feeds.js:459
+#, fuzzy
+msgid "all articles"
+msgstr "Alle artikler"
+
+#: js/Feeds.js:500
+#, fuzzy, javascript-format
+msgid "Mark all articles in %s as read?"
+msgstr "Ændr resultater af artikler i %s?"
+
+#: js/Feeds.js:635
+msgid "Search syntax"
+msgstr "Søgesyntaks"
+
+#: js/common.js:448
+msgid "Click to close"
+msgstr "Klik for at lukke"
+
+#: js/PrefLabelTree.js:71
+#, fuzzy
+#| msgid "Edit rule"
+msgid "Edit label"
+msgstr "Rediger regel"
+
+#: js/PrefLabelTree.js:143
+msgid "Foreground:"
+msgstr "Forgrund:"
+
+#: js/PrefLabelTree.js:144
+msgid "Background:"
+msgstr "Baggrund:"
+
+#: js/PrefLabelTree.js:189
+#, fuzzy
+msgid "Reset selected labels to default colors?"
+msgstr "Fjerne valgte etiketter?"
+
+#: js/PrefLabelTree.js:202 js/PrefLabelTree.js:222
+#, fuzzy
+msgid "No labels selected."
+msgstr "Der er ikke valgt nogen etiketter."
+
+#: js/PrefLabelTree.js:209
+msgid "Remove selected labels?"
+msgstr "Fjerne valgte etiketter?"
+
+#: js/PrefLabelTree.js:210
+msgid "Removing selected labels..."
+msgstr "Fjerner valgte etiketter ..."
+
+#: js/App.js:411
+msgid "Keyboard shortcuts"
+msgstr "Tastaturgenveje"
+
+#: js/App.js:472
+msgid "Update daemon is not running."
+msgstr ""
+
+#: js/App.js:485
+msgid "Update daemon is not updating feeds."
+msgstr ""
+
+#: js/App.js:572
+msgid ""
+"URL scheme reported by your browser (%a) doesn't match server-configured "
+"SELF_URL_PATH (%b), check X-Forwarded-Proto."
+msgstr ""
+
+#: js/App.js:579
+msgid "Fatal error"
+msgstr ""
+
+#: js/App.js:604
+msgid "Unhandled exception"
+msgstr ""
+
+#: js/App.js:833
+#, fuzzy
+msgid "Updates for Tiny Tiny RSS are available."
+msgstr "Ny version til rådighed!"
+
+#: js/App.js:836
+msgid "Updates for some local plugins are available."
+msgstr ""
+
+#: js/App.js:1065
+msgid "Please enable mail or mailto plugin first."
+msgstr ""
+
+#: js/App.js:1116 js/App.js:1253 js/CommonDialogs.js:328
+msgid "You can't edit this kind of feed."
+msgstr ""
+
+#: js/App.js:1188
+#, fuzzy
+msgid "Please enable af_readability first."
+msgstr "Rydder valgte feed ..."
+
+#: js/App.js:1201 js/App.js:1294
+msgid "Widescreen is not available in combined mode."
+msgstr ""
+
+#: js/App.js:1262
+#, fuzzy
+msgid "Please select some feed first."
+msgstr "Rydder valgte feed ..."
+
+#: js/App.js:1267
+msgid "You can't unsubscribe from the category."
+msgstr ""
+
+#: js/App.js:1273 js/CommonDialogs.js:302 js/CommonDialogs.js:343
+#, javascript-format
+msgid "Unsubscribe from %s?"
+msgstr "Aflyse abonnement fra %s?"
+
+#: js/PrefFeedTree.js:73
+msgid "Edit category"
+msgstr "Rediger kategori"
+
+#: js/PrefFeedTree.js:80
+msgid "Remove category"
+msgstr "Fjern kategori"
+
+#: js/PrefFeedTree.js:179
+#, javascript-format
+msgid ""
+"Remove category %s? Any nested feeds would be placed into Uncategorized."
+msgstr ""
+
+#: js/PrefFeedTree.js:180
+msgid "Removing category..."
+msgstr "Fjerner kategori ..."
+
+#: js/PrefFeedTree.js:192
+msgid "Unsubscribe from selected feeds?"
+msgstr "Aflyse abonnement for valgte feeds?"
+
+#: js/PrefFeedTree.js:194
+msgid "Unsubscribing from selected feeds..."
+msgstr "Aflyser abonnement for valgte feeds ..."
+
+#: js/PrefFeedTree.js:207 js/PrefFeedTree.js:276 js/PrefFeedTree.js:292
+#: js/PrefFeedTree.js:497 js/CommonDialogs.js:230
+#, fuzzy
+msgid "No feeds selected."
+msgstr "Der er ikke valgt noget feed."
+
+#: js/PrefFeedTree.js:242
+msgid "Remove selected categories?"
+msgstr "Fjern valgte kategorier?"
+
+#: js/PrefFeedTree.js:243
+msgid "Removing selected categories..."
+msgstr "Fjerner valgte kategorier ..."
+
+#: js/PrefFeedTree.js:255
+#, fuzzy
+msgid "No categories selected."
+msgstr "Der er ikke valgt nogen kategorier."
+
+#: js/PrefFeedTree.js:303
+#, fuzzy
+#| msgid "Edit Multiple Feeds"
+msgid "Edit multiple feeds"
+msgstr "Rediger flere feeds"
+
+#: js/PrefFeedTree.js:332
+#, fuzzy
+msgid "Save changes to selected feeds?"
+msgstr "Abonner på valgte feed"
+
+#: js/PrefFeedTree.js:344 js/CommonDialogs.js:430 js/PrefUsers.js:42
+#: js/CommonFilters.js:395
+msgid "Saving data..."
+msgstr "Gemmer data ..."
+
+#: js/PrefFeedTree.js:381
+msgid "Category title:"
+msgstr "Kategorititel:"
+
+#: js/PrefFeedTree.js:384
+msgid "Creating category..."
+msgstr "Opretter kategori ..."
+
+#: js/PrefFeedTree.js:399
+msgid "Subscribing to feeds..."
+msgstr "Abonnerer på feeds ..."
+
+#: js/PrefFeedTree.js:417
+msgid "One valid feed per line (no detection is done)"
+msgstr ""
+
+#: js/PrefFeedTree.js:470
+msgid "Feeds without recent updates"
+msgstr "Feeds uden nylige opdateringer"
+
+#: js/PrefFeedTree.js:478 js/CommonDialogs.js:209
+msgid "Remove selected feeds?"
+msgstr "Fjern valgte feeds?"
+
+#: js/PrefFeedTree.js:479 js/CommonDialogs.js:210
+msgid "Removing selected feeds..."
+msgstr "Fjerner valgte feeds ..."
+
+#: js/PrefFeedTree.js:520
+msgid "Click to edit feed"
+msgstr "Klik for at redigere feed"
+
+#: js/CommonDialogs.js:30
+msgid ""
+"Provided URL is a HTML page referencing multiple feeds, please select "
+"required feed from the dropdown menu below."
+msgstr ""
+
+#: js/CommonDialogs.js:122
+msgid ""
+"Failed to parse output. This can indicate server timeout and/or network "
+"issues. Backend output was logged to browser console."
+msgstr ""
+
+#: js/CommonDialogs.js:136
+#, javascript-format
+msgid "Subscribed to %s"
+msgstr "Abonneret på %s"
+
+#: js/CommonDialogs.js:145
+msgid "Specified URL seems to be invalid."
+msgstr ""
+
+#: js/CommonDialogs.js:148
+msgid "Specified URL doesn't seem to contain any feeds."
+msgstr ""
+
+#: js/CommonDialogs.js:161
+msgid "Expand to select feed"
+msgstr "Udvid til valgt feed"
+
+#: js/CommonDialogs.js:173
+#, javascript-format
+msgid "Couldn't download the specified URL: %s"
+msgstr ""
+
+#: js/CommonDialogs.js:176
+#, javascript-format
+msgid "XML validation failed: %s"
+msgstr "XML-validering mislykkedes: %s"
+
+#: js/CommonDialogs.js:179
+#, fuzzy
+msgid "You are already subscribed to this feed."
+msgstr "Abonneret på %s"
+
+#: js/CommonDialogs.js:201
+msgid "Feeds with update errors"
+msgstr "Feeds med opdateringsfejl"
+
+#: js/CommonDialogs.js:283
+msgid "Please enter label caption:"
+msgstr "Indtast mærketekst:"
+
+#: js/CommonDialogs.js:305
+msgid "Removing feed..."
+msgstr "Fjerner feed ..."
+
+#: js/CommonDialogs.js:353
+#, fuzzy
+msgid "Please select an image file."
+msgstr "Fjern valgte filtre?"
+
+#: js/CommonDialogs.js:373
+msgid "Icon file is too large."
+msgstr ""
+
+#: js/CommonDialogs.js:376
+#, fuzzy
+msgid "Upload failed."
+msgstr "Indlæsning færdig."
+
+#: js/CommonDialogs.js:406
+msgid "Remove stored feed icon?"
+msgstr "Fjern gemt feed-ikon?"
+
+#: js/CommonDialogs.js:407
+msgid "Removing feed icon..."
+msgstr "Fjerner feed-ikon ..."
+
+#: js/CommonDialogs.js:410
+msgid "Feed icon removed."
+msgstr "Feed-ikon fjernet."
+
+#: js/CommonDialogs.js:574
+#, fuzzy
+msgid "Upload new icon..."
+msgstr "Indlæser, vent venligst ..."
+
+#: js/CommonDialogs.js:603
+#, fuzzy
+msgid "Show as feed"
+msgstr "Dette feed"
+
+#: js/CommonDialogs.js:605
+msgid "Generate new syndication address for this feed?"
+msgstr ""
+
+#: js/CommonDialogs.js:607
+msgid "Trying to change address..."
+msgstr "Prøver at ændre adresse ..."
+
+#: js/CommonDialogs.js:625
+#, fuzzy
+msgid "Could not change feed URL."
+msgstr "Opret bruger"
+
+#: js/CommonDialogs.js:632
+msgid "%s can be accessed via the following secret URL:"
+msgstr ""
+
+#: js/PrefHelpers.js:20
+#, fuzzy
+msgid "Remove selected app passwords?"
+msgstr "Fjern valgte kategorier?"
+
+#: js/PrefHelpers.js:45
+msgid "This will invalidate all previously generated feed URLs. Continue?"
+msgstr ""
+
+#: js/PrefHelpers.js:46 plugins/share/share_prefs.js:6
+msgid "Clearing URLs..."
+msgstr "Rydder webadresser ..."
+
+#: js/PrefHelpers.js:49
+msgid "Generated URLs cleared."
+msgstr "Genererede webadresser er ryddet."
+
+#: js/PrefHelpers.js:59
+#, fuzzy
+#| msgid "Digest"
+msgid "Digest preview"
+msgstr "Digest"
+
+#: js/PrefHelpers.js:113
+#, fuzzy
+msgid "Clear event log?"
+msgstr "Ryd log"
+
+#: js/PrefHelpers.js:135
+msgid "Name for cloned profile:"
+msgstr ""
+
+#: js/PrefHelpers.js:145
+#, fuzzy
+msgid "Please select a single profile to clone."
+msgstr "Fjern valgte filtre?"
+
+#: js/PrefHelpers.js:153
+msgid ""
+"Remove selected profiles? Active and default profiles will not be removed."
+msgstr ""
+
+#: js/PrefHelpers.js:154
+msgid "Removing selected profiles..."
+msgstr "Fjerner valgte profiler ..."
+
+#: js/PrefHelpers.js:163
+#, fuzzy
+msgid "No profiles selected."
+msgstr "Der er ikke valgt nogen profiler."
+
+#: js/PrefHelpers.js:168
+msgid "Creating profile..."
+msgstr "Opretter profil ..."
+
+#: js/PrefHelpers.js:218
+msgid "(active)"
+msgstr "(aktiv)"
+
+#: js/PrefHelpers.js:219
+msgid "(empty)"
+msgstr ""
+
+#: js/PrefHelpers.js:242
+msgid "Activate selected profile?"
+msgstr "Aktiver valgte profil?"
+
+#: js/PrefHelpers.js:251
+msgid "Please choose a profile to activate."
+msgstr ""
+
+#: js/PrefHelpers.js:264
+msgid "Customize stylesheet"
+msgstr "Tilpas designark"
+
+#: js/PrefHelpers.js:280
+msgid ""
+"You can override colors, fonts and layout of your currently selected theme "
+"with custom CSS declarations here."
+msgstr ""
+
+#: js/PrefHelpers.js:289
+msgid ""
+"User CSS has been applied, you might need to reload the page to see all "
+"changes."
+msgstr ""
+
+#: js/PrefHelpers.js:329
+msgid "Reset to defaults?"
+msgstr "Nulstil til standardindstillinger?"
+
+#: js/PrefHelpers.js:415
+msgid "Clear data"
+msgstr "Ryd data"
+
+#: js/PrefHelpers.js:418
+msgid "Uninstall"
+msgstr ""
+
+#: js/PrefHelpers.js:430 js/PrefHelpers.js:589
+msgid "Could not find any plugins for this search query."
+msgstr ""
+
+#: js/PrefHelpers.js:437
+#, fuzzy, javascript-format
+#| msgid "Clear feed data"
+msgid "Clear stored data for %s?"
+msgstr "Ryd feed-data"
+
+#: js/PrefHelpers.js:446
+#, fuzzy, javascript-format
+#| msgid "User plugins"
+msgid "Uninstall plugin %s?"
+msgstr "Brugerplugins"
+
+#: js/PrefHelpers.js:455
+#, fuzzy
+#| msgid "Registration failed."
+msgid "Plugin uninstallation failed."
+msgstr "Registrering mislykkedes."
+
+#: js/PrefHelpers.js:471
+#, fuzzy
+msgid "Available plugins"
+msgstr "Brugerplugins"
+
+#: js/PrefHelpers.js:484
+#, fuzzy
+#| msgid "Link instance"
+msgid "Plugin installer"
+msgstr "Tilknyt instans"
+
+#: js/PrefHelpers.js:487
+#, fuzzy, javascript-format
+#| msgid "Importing, please wait..."
+msgid "Installing %s, please wait..."
+msgstr "Importerer, vent venligst ..."
+
+#: js/PrefHelpers.js:502 js/PrefHelpers.js:544 js/PrefHelpers.js:655
+msgid "Operation failed: check event log."
+msgstr ""
+
+#: js/PrefHelpers.js:506
+msgid "Plugin has been installed."
+msgstr ""
+
+#: js/PrefHelpers.js:510
+msgid "Plugin is already installed."
+msgstr ""
+
+#: js/PrefHelpers.js:520 js/PrefHelpers.js:672 js/PrefHelpers.js:738
+#, javascript-format
+msgid "Exited with RC: %d"
+msgstr ""
+
+#: js/PrefHelpers.js:569
+msgid "Already installed"
+msgstr ""
+
+#: js/PrefHelpers.js:580
+#, fuzzy
+#| msgid "Last updated: %s"
+msgid "Updated: %s"
+msgstr "Sidste opdatering: %s"
+
+#: js/PrefHelpers.js:597
+msgid "Looking for plugins..."
+msgstr ""
+
+#: js/PrefHelpers.js:616 js/PrefHelpers.js:758
+msgid "Close"
+msgstr ""
+
+#: js/PrefHelpers.js:634
+#, fuzzy
+#| msgid "User plugins"
+msgid "Update plugins"
+msgstr "Brugerplugins"
+
+#: js/PrefHelpers.js:649
+#, fuzzy
+#| msgid "Importing, please wait..."
+msgid "Updating, please wait..."
+msgstr "Importerer, vent venligst ..."
+
+#: js/PrefHelpers.js:673
+#, fuzzy
+#| msgid "Update"
+msgid "Update done."
+msgstr "Opdater"
+
+#: js/PrefHelpers.js:697
+#, fuzzy
+msgid "No updates available"
+msgstr "Ny version til rådighed!"
+
+#: js/PrefHelpers.js:709
+#, javascript-format
+msgid "Checking: %s"
+msgstr ""
+
+#: js/PrefHelpers.js:716
+#, javascript-format
+msgid "%s: Operation failed: check event log."
+msgstr ""
+
+#: js/PrefHelpers.js:739
+#, fuzzy
+#| msgid "Ready to update."
+msgid "Ready to update"
+msgstr "Klar til at opdatere."
+
+#: js/PrefHelpers.js:784
+msgid "Please choose an OPML file first."
+msgstr ""
+
+#: js/PrefHelpers.js:787
+msgid "Importing, please wait..."
+msgstr "Importerer, vent venligst ..."
+
+#: js/PrefHelpers.js:796
+msgid "OPML Import"
+msgstr "OPML-import"
+
+#: js/PrefHelpers.js:807
+msgid ""
+"If you have imported labels and/or filters, you might need to reload "
+"preferences to see your new data."
+msgstr ""
+
+#: js/Headlines.js:642
+msgid "Cancel search"
+msgstr "Annuller søgning"
+
+#: js/Headlines.js:650
+#, fuzzy
+msgid "Select..."
+msgstr "Vælg"
+
+#: js/Headlines.js:764 js/Headlines.js:818 js/Headlines.js:835
+#, fuzzy
+msgid "Click to open next unread feed."
+msgstr "Klik for at redigere feed"
+
+#: js/Headlines.js:832
+msgid "New articles found, reload feed to continue."
+msgstr ""
+
+#: js/Headlines.js:889 js/Headlines.js:915 js/Headlines.js:927
+#: js/Headlines.js:1070 js/Headlines.js:1087 js/Headlines.js:1104
+#: js/Headlines.js:1241 js/Article.js:62
+#, fuzzy
+msgid "No articles selected."
+msgstr "Der er ikke valgt nogen artikel."
+
+#: js/Headlines.js:1041
+#, fuzzy, javascript-format
+msgid "%d article selected"
+msgid_plural "%d articles selected"
+msgstr[0] "Der er ikke valgt nogen artikel."
+msgstr[1] "Der er ikke valgt nogen artikel."
+
+#: js/Headlines.js:1112
+#, fuzzy, javascript-format
+msgid "Delete %d selected article in %s?"
+msgid_plural "Delete %d selected articles in %s?"
+msgstr[0] "Ændr resultater af artikler i %s?"
+msgstr[1] "Ændr resultater af artikler i %s?"
+
+#: js/Headlines.js:1114
+#, fuzzy, javascript-format
+msgid "Delete %d selected article?"
+msgid_plural "Delete %d selected articles?"
+msgstr[0] "Aktiver valgte profil?"
+msgstr[1] "Aktiver valgte profil?"
+
+#: js/Headlines.js:1247
+#, javascript-format
+msgid "Mark %d selected article in %s as read?"
+msgid_plural "Mark %d selected articles in %s as read?"
+msgstr[0] ""
+msgstr[1] ""
+
+#: js/Headlines.js:1263
+msgid "No article is selected."
+msgstr "Der er ikke valgt nogen artikel."
+
+#: js/Headlines.js:1298
+msgid "No articles found to mark"
+msgstr ""
+
+#: js/Headlines.js:1300
+#, fuzzy, javascript-format
+msgid "Mark %d article as read?"
+msgid_plural "Mark %d articles as read?"
+msgstr[0] "Marker ovenstående som læst"
+msgstr[1] "Marker ovenstående som læst"
+
+#: js/Headlines.js:1359
+msgid "Open original article"
+msgstr "Åbn oprindelige artikel"
+
+#: js/Headlines.js:1366
+msgid "Display article URL"
+msgstr "Vis artiklens webadresse"
+
+#: js/Headlines.js:1473
+msgid "Assign label"
+msgstr "Tildel etiket"
+
+#: js/Headlines.js:1478
+msgid "Remove label"
+msgstr "Fjern etiket"
+
+#: js/Headlines.js:1515
+msgid "Select articles in group"
+msgstr "Vælg artikler i gruppen"
+
+#: js/Headlines.js:1525
+msgid "Mark group as read"
+msgstr "Marker gruppe som læst"
+
+#: js/Headlines.js:1537
+msgid "Mark feed as read"
+msgstr "Marker feed som læst"
+
+#: js/PrefFilterTree.js:47 js/CommonFilters.js:224
+msgid "in"
+msgstr "i"
+
+#: js/PrefFilterTree.js:50
+msgid "Inverse"
+msgstr "Inverter"
+
+#: js/PrefFilterTree.js:110 js/PrefFilterTree.js:139
+#, fuzzy
+msgid "No filters selected."
+msgstr "Der er ikke valgt nogen filtre."
+
+#: js/PrefFilterTree.js:114
+msgid "Combine selected filters?"
+msgstr "Kombiner valgte filtre?"
+
+#: js/PrefFilterTree.js:115
+msgid "Joining filters..."
+msgstr "Sammensætter filtre ..."
+
+#: js/PrefFilterTree.js:126
+msgid "Remove selected filters?"
+msgstr "Fjern valgte filtre?"
+
+#: js/PrefFilterTree.js:127
+msgid "Removing selected filters..."
+msgstr "Fjerner valgte filtre ..."
+
+#: js/Article.js:36
+#, fuzzy
+msgid "Please enter new score for selected articles:"
+msgstr "Indtast kategorititel:"
+
+#: js/Article.js:70
+#, fuzzy
+msgid "Please enter new score for this article:"
+msgstr "Indtast kategorititel:"
+
+#: js/Article.js:130
+msgid "Article URL:"
+msgstr "Artiklens webadresse:"
+
+#: js/Article.js:132
+msgid "No URL could be displayed for this article."
+msgstr ""
+
+#: js/Article.js:154
+msgid "no tags"
+msgstr "ingen tags"
+
+#: js/Article.js:246
+msgid "comments"
+msgstr "kommentarer"
+
+#: js/Article.js:249
+#, fuzzy
+msgid "comment"
+msgid_plural "comments"
+msgstr[0] "kommentarer"
+msgstr[1] "kommentarer"
+
+#: js/Article.js:340
+#, fuzzy
+msgid "Article tags"
+msgstr "Artikel"
+
+#: js/Article.js:347
+msgid "Tags for this article (separated by commas):"
+msgstr ""
+
+#: js/Article.js:367
+msgid "Saving article tags..."
+msgstr "Gemmer artikeltags ..."
+
+#: js/FeedTree.js:105
+#, fuzzy
+msgid "Debug feed"
+msgstr "Udfør fejlfinding i feed-opdatering"
+
+#: js/FeedTree.js:128
+#, fuzzy
+msgid "(Un)collapse"
+msgstr "Vis/skjul sidebjælke"
+
+#: js/PrefUsers.js:19
+#, fuzzy
+msgid "Please enter username:"
+msgstr "Indtast brugernavn:"
+
+#: js/PrefUsers.js:22
+msgid "Adding user..."
+msgstr "Tilføjer bruger ..."
+
+#: js/PrefUsers.js:39
+#, fuzzy
+msgid "Edit user"
+msgstr "Rediger regel"
+
+#: js/PrefUsers.js:136 js/PrefUsers.js:175
+#, fuzzy
+msgid "No users selected."
+msgstr "Der er ikke valgt nogen brugere."
+
+#: js/PrefUsers.js:141
+#, fuzzy
+msgid "Please select one user."
+msgstr "Fjern valgte filtre?"
+
+#: js/PrefUsers.js:145
+#, fuzzy
+msgid "Reset password of selected user?"
+msgstr "Nulstil adgangskode"
+
+#: js/PrefUsers.js:146
+#, fuzzy
+msgid "Resetting password for selected user..."
+msgstr "Fjerner valgte brugere ..."
+
+#: js/PrefUsers.js:161
+msgid ""
+"Remove selected users? Neither default admin nor your account will be "
+"removed."
+msgstr ""
+
+#: js/PrefUsers.js:162
+msgid "Removing selected users..."
+msgstr "Fjerner valgte brugere ..."
+
+#: js/CommonFilters.js:14
+#, fuzzy
+#| msgid "Edit Filter"
+msgid "Edit filter"
+msgstr "Rediger filter"
+
+#: js/CommonFilters.js:14
+#, fuzzy
+#| msgid "Create filter"
+msgid "Create new filter"
+msgstr "Opret filter"
+
+#: js/CommonFilters.js:44
+#, javascript-format
+msgid "Looking for articles (%d processed, %f found)..."
+msgstr ""
+
+#: js/CommonFilters.js:72
+#, fuzzy
+msgid "Articles matching this filter:"
+msgstr "Artikler, der matcher dette filter:"
+
+#: js/CommonFilters.js:74
+#, fuzzy
+msgid "Found %d articles matching this filter:"
+msgstr "Artikler, der matcher dette filter:"
+
+#: js/CommonFilters.js:83
+msgid "Error while trying to get filter test results."
+msgstr ""
+
+#: js/CommonFilters.js:95
+#, fuzzy
+#| msgid "Rescoring articles..."
+msgid "Looking for articles..."
+msgstr "Ændrer artikelresultater ..."
+
+#: js/CommonFilters.js:174
+msgid "Edit rule"
+msgstr "Rediger regel"
+
+#: js/CommonFilters.js:174
+msgid "Add rule"
+msgstr "Tilføj regel"
+
+#: js/CommonFilters.js:218
+msgid "Inverse regular expression matching"
+msgstr "Inverter tilpasning af normalt udtryk"
+
+#: js/CommonFilters.js:222
+#, fuzzy
+msgid "on"
+msgstr "Ingen"
+
+#: js/CommonFilters.js:250
+msgid "Edit action"
+msgstr "Rediger handling"
+
+#: js/CommonFilters.js:250
+msgid "Add action"
+msgstr "Tilføj handling"
+
+#: js/CommonFilters.js:360
+msgid "Remove filter?"
+msgstr "Fjern filter?"
+
+#: js/CommonFilters.js:365
+msgid "Removing filter..."
+msgstr "Fjerner filter ..."
+
+#: js/CommonFilters.js:450 js/CommonFilters.js:482 js/PrefHelpers.js:195
+msgid "Add"
+msgstr "Tilføj"
+
+#: js/CommonFilters.js:453 js/CommonFilters.js:485
+msgid "Delete"
+msgstr "Slet"
+
+#: js/CommonFilters.js:519 js/CommonFilters.js:523
+msgid "Test"
+msgstr "Test"
+
+#: js/CommonFilters.js:524
+msgid "Create"
+msgstr "Opret"
+
+#: plugins/af_psql_trgm/init.js:6
+#, fuzzy
+msgid "Related articles"
+msgstr "Delte artikler"
+
+#: plugins/note/note.js:9
+msgid "Saving article note..."
+msgstr "Gemmer artikelnote ..."
+
+#: plugins/af_readability/init.js:31
+#, fuzzy
+msgid "Unable to fetch full text for this article"
+msgstr "Indtast kategorititel:"
+
+#: plugins/shorten_expanded/init.js:32
+#, fuzzy
+#| msgid "Email article"
+msgid "Expand article"
+msgstr "E-mail-artikel"
+
+#: plugins/share/share.js:7
+msgid "Share article by URL"
+msgstr "Del artikel ved brug af webadresse"
+
+#: plugins/share/share.js:9
+msgid "Generate new share URL for this article?"
+msgstr ""
+
+#: plugins/share/share.js:11
+msgid "Trying to change URL..."
+msgstr "Prøver at ændre webadresse ..."
+
+#: plugins/share/share.js:34
+#, fuzzy
+msgid "Could not change URL."
+msgstr "Prøver at ændre webadresse ..."
+
+#: plugins/share/share.js:42
+msgid "Remove sharing for this article?"
+msgstr ""
+
+#: plugins/share/share_prefs.js:5
+msgid "This will invalidate all previously shared article URLs. Continue?"
+msgstr ""
+
+#: js/Feeds.js:284
+msgid ""
+"Tiny Tiny RSS is running in safe mode. All themes and plugins are disabled. "
+"You will need to log out and back in to disable it."
+msgstr ""
+
+#: js/Feeds.js:628
+msgid "Used for word stemming"
+msgstr ""
+
+#: js/App.js:612
+msgid "Stack trace"
+msgstr ""
+
+#: js/PrefFeedTree.js:369
+#, fuzzy
+msgid "Rename category to:"
+msgstr "Fjern kategori"
+
+#: js/PrefFeedTree.js:534
+msgid "Unsubscribe from selected feeds"
+msgstr "Aflys abonnement for valgte feeds"
+
+#: js/CommonDialogs.js:53
+msgid "Available feeds"
+msgstr "Tilgængelige feeds"
+
+#: js/CommonDialogs.js:86
+msgid "This feed requires authentication."
+msgstr "Dette feed kræver godkendelse."
+
+#: js/CommonDialogs.js:506
+#, fuzzy
+msgid "Site URL:"
+msgstr "Artiklens webadresse:"
+
+#: js/PrefHelpers.js:229
+msgid "Clone"
+msgstr ""
+
+#: js/PrefHelpers.js:231
+#, fuzzy
+#| msgid "Activate profile"
+msgid "Activate"
+msgstr "Aktiver profil"
+
+#: js/PrefHelpers.js:299
+msgid "Apply"
+msgstr ""
+
+#: js/PrefHelpers.js:352
+msgid "Selected plugins have been enabled. Reload?"
+msgstr ""
+
+#: js/PrefHelpers.js:680
+#, fuzzy
+#| msgid "Upload complete."
+msgid "Updates complete"
+msgstr "Indlæsning færdig."
+
+#: js/PrefHelpers.js:694
+#, javascript-format
+msgid "Updates pending for %d plugin"
+msgid_plural "Updates pending for %d plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: js/Headlines.js:654
+msgid "Invert"
+msgstr "Inverter"
+
+#: js/Headlines.js:662
+msgid "Set score"
+msgstr "Indstil resultat"
+
+#: js/Headlines.js:667
+msgid "Delete permanently"
+msgstr ""
+
+#: js/Headlines.js:855
+msgid ""
+"Could not update headlines (invalid object received - see error console for "
+"details)"
+msgstr ""
+
+#: js/Article.js:207
+msgid "Attachments"
+msgstr "Vedhæftninger"
+
+#: js/PrefUsers.js:76
+msgid "Access level: "
+msgstr "Adgangsniveau: "
+
+#: js/CommonFilters.js:70
+#, fuzzy
+msgid "No recent articles matching this filter have been found."
+msgstr "Artikler, der matcher dette filter:"
+
+#, fuzzy
+#~ msgid "One time password:"
+#~ msgstr "Forkert engangsadgangskode"
+
+#, fuzzy
+#~ msgid "Published OPML"
+#~ msgstr "Udgivet"
+
+#~ msgid "Display published OPML URL"
+#~ msgstr "Vis webadresse på udgivne OPML"
+
+#, fuzzy
+#~ msgid "Please enter your one time password:"
+#~ msgstr "Forkert engangsadgangskode"
+
+#~ msgid "Public OPML URL"
+#~ msgstr "Webadresse til offentlig OPML"
+
+#, fuzzy
+#~ msgid "Your Public OPML URL is:"
+#~ msgstr "Webadresse til offentlig OPML"
+
+#~ msgid "Click to expand article"
+#~ msgstr "Klik for at udvide artikel"
+
+#~ msgid "Create profile"
+#~ msgstr "Opret profil"
+
+#~ msgid "Remove selected profiles"
+#~ msgstr "Fjern valgte profiler"
+
+#~ msgid "Ignore Scoring"
+#~ msgstr "Ignorer resultat"
+
+#, fuzzy
+#~ msgid "Completed."
+#~ msgstr "Indlæsning færdig."
+
+#~ msgid "Save data"
+#~ msgstr "Gem data"
+
+#, fuzzy
+#~ msgid "Remove selected passwords"
+#~ msgstr "Fjern valgte profiler"
+
+#~ msgid "Save and exit preferences"
+#~ msgstr "Gem og luk præferencer"
+
+#~ msgid "System plugins"
+#~ msgstr "Systemplugins"
+
+#~ msgid "Close article"
+#~ msgstr "Luk artikel"
+
+#~ msgid "Shared articles"
+#~ msgstr "Delte artikler"
+
+#, fuzzy
+#~ msgid "Enable proxy for all remote images."
+#~ msgstr "Aktiver feed-kategorier"
+
+#~ msgid "Forward by email"
+#~ msgstr "Videresend via e-mail"
+
+#~ msgid "[Forwarded]"
+#~ msgstr "[Fremsendt]"
+
+#~ msgid "Multiple articles"
+#~ msgstr "Flere artikler"
+
+#~ msgid "Subject:"
+#~ msgstr "Emne:"
+
+#, fuzzy
+#~ msgid "Forward by email (mailto:)"
+#~ msgstr "Videresend via e-mail"
+
+#, fuzzy
+#~ msgid "Click to open your mail client"
+#~ msgstr "Klik for at udvide artikel"
+
+#~ msgid "Close this dialog"
+#~ msgstr "Luk denne dialog"
+
+#~ msgid "Label Editor"
+#~ msgstr "Labeleditor"
+
+#~ msgid "Caption"
+#~ msgstr "Billedtekst"
+
+#~ msgid "Colors"
+#~ msgstr "Farver"
+
+#~ msgid "Subscribe to Feed"
+#~ msgstr "Abonner på feedet"
+
+#~ msgid "Edit Feed"
+#~ msgstr "Rediger feed"
+
+#, fuzzy
+#~ msgid "Upload failed: icon is too big."
+#~ msgstr "Indlæsning færdig."
+
+#~ msgid "Settings Profiles"
+#~ msgstr "Profilindstillinger"
+
+#~ msgid "Edit article Tags"
+#~ msgstr "Rediger artikeltags"
+
+#~ msgid "User Editor"
+#~ msgstr "Redigeringsprogram til bruger"
+
+#~ msgid "Create Filter"
+#~ msgstr "Opret filter"
+
+#~ msgid "Save rule"
+#~ msgstr "Gem regel"
+
+#~ msgid "Save action"
+#~ msgstr "Gem handling"
+
+#~ msgid "Forward article by email"
+#~ msgstr "Videresend artikel via e-mail"
+
+#, fuzzy
+#~ msgid "Forward article by email (mailto:)"
+#~ msgstr "Videresend artikel via e-mail"
+
+#, fuzzy
+#~ msgid "Sort feeds by unread articles count"
+#~ msgstr "Tøm ulæste artikler"
+
+#, fuzzy
+#~ msgid "Reverse headline order (oldest first)"
+#~ msgstr "Reverser overskrifter"
+
+#~ msgid "Enabled"
+#~ msgstr "Aktiveret"
+
+#~ msgid "Match any rule"
+#~ msgstr "Match enhver regel"
+
+#~ msgid "Inverse matching"
+#~ msgstr "Inverter tilpasning"
+
+#~ msgid "Backend sanity check failed."
+#~ msgstr "Sanity-tjek af backend mislykkedes"
+
+#~ msgid "Frontend sanity check failed."
+#~ msgstr "Sanity-tjek af forend mislykkedes"
+
+#~ msgid "Request not authorized."
+#~ msgstr "Anmodning ikke autoriseret."
+
+#~ msgid "No operation to perform."
+#~ msgstr "Der skal ikke udføres nogen handling."
+
+#~ msgid "Configuration check failed"
+#~ msgstr "Konfigurationstjek mislykkedes"
+
+#, fuzzy
+#~ msgid "Method not found"
+#~ msgstr "Feed ikke fundet."
+
+#, fuzzy
+#~ msgid "Plugin not found"
+#~ msgstr "Bruger ikke fundet"
+
+#, fuzzy
+#~ msgid "Access level:"
+#~ msgstr "Adgangsniveau: "
+
+#~ msgid "Match"
+#~ msgstr "Tilpasning"
+
+#~ msgid "Apply actions"
+#~ msgstr "Anvend handlinger"
+
+#~ msgid "on field"
+#~ msgstr "på feltet"
+
+#~ msgid "Perform Action"
+#~ msgstr "Udfør handling"
+
+#~ msgid "Feed Title"
+#~ msgstr "Feed-overskrift"
+
+#~ msgid "Feed URL"
+#~ msgstr "Feedets webadresse"
+
+#, fuzzy
+#~ msgid "Site URL"
+#~ msgstr "Feedets webadresse"
+
+#, fuzzy
+#~ msgid "Interval:"
+#~ msgstr "Grænseflade"
+
+#~ msgid "Login"
+#~ msgstr "Logon"
+
+#~ msgid "Icon"
+#~ msgstr "Ikon"
+
+#~ msgid "Replace"
+#~ msgstr "Erstat"
+
+#~ msgid "Clear colors"
+#~ msgstr "Gennemsigtige farver"
+
+#~ msgid "One time passwords / Authenticator"
+#~ msgstr "Engangsadgangskoder / Godkender"
+
+#~ msgid "Edit"
+#~ msgstr "Rediger"
+
+#~ msgid "User details"
+#~ msgstr "Brugeroplysninger"
+
+#~ msgid "Subscribed feeds count"
+#~ msgstr "Antal abonnerede feeds"
+
+#~ msgid "Access Level"
+#~ msgstr "Adgangsniveau"
+
+#~ msgid "Last login"
+#~ msgstr "Sidste logon"
+
+#~ msgid "No users defined."
+#~ msgstr "Der er ikke defineret nogen brugere."
+
+#~ msgid "No matching users found."
+#~ msgstr "Der er ikke fundet matchende brugere."
+
+#~ msgid "Feeds require authentication."
+#~ msgstr "Feeds kræver godkendelse."
+
+#, fuzzy
+#~ msgid "Select articles"
+#~ msgstr "Vælg alle artikler"
+
+#~ msgid "Feed or site URL"
+#~ msgstr "Webadresse til feed eller webside"
+
+#, fuzzy
+#~ msgid "Search %s..."
+#~ msgstr "Søg ..."
+
+#~ msgid "unknown type"
+#~ msgstr "ukendt type"
+
+#, fuzzy
+#~ msgid "Global settings"
+#~ msgstr "Inkluder indstillinger"
+
+#, fuzzy
+#~ msgid "Forward selected article(s) by email."
+#~ msgstr "Videresend artikel via e-mail"
+
+#~ msgid "Help"
+#~ msgstr "Hjælp"
+
+#, fuzzy
+#~ msgid "Please select only one filter."
+#~ msgstr "Fjern valgte filtre?"
+
+#~ msgid "Create new account"
+#~ msgstr "Opret ny konto"
+
+#~ msgid "Desired login:"
+#~ msgstr "Ønsket logon:"
+
+#~ msgid "Check availability"
+#~ msgstr "Tjek tilgængelighed"
+
+#~ msgid "Submit registration"
+#~ msgstr "Indsend registrering"
+
+#~ msgid "Account created successfully."
+#~ msgstr "Konto blev oprettet med succes."
+
+#, fuzzy
+#~ msgid "Safe mode (no plugins)"
+#~ msgstr "Systemplugins"
+
+#~ msgid "Tag cloud"
+#~ msgstr "Tag Cloud"
+
+#~ msgid "Last update:"
+#~ msgstr "Sidste opdatering:"
+
+#, fuzzy
+#~ msgid "Open Preferences"
+#~ msgstr "Præferencer"
+
+#~ msgid "Selection toggle:"
+#~ msgstr "Valg af skift:"
+
+#~ msgid "Selection:"
+#~ msgstr "Valg:"
+
+#~ msgid "Move back"
+#~ msgstr "Gå tilbage"
+
+#~ msgid "Archive"
+#~ msgstr "Arkiv"
+
+#~ msgid "Feed:"
+#~ msgstr "Feed:"
+
+#~ msgid "Error explained"
+#~ msgstr "Fejl forklaret"
+
+#~ msgid "More Feeds"
+#~ msgstr "Flere feeds"
+
+#, fuzzy
+#~ msgid "Archive %d selected article in %s?"
+#~ msgid_plural "Archive %d selected articles in %s?"
+#~ msgstr[0] "Arkiverede artikler"
+#~ msgstr[1] "Arkiverede artikler"
+
+#, fuzzy
+#~ msgid "Move %d archived article back?"
+#~ msgid_plural "Move %d archived articles back?"
+#~ msgstr[0] "Arkiverede artikler"
+#~ msgstr[1] "Arkiverede artikler"
+
+#, fuzzy
+#~ msgid "No file was uploaded"
+#~ msgstr "Der er ikke indlæst nogen fil."
+
+#~ msgid "Keyboard Shortcuts"
+#~ msgstr "Tastaturgenveje"
+
+#, fuzzy
+#~ msgid "Don't cache files locally."
+#~ msgstr "Cache billeder lokalt"
+
+#~ msgid "Toggle embed original"
+#~ msgstr "Skift integreret original"
+
+#, fuzzy
+#~ msgid "Toggle night mode"
+#~ msgstr "Skift kombineret modus"
+
+#~ msgid "Import and export"
+#~ msgstr "Import og eksport"
+
+#~ msgid "Export my data"
+#~ msgstr "Eksporter mine data"
+
+#~ msgid "Import"
+#~ msgstr "Import"
+
+#~ msgid "Finished: "
+#~ msgstr "Færdig: "
+
+#, fuzzy
+#~ msgid "%d article processed, "
+#~ msgid_plural "%d articles processed, "
+#~ msgstr[0] "Rediger artikelnote"
+#~ msgstr[1] "Rediger artikelnote"
+
+#, fuzzy
+#~ msgid "%d feed created."
+#~ msgid_plural "%d feeds created."
+#~ msgstr[0] "Der er ikke valgt noget feed."
+#~ msgstr[1] "Der er ikke valgt noget feed."
+
+#~ msgid "Prepare data"
+#~ msgstr "Forbered data"
+
+#~ msgid "No file uploaded."
+#~ msgstr "Der er ikke indlæst nogen fil."
+
+#~ msgid "Export Data"
+#~ msgstr "Eksporter data"
+
+#~ msgid "Data Import"
+#~ msgstr "Dataimport"
+
+#, fuzzy
+#~ msgid "%d archived article"
+#~ msgid_plural "%d archived articles"
+#~ msgstr[0] "Arkiverede artikler"
+#~ msgstr[1] "Arkiverede artikler"
+
+#~ msgid "No feeds found."
+#~ msgstr "Der blev ikke fundet nogen feeds."
+
+#, fuzzy
+#~ msgid "Database update required"
+#~ msgstr "Opdatering af database"
+
+#~ msgid "[tt-rss] Password change notification"
+#~ msgstr "[tt-rss] meddelelse om adgangskodeændring"
+
+#~ msgid "Hide from Popular feeds"
+#~ msgstr "Skjul fra Populære feeds"
+
+#~ msgid "Plugin"
+#~ msgstr "Plugin"
+
+#~ msgid "Version"
+#~ msgstr "Version"
+
+#~ msgid "Author"
+#~ msgstr "Forfatter"
+
+#~ msgid "Popular feeds"
+#~ msgstr "Populære feeds"
+
+#~ msgid "Feed archive"
+#~ msgstr "Feed-arkiv"
+
+#~ msgid "limit:"
+#~ msgstr "grænse:"
+
+#, fuzzy
+#~ msgid "Toggle feedlist"
+#~ msgstr "Skjul feed-liste"
+
+#~ msgid "Help topic not found."
+#~ msgstr "Emne i hjælp ikke fundet."
+
+#~ msgid "Wiki: Filters"
+#~ msgstr "Wiki: Filtre"
+
+#~ msgid "Interface"
+#~ msgstr "Grænseflade"
+
+#~ msgid "Combined feed display"
+#~ msgstr "Visning af kombineret feed"
+
+#, fuzzy
+#~ msgid "Mark articles in e-mail digest as read"
+#~ msgstr "Inkluder i e-mail-digest"
+
+#~ msgid "Enable API access"
+#~ msgstr "Aktiver API-adgang"
+
+#, fuzzy
+#~ msgid "Hide feeds with no unread articles"
+#~ msgstr "Tøm ulæste artikler"
+
+#, fuzzy
+#~ msgid "Do not embed media in articles"
+#~ msgstr "Inkorporer ikke billeder"
+
+#~ msgid "Look for"
+#~ msgstr "Led efter"
+
+#~ msgid "Uses UTC timezone"
+#~ msgstr "Bruger UTC-tidszone"
+
+#, fuzzy
+#~ msgid "Customize CSS stylesheet to your liking"
+#~ msgstr "Tilpas designark"
+
+#~ msgid "Access level"
+#~ msgstr "Adgangsniveau"
+
+#~ msgid "Enter your password"
+#~ msgstr "Indtast din adgangskode"
+
+#, fuzzy
+#~ msgid "Enter the generated one time password"
+#~ msgstr "Forkert engangsadgangskode"
+
+#~ msgid "Not logged in"
+#~ msgstr "Ikke logget på"
+
+#~ msgid " - "
+#~ msgstr " - "
+
+#~ msgid "Originally from:"
+#~ msgstr "Oprindeligt fra:"
+
+#~ msgid "(edit note)"
+#~ msgstr "(rediger note)"
+
+#~ msgid "mark feed as read"
+#~ msgstr "marker feed som læst"
+
+#~ msgid "Trying to unshare..."
+#~ msgstr "Prøver at annullere deling ..."
+
+#~ msgid "Filename:"
+#~ msgstr "Filnavn:"
+
+#~ msgid "View as RSS feed"
+#~ msgstr "Vis som RSS-feed"
+
+#~ msgid "View as RSS"
+#~ msgstr "Vis som RSS"
+
+#~ msgid "Error Log"
+#~ msgstr "Fejllog"
+
+#~ msgid "No feeds are selected."
+#~ msgstr "Der er ikke valgt nogen feeds."
+
+#~ msgid "No articles are selected."
+#~ msgstr "Der er ikke valgt nogen artikler."
+
+#~ msgid "Rescore feed"
+#~ msgstr "Gendan feed"
+
+#~ msgid "Create label..."
+#~ msgstr "Opret etiket ..."
+
+#~ msgid "Create filter..."
+#~ msgstr "Opret filter ..."
+
+#~ msgid "Rescore articles in %s?"
+#~ msgstr "Ændr resultater af artikler i %s?"
+
+#, fuzzy
+#~ msgid "Can't create label: missing caption."
+#~ msgstr "Indtast mærketekst:"
+
+#~ msgid "Firefox integration"
+#~ msgstr "Firefox-integration"
+
+#~ msgid "Rescore articles"
+#~ msgstr "Nulstil artikler"
+
+#~ msgid "All done."
+#~ msgstr "Alt færdigt."
+
+#~ msgid "Manual purge"
+#~ msgstr "Manuel tømning"
+
+#~ msgid "Please enter category title:"
+#~ msgstr "Indtast kategorititel:"
+
+#, fuzzy
+#~ msgid "Please select only one feed."
+#~ msgstr "Rydder valgte feed ..."
+
+#~ msgid "Clearing selected feed..."
+#~ msgstr "Rydder valgte feed ..."
+
+#~ msgid "Purging selected feed..."
+#~ msgstr "Tømmer valgte feed ..."
+
+#~ msgid "Clearing feed..."
+#~ msgstr "Rydder feed ..."
+
+#, fuzzy
+#~ msgid "Rescore articles in selected feeds?"
+#~ msgstr "Ændr resultater af artikler i %s?"
+
+#~ msgid "Rescoring selected feeds..."
+#~ msgstr "Genopretter valgte feeds ..."
+
+#~ msgid "Rescoring feeds..."
+#~ msgstr "Genopretter feeds ..."
+
+#~ msgid "Unstar article"
+#~ msgstr "Fjern stjerne fra artikel"
+
+#~ msgid "Star article"
+#~ msgstr "Sæt stjerne på artikel"
+
+#~ msgid "Unpublish article"
+#~ msgstr "Annuller udgivelse af artikel"
+
+#~ msgid "Publish article"
+#~ msgstr "Udgiv artikel"
+
+#~ msgid "Resubscribe to push updates"
+#~ msgstr "Forny abonnement på push-opdateringer"
+
+#~ msgid "Linked"
+#~ msgstr "Tilknyttet"
+
+#~ msgid "Instance"
+#~ msgstr "Instans"
+
+#~ msgid "Instance URL"
+#~ msgstr "Webadresse til instans"
+
+#~ msgid "Access key:"
+#~ msgstr "Adgangsnøgle:"
+
+#~ msgid "Access key"
+#~ msgstr "Adgangsnøgle"
+
+#~ msgid "Generate new key"
+#~ msgstr "Generer ny nøgle"
+
+#~ msgid "Last connected"
+#~ msgstr "Sidst forbundet"
+
+#~ msgid "Status"
+#~ msgstr "Status"
+
+#~ msgid "Stored feeds"
+#~ msgstr "Gemte feeds"
+
+#~ msgid "Create link"
+#~ msgstr "Opret link"
+
+#~ msgid "Subscription reset."
+#~ msgstr "Abonnement nulstillet."
+
+#~ msgid "Link Instance"
+#~ msgstr "Tilknyt forekomst"
+
+#~ msgid "Edit Instance"
+#~ msgstr "Rediger forekomst"
+
+#~ msgid "Remove selected instances?"
+#~ msgstr "Fjerne valgte forekomster?"
+
+#~ msgid "Removing selected instances..."
+#~ msgstr "Fjerner valgte forekomster ..."
+
+#~ msgid "No instances are selected."
+#~ msgstr "Der er ikke valgt nogen forekomster."
+
+#, fuzzy
+#~ msgid "Please select only one instance."
+#~ msgstr "Fjerne valgte forekomster?"
+
+#~ msgid "More..."
+#~ msgstr "Mere ..."
+
+#~ msgid "Dismiss selected"
+#~ msgstr "Afvis valgte"
+
+#~ msgid "Dismiss read"
+#~ msgstr "Afvis læste"
+
+#~ msgid "Details"
+#~ msgstr "Nærmere oplysninger"
+
+#~ msgid "Import my Starred items"
+#~ msgstr "Importer mine markerede elementer"
+
+#, fuzzy
+#~ msgid "Statistics"
+#~ msgstr "Status"
+
+#, fuzzy
+#~ msgid "Last matched articles"
+#~ msgstr "Markerede artikler"
+
+#, fuzzy
+#~ msgid "Clear database"
+#~ msgstr "Ryd data"
+
+#~ msgid "Google Reader Import"
+#~ msgstr "Import af Google Reader"
+
+#, fuzzy
+#~ msgid "Clear classifier database?"
+#~ msgstr "Ryd feed-data"
+
+#~ msgid "with parameters:"
+#~ msgstr "med parametre:"
+
+#~ msgid "Select by tags..."
+#~ msgstr "Vælg efter mærker ..."
+
+#~ msgid "Limit search to:"
+#~ msgstr "Begræns søgning til:"
+
+#, fuzzy
+#~ msgid "Old password cannot be blank."
+#~ msgstr "Gammel adgangskode er forkert."
+
+#~ msgid "Match:"
+#~ msgstr "Match:"
+
+#~ msgid "Any"
+#~ msgstr "Nogen"
+
+#~ msgid "All tags."
+#~ msgstr "Alle tags."
+
+#~ msgid "Which Tags?"
+#~ msgstr "Hvilke tags?"
+
+#~ msgid "Display entries"
+#~ msgstr "Vis elementer"
+
+#, fuzzy
+#~ msgid "Select item(s) by tags"
+#~ msgstr "Vælg efter mærker ..."
+
+#~ msgid "Unread First"
+#~ msgstr "Ulæst først"
+
+#~ msgid "Unknown option: %s"
+#~ msgstr "Ukendt indstilling: %s"
+
+#, fuzzy
+#~ msgid "New version of Tiny Tiny RSS is available (%s)."
+#~ msgstr "Ny version til rådighed!"
+
+#~ msgid "See the release notes"
+#~ msgstr "Læs produktbemærkninger"
+
+#~ msgid "Download"
+#~ msgstr "Download"
+
+#~ msgid "Update Tiny Tiny RSS"
+#~ msgstr "Opdater Tiny Tiny RSS"
+
+#~ msgid "Force update"
+#~ msgstr "Tving opdatering"
+
+#~ msgid "Start update"
+#~ msgstr "Star opdatering"
+
+#~ msgid "From:"
+#~ msgstr "Fra:"
+
+#~ msgid "Select:"
+#~ msgstr "Vælg:"

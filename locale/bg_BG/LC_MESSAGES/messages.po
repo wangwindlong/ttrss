@@ -1,0 +1,4277 @@
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR Neter <neter@moyat.net>, 2015.
+#
+# Neter <neter@moyat.net>, 2015.
+msgid ""
+msgstr ""
+"Project-Id-Version: tt-rss git\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-06-18 13:34+0300\n"
+"PO-Revision-Date: 2015-03-09 17:43+0200\n"
+"Last-Translator: Neter <neter@moyat.net>\n"
+"Language-Team: Bulgarian <>\n"
+"Language: bg_BG\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: backend.php:60
+msgid "Use default"
+msgstr "По подразбиране"
+
+#: backend.php:61
+msgid "Never purge"
+msgstr "Без изтриване"
+
+#: backend.php:62
+msgid "1 week old"
+msgstr "По-стари от 1 седмица"
+
+#: backend.php:63
+msgid "2 weeks old"
+msgstr "По-стари от 2 седмици"
+
+#: backend.php:64
+msgid "1 month old"
+msgstr "По-стари от 1 месец"
+
+#: backend.php:65
+msgid "2 months old"
+msgstr "По-стари от 2 месеца"
+
+#: backend.php:66
+msgid "3 months old"
+msgstr "По-стари от 3 месеца"
+
+#: backend.php:69
+msgid "Default interval"
+msgstr "Интервал по подразбиране"
+
+#: backend.php:70 backend.php:80
+msgid "Disable updates"
+msgstr "Забрана на обновяванията"
+
+#: backend.php:71 backend.php:81
+#, fuzzy
+msgid "15 minutes"
+msgstr "На всеки 15 минути"
+
+#: backend.php:72 backend.php:82
+#, fuzzy
+msgid "30 minutes"
+msgstr "На всеки 30 минути"
+
+#: backend.php:73 backend.php:83
+msgid "Hourly"
+msgstr "Ежечасно"
+
+#: backend.php:74 backend.php:84
+#, fuzzy
+msgid "4 hours"
+msgstr "На всеки 4 часа"
+
+#: backend.php:75 backend.php:85
+#, fuzzy
+msgid "12 hours"
+msgstr "На всеки 12 часа"
+
+#: backend.php:76 backend.php:86
+msgid "Daily"
+msgstr "Ежедневно"
+
+#: backend.php:77 backend.php:87
+msgid "Weekly"
+msgstr "Ежеседмично"
+
+#: backend.php:90 classes/pref/system.php:124
+msgid "User"
+msgstr "Потребител"
+
+#: backend.php:91
+msgid "Power User"
+msgstr "Привилегирован потребител"
+
+#: backend.php:92
+msgid "Administrator"
+msgstr "Администратор"
+
+#: index.php:134 index.php:148 index.php:272 prefs.php:119
+#: classes/pref/prefs.php:877 classes/pref/prefs.php:927
+#: classes/pref/system.php:219 js/Feeds.js:475 js/PrefFeedTree.js:165
+#: js/PrefFeedTree.js:172 js/PrefFeedTree.js:296 js/PrefFeedTree.js:373
+#: js/CommonDialogs.js:289 js/CommonDialogs.js:446 js/CommonDialogs.js:598
+#: js/PrefHelpers.js:27 js/PrefHelpers.js:39 js/PrefHelpers.js:62
+#: js/PrefHelpers.js:115 js/PrefHelpers.js:243 js/PrefHelpers.js:294
+#: js/PrefHelpers.js:438 js/PrefHelpers.js:449 js/Headlines.js:354
+#: js/Headlines.js:539 js/PrefFilterTree.js:100 js/Article.js:290
+#: js/Article.js:352 js/PrefUsers.js:112 js/CommonFilters.js:277
+#: js/CommonFilters.js:405 plugins/af_psql_trgm/init.js:7
+#: plugins/note/note.js:28 plugins/af_readability/init.js:19
+#: plugins/share/share.js:56 js/CommonFilters.js:181
+msgid "Loading, please wait..."
+msgstr "Зареждане. Моля, изчакайте..."
+
+#: index.php:163 prefs.php:128 js/App.js:460
+msgid "Communication problem with server."
+msgstr "Комуникационен проблем със сървъра."
+
+#: index.php:166 prefs.php:130
+msgid "Recent entries found in event log."
+msgstr ""
+
+#: index.php:169
+msgid "Updates are available from Git."
+msgstr "Налични са обновления от Git."
+
+#: index.php:184
+msgid "Show articles"
+msgstr "Показване на статии"
+
+#: index.php:187
+msgid "Adaptive"
+msgstr "Адаптивно"
+
+#: index.php:188
+msgid "All Articles"
+msgstr "Всички статии"
+
+#: index.php:189 classes/rpc.php:623
+msgid "Starred"
+msgstr "Със звезда"
+
+#: index.php:190 classes/rpc.php:624
+msgid "Published"
+msgstr "Публикувани"
+
+#: index.php:191
+msgid "Unread"
+msgstr "Нечетени"
+
+#: index.php:192
+msgid "With Note"
+msgstr "С бележка"
+
+#: index.php:195
+msgid "Sort articles"
+msgstr "Подреждане на статии"
+
+#: index.php:199
+msgid "Default"
+msgstr "По подразбиране"
+
+#: index.php:200
+msgid "Newest first"
+msgstr "Новите отгоре"
+
+#: index.php:201
+msgid "Oldest first"
+msgstr "Старите отгоре"
+
+#: index.php:202
+msgid "Title"
+msgstr "По заглавие"
+
+#: index.php:214 index.php:248 classes/rpc.php:610 js/FeedTree.js:92
+#: js/FeedTree.js:122
+msgid "Mark as read"
+msgstr "Прочетени"
+
+#: index.php:217
+msgid "Older than one day"
+msgstr "По-старо от 1 ден"
+
+#: index.php:220
+msgid "Older than one week"
+msgstr "По-старо от 1 седмица"
+
+#: index.php:223
+msgid "Older than two weeks"
+msgstr "По-старо от 2 седмици"
+
+#: index.php:238
+msgid "Actions..."
+msgstr "Действия..."
+
+#: index.php:241
+msgid "Preferences..."
+msgstr "Предпочитания..."
+
+#: index.php:242
+msgid "Search..."
+msgstr "Търсене..."
+
+#: index.php:243
+msgid "Feed actions:"
+msgstr "Действия с хранилки:"
+
+#: index.php:244 plugins/bookmarklets/init.php:38
+#: plugins/bookmarklets/init.php:72
+msgid "Subscribe to feed..."
+msgstr "Абониране за хранилка..."
+
+#: index.php:245
+msgid "Edit this feed..."
+msgstr "Редактиране на тази хранилка..."
+
+#: index.php:246 classes/pref/feeds.php:925 js/PrefFeedTree.js:99
+#: js/CommonDialogs.js:585
+msgid "Unsubscribe"
+msgstr "Отписване"
+
+#: index.php:247
+msgid "All feeds:"
+msgstr "Всички хранилки:"
+
+#: index.php:249
+msgid "(Un)hide read feeds"
+msgstr "Показване/скриване на прочетените хранилки"
+
+#: index.php:250
+msgid "Other actions:"
+msgstr "Други действия:"
+
+#: index.php:251 classes/rpc.php:596
+msgid "Toggle widescreen mode"
+msgstr "Превключване на широкоекранен режим"
+
+#: index.php:252
+msgid "Keyboard shortcuts help"
+msgstr "Помощ за клавишни препратки"
+
+#: index.php:261
+msgid "Logout"
+msgstr "Изход"
+
+#: prefs.php:20 prefs.php:139 classes/rpc.php:626 classes/pref/prefs.php:929
+msgid "Preferences"
+msgstr "Предпочитания"
+
+#: prefs.php:132
+msgid "Exit preferences"
+msgstr "Изход от предпочитания"
+
+#: prefs.php:142 classes/pref/prefs.php:38 classes/pref/feeds.php:127
+#: classes/pref/feeds.php:914
+msgid "Feeds"
+msgstr "Хранилки"
+
+#: prefs.php:146 classes/pref/filters.php:228
+msgid "Filters"
+msgstr "Филтри"
+
+#: prefs.php:150 classes/pref/labels.php:23 classes/feeds.php:1254
+msgid "Labels"
+msgstr "Етикети"
+
+#: prefs.php:155
+msgid "Users"
+msgstr "Потребители"
+
+#: prefs.php:158
+msgid "System"
+msgstr "Система"
+
+#: classes/rpc.php:565
+msgid "Navigation"
+msgstr "Навигация"
+
+#: classes/rpc.php:566
+msgid "Open next feed"
+msgstr "Отваряне на следваща хранилка"
+
+#: classes/rpc.php:567
+#, fuzzy
+#| msgid "Open next feed"
+msgid "Open next unread feed"
+msgstr "Отваряне на следваща хранилка"
+
+#: classes/rpc.php:568
+msgid "Open previous feed"
+msgstr "Отваряне на предходна хранилка"
+
+#: classes/rpc.php:569
+#, fuzzy
+#| msgid "Open previous feed"
+msgid "Open previous unread feed"
+msgstr "Отваряне на предходна хранилка"
+
+#: classes/rpc.php:570
+#, fuzzy
+msgid "Open next article (in combined mode, scroll down)"
+msgstr "Отваряне на следваща статия (без скролиране на дълги статии)"
+
+#: classes/rpc.php:571
+#, fuzzy
+msgid "Open previous article (in combined mode, scroll up)"
+msgstr "Отваряне на предходна статия (без скролиране на дълги статии)"
+
+#: classes/rpc.php:572
+#, fuzzy
+msgid "Scroll headlines by one page down"
+msgstr "Избиране на статии в група"
+
+#: classes/rpc.php:573
+#, fuzzy
+msgid "Scroll headlines by one page up"
+msgstr "Избиране на статии в група"
+
+#: classes/rpc.php:574
+msgid "Open next article"
+msgstr "Отваряне на следваща статия"
+
+#: classes/rpc.php:575
+msgid "Open previous article"
+msgstr "Отваряне на предходна статия"
+
+#: classes/rpc.php:576
+#, fuzzy
+msgid "Move to next article (don't expand)"
+msgstr ""
+"Преместване към следваща статия (без разгръщане или отбелязване като "
+"прочетено)"
+
+#: classes/rpc.php:577
+#, fuzzy
+msgid "Move to previous article (don't expand)"
+msgstr ""
+"Преместване към предходна статия (без разгръщане или отбелязване като "
+"прочетено)"
+
+#: classes/rpc.php:578
+msgid "Show search dialog"
+msgstr "Показване на диалога за търсене"
+
+#: classes/rpc.php:579
+#, fuzzy
+msgid "Cancel active search"
+msgstr "Отмяна на търсенето"
+
+#: classes/rpc.php:580
+msgid "Article"
+msgstr "Статия"
+
+#: classes/rpc.php:581 js/Headlines.js:1388 js/Headlines.js:658
+msgid "Toggle starred"
+msgstr "Превключване със/без звезда"
+
+#: classes/rpc.php:582 js/Headlines.js:1400
+msgid "Toggle published"
+msgstr "Превключване (не)публикувано"
+
+#: classes/rpc.php:583 js/Headlines.js:1375
+msgid "Toggle unread"
+msgstr "Превключване четено/нечетено"
+
+#: classes/rpc.php:584
+msgid "Edit tags"
+msgstr "Редактиране на тагове"
+
+#: classes/rpc.php:585
+msgid "Open in new window"
+msgstr "Отваряне в нов прозорец"
+
+#: classes/rpc.php:586 js/Headlines.js:1421
+msgid "Mark below as read"
+msgstr "Отбелязване на по-долните като прочетени"
+
+#: classes/rpc.php:587 js/Headlines.js:1414
+msgid "Mark above as read"
+msgstr "Отбелязване на по-горните като прочетени"
+
+#: classes/rpc.php:588
+msgid "Scroll down"
+msgstr "Скролиране надолу"
+
+#: classes/rpc.php:589
+msgid "Scroll up"
+msgstr "Скролиране нагоре"
+
+#: classes/rpc.php:590
+#, fuzzy
+msgid "Scroll down page"
+msgstr "Скролиране надолу"
+
+#: classes/rpc.php:591
+#, fuzzy
+msgid "Scroll up page"
+msgstr "Скролиране нагоре"
+
+#: classes/rpc.php:592
+msgid "Select article under cursor"
+msgstr "Избиране на статията под курсора"
+
+#: classes/rpc.php:593
+msgid "Email article"
+msgstr "Изпращане на статия по e-mail"
+
+#: classes/rpc.php:594
+msgid "Close/collapse article"
+msgstr "Затваряне/свиване на статия"
+
+#: classes/rpc.php:595
+msgid "Toggle article expansion (combined mode)"
+msgstr "Превключване разгръщането на статия (комбиниран режим)"
+
+#: classes/rpc.php:597
+msgid "Toggle full article text via Readability"
+msgstr ""
+
+#: classes/rpc.php:598
+msgid "Article selection"
+msgstr "Избор на статия"
+
+#: classes/rpc.php:599
+msgid "Select all articles"
+msgstr "Избор на всички статии"
+
+#: classes/rpc.php:600
+msgid "Select unread"
+msgstr "Избор на нечетени"
+
+#: classes/rpc.php:601
+msgid "Select starred"
+msgstr "Избор на тези със звезда"
+
+#: classes/rpc.php:602
+msgid "Select published"
+msgstr "Избор на публикувани"
+
+#: classes/rpc.php:603
+msgid "Invert selection"
+msgstr "Обръщане на избора"
+
+#: classes/rpc.php:604
+msgid "Deselect everything"
+msgstr "Изчистване на избора"
+
+#: classes/rpc.php:605
+msgid "Feed"
+msgstr "Хранилка"
+
+#: classes/rpc.php:606
+msgid "Refresh current feed"
+msgstr "Опресняване на текущата хранилка"
+
+#: classes/rpc.php:607
+msgid "Un/hide read feeds"
+msgstr "Показване/скриване на прочетените хранилки"
+
+#: classes/rpc.php:608 classes/pref/feeds.php:917 js/CommonDialogs.js:19
+msgid "Subscribe to feed"
+msgstr "Абониране за хранилка"
+
+#: classes/rpc.php:609 js/PrefFeedTree.js:93 js/CommonDialogs.js:336
+#: js/Headlines.js:1544 js/FeedTree.js:99
+msgid "Edit feed"
+msgstr "Редактиране на хранилка"
+
+#: classes/rpc.php:611
+msgid "Reverse headlines"
+msgstr "Обръщане на подредбата"
+
+#: classes/rpc.php:612
+msgid "Toggle headline grouping"
+msgstr ""
+
+#: classes/rpc.php:613
+#, fuzzy
+msgid "Toggle grid view"
+msgstr "Превключване със/без звезда"
+
+#: classes/rpc.php:614
+msgid "Debug feed update"
+msgstr "Дебъгване обновяването на хранилка"
+
+#: classes/rpc.php:615
+#, fuzzy
+msgid "Debug viewfeed()"
+msgstr "Дебъгване обновяването на хранилка"
+
+#: classes/rpc.php:616 js/FeedTree.js:155
+msgid "Mark all feeds as read"
+msgstr "Отбелязване на всички хранилки като прочетени"
+
+#: classes/rpc.php:617
+msgid "Un/collapse current category"
+msgstr "Свиване/разгъване на текущата категория"
+
+#: classes/rpc.php:618
+msgid "Toggle auto expand in combined mode"
+msgstr "Превключване авто разтягане в комбиниран режим"
+
+#: classes/rpc.php:619
+msgid "Toggle combined mode"
+msgstr "Превключване на комбиниран режим"
+
+#: classes/rpc.php:620
+msgid "Go to"
+msgstr "Отиди до"
+
+#: classes/rpc.php:621 classes/feeds.php:1120
+msgid "All articles"
+msgstr "Всички статии"
+
+#: classes/rpc.php:622
+msgid "Fresh"
+msgstr "Опресняване"
+
+#: classes/rpc.php:625 classes/feeds.php:1124
+msgid "Recently read"
+msgstr "Наскоро четени"
+
+#: classes/rpc.php:627
+msgid "Other"
+msgstr "Други"
+
+#: classes/rpc.php:628
+msgid "Create label"
+msgstr "Създаване на етикет"
+
+#: classes/rpc.php:629 classes/pref/filters.php:659
+msgid "Create filter"
+msgstr "Създаване на филтър"
+
+#: classes/rpc.php:630
+msgid "Un/collapse sidebar"
+msgstr "Прибиране/изваждане на страничния панел"
+
+#: classes/rpc.php:631
+msgid "Show help dialog"
+msgstr "Показване на помощен диалог"
+
+#: classes/rpc.php:766
+msgid "Shift"
+msgstr "Shift"
+
+#: classes/rpc.php:769
+msgid "Ctrl"
+msgstr "Ctrl"
+
+#: classes/rpc.php:794 plugins/af_psql_trgm/init.php:112
+#: plugins/share/init.php:274 js/PrefHelpers.js:491 js/Feeds.js:272
+#: js/CommonDialogs.js:273 js/PrefHelpers.js:66 js/PrefHelpers.js:814
+#: js/CommonFilters.js:101
+msgid "Close this window"
+msgstr "Затваряне на този прозорец"
+
+#: classes/handler/public.php:277 classes/pref/prefs.php:1424
+#: include/login_form.php:132
+msgid "Default profile"
+msgstr "Профил по подразбиране"
+
+#: classes/handler/public.php:389
+msgid "Incorrect username or password"
+msgstr "Грешен потребител или парола"
+
+#: classes/handler/public.php:441
+msgid "Password recovery"
+msgstr "Възстановяване на парола"
+
+#: classes/handler/public.php:478 classes/handler/public.php:508
+#: classes/handler/public.php:568 classes/handler/public.php:685
+#: classes/handler/public.php:692 classes/handler/public.php:715
+#: plugins/bookmarklets/init.php:91 plugins/bookmarklets/init.php:136
+#: plugins/bookmarklets/init.php:154 plugins/bookmarklets/init.php:159
+msgid "Return to Tiny Tiny RSS"
+msgstr "Назад към Tiny Tiny RSS"
+
+#: classes/handler/public.php:481
+#, fuzzy
+msgid ""
+"You will need to provide valid account name and email. Password reset link "
+"will be sent to your email address."
+msgstr ""
+"Нужно е да укажете валидни име на акаунт и e-mail. Връзка за смяна на парола "
+"ще бъде изпратена на Вашия e-mail адрес."
+
+#: classes/handler/public.php:488 classes/pref/feeds.php:641
+#: plugins/bookmarklets/init.php:302 include/login_form.php:103
+#: js/CommonDialogs.js:543 js/PrefUsers.js:64
+msgid "Login:"
+msgstr "Потребител:"
+
+#: classes/handler/public.php:493
+msgid "Email:"
+msgstr "E-mail:"
+
+#: classes/handler/public.php:501
+#, fuzzy, php-format
+msgid "How much is %d + %d:"
+msgstr "Колко е две плюс две:"
+
+#: classes/handler/public.php:507 classes/pref/users.php:240
+msgid "Reset password"
+msgstr "Смяна на парола"
+
+#: classes/handler/public.php:518
+msgid "Some of the required form parameters are missing or incorrect."
+msgstr "Някои от задължителните параметри на формата липсват или са грешни."
+
+#: classes/handler/public.php:522 classes/handler/public.php:574
+msgid "Go back"
+msgstr "Назад"
+
+#: classes/handler/public.php:560
+msgid "[tt-rss] Password reset request"
+msgstr "[tt-rss] Заявка за смяна на парола"
+
+#: classes/handler/public.php:570
+msgid "Sorry, login and email combination not found."
+msgstr "Съжалявам, комбинацията от потребител и e-mail не е намерена."
+
+#: classes/handler/public.php:590
+msgid "Your access level is insufficient to run this script."
+msgstr "Вашето ниво на достъп е недостатъчно за изпълнението на този скрипт."
+
+#: classes/handler/public.php:652
+msgid "Database Updater"
+msgstr "Обновяване на базата данни"
+
+#: classes/handler/public.php:665
+#, fuzzy, php-format
+msgid "Performing updates to version %d"
+msgstr "Извършване на обновявания"
+
+#: classes/handler/public.php:680 classes/handler/public.php:707
+#: js/PrefHelpers.js:411 js/PrefHelpers.js:757
+msgid "Update"
+msgstr "Обновяване"
+
+#: classes/handler/public.php:700
+#, fuzzy, php-format
+msgid "Database schema needs update to the latest version (%d to %d)."
+msgstr "Tiny Tiny RSS скрипт за обновяване на данните."
+
+#: classes/pref/labels.php:168
+#, php-format
+msgid "Created label <b>%s</b>"
+msgstr "Създаден етикет <b>%s</b>"
+
+#: classes/pref/labels.php:180 classes/pref/prefs.php:836
+#: classes/pref/prefs.php:1463 classes/pref/filters.php:649
+#: classes/pref/users.php:222 classes/pref/feeds.php:904
+#: js/CommonFilters.js:440 js/CommonFilters.js:473 js/CommonDialogs.js:236
+msgid "Select"
+msgstr "Избиране"
+
+#: classes/pref/prefs.php:30 classes/pref/feeds.php:601
+msgid "General"
+msgstr "Основни"
+
+#: classes/pref/prefs.php:51
+#, fuzzy
+msgid "Articles"
+msgstr "Статия"
+
+#: classes/pref/prefs.php:65
+msgid "Digest"
+msgstr "Справка"
+
+#: classes/pref/prefs.php:70
+msgid "Advanced"
+msgstr "Разширени"
+
+#: classes/pref/prefs.php:81
+msgid "Debugging"
+msgstr ""
+
+#: classes/pref/prefs.php:87
+msgid "Never apply these tags automatically (comma-separated list)."
+msgstr ""
+
+#: classes/pref/prefs.php:91
+msgid "Blacklisted tags"
+msgstr "Черен списък на тагове"
+
+#: classes/pref/prefs.php:92
+#, fuzzy
+msgid "Default language"
+msgstr "Профил по подразбиране"
+
+#: classes/pref/prefs.php:92
+msgid "Used for full-text search"
+msgstr ""
+
+#: classes/pref/prefs.php:93
+#, fuzzy
+msgid "Mark read on scroll"
+msgstr "Отбелязване на всички статии като прочетени?"
+
+#: classes/pref/prefs.php:93
+#, fuzzy
+msgid "Mark articles as read as you scroll past them"
+msgstr "Отбелязване на всички статии като прочетени?"
+
+#: classes/pref/prefs.php:94
+#, fuzzy
+msgid "Always expand articles"
+msgstr "Клик за разпъване на статия"
+
+#: classes/pref/prefs.php:95
+#, fuzzy
+msgid "Combined mode"
+msgstr "Превключване на комбиниран режим"
+
+#: classes/pref/prefs.php:95
+#, fuzzy
+msgid "Show flat list of articles instead of separate panels"
+msgstr ""
+"Показване на разпънат списък от статии вместо отделни изгледи за заглавията "
+"и съдържанието на статиите"
+
+#: classes/pref/prefs.php:96
+#, fuzzy
+msgid "Confirm marking feeds as read"
+msgstr "Потвърждаване отбелязването на хранилки като прочетени"
+
+#: classes/pref/prefs.php:97
+#, fuzzy
+msgid "Default update interval"
+msgstr "Интервал по подразбиране за обновяване на хранилките"
+
+#: classes/pref/prefs.php:98
+#, fuzzy
+msgid "Mark sent articles as read"
+msgstr "Отбелязване на всички статии като прочетени?"
+
+#: classes/pref/prefs.php:99
+#, fuzzy
+msgid "Enable digest"
+msgstr "Активиране на e-mail справка"
+
+#: classes/pref/prefs.php:99
+#, fuzzy
+msgid "Send daily digest of new (and unread) headlines to your e-mail address"
+msgstr ""
+"Тази опция активира изпращането на ежедневна справка с нови (и нечетени) "
+"заглавия на Вашия зададен e-mail адрес"
+
+#: classes/pref/prefs.php:100
+#, fuzzy
+msgid "Try to send around this time"
+msgstr "Опит за изпращане на справка около определен час"
+
+#: classes/pref/prefs.php:100
+#, fuzzy
+msgid "Time in UTC"
+msgstr "Часова зона"
+
+#: classes/pref/prefs.php:101
+#, fuzzy
+msgid "Enable API"
+msgstr "Активиране на еднократна парола"
+
+#: classes/pref/prefs.php:101
+#, fuzzy
+msgid "Allows accessing this account through the API"
+msgstr "Позволяване външни клиенти да достъпват този акаунт през API"
+
+#: classes/pref/prefs.php:102
+#, fuzzy
+msgid "Enable categories"
+msgstr "Активиране на категории за хранилки"
+
+#: classes/pref/prefs.php:103
+#, fuzzy
+msgid "Maximum age of fresh articles"
+msgstr "Максимална възраст на пресните статии (в часове)"
+
+#: classes/pref/prefs.php:103
+#, fuzzy
+msgid "hours"
+msgstr "На всеки 4 часа"
+
+#: classes/pref/prefs.php:104
+#, fuzzy
+msgid "Hide read feeds"
+msgstr "Показване/скриване на прочетените хранилки"
+
+#: classes/pref/prefs.php:105
+msgid "Always show special feeds"
+msgstr ""
+
+#: classes/pref/prefs.php:105
+#, fuzzy
+msgid "While hiding read feeds"
+msgstr "Показване на специалните хранилки при скрити прочетени хранилки"
+
+#: classes/pref/prefs.php:106
+msgid "Long date format"
+msgstr "Дълъг формат на дата"
+
+#: classes/pref/prefs.php:106
+#, fuzzy
+msgid ""
+"Syntax is identical to PHP <a href='http://php.net/manual/function.date."
+"php'>date()</a> function."
+msgstr ""
+"Синтаксисът е същият като на PHP функцията <a href='http://php.net/manual/"
+"function.date.php'>date()</a>."
+
+#: classes/pref/prefs.php:107
+#, fuzzy
+msgid "Automatically show next feed"
+msgstr "При изчитане да се показва следващата хранилка"
+
+#: classes/pref/prefs.php:107
+#, fuzzy
+msgid "After marking one as read"
+msgstr "Потвърждаване отбелязването на хранилки като прочетени"
+
+#: classes/pref/prefs.php:108
+#, fuzzy
+msgid "Purge articles older than"
+msgstr "Изтриване на нечетени статии"
+
+#: classes/pref/prefs.php:108
+msgid "<strong>days</strong> (0 disables)"
+msgstr ""
+
+#: classes/pref/prefs.php:109
+msgid "Purge unread articles"
+msgstr "Изтриване на нечетени статии"
+
+#: classes/pref/prefs.php:110
+msgid "Short date format"
+msgstr "Къс формат на дата"
+
+#: classes/pref/prefs.php:111
+#, fuzzy
+msgid "Show content preview in headlines"
+msgstr "Показване преглед на съдържанието в списъка със заглавия"
+
+#: classes/pref/prefs.php:112
+#, fuzzy
+msgid "SSL client certificate"
+msgstr "Вход с SSL сертификат"
+
+#: classes/pref/prefs.php:113 classes/pref/feeds.php:588
+#: js/CommonDialogs.js:462
+#, fuzzy
+msgid "Do not embed media"
+msgstr "Да не се влагат изображения"
+
+#: classes/pref/prefs.php:114
+msgid "Time zone"
+msgstr "Часова зона"
+
+#: classes/pref/prefs.php:115
+msgid "Group by feed"
+msgstr ""
+
+#: classes/pref/prefs.php:115
+msgid "Group multiple-feed output by originating feed"
+msgstr ""
+
+#: classes/pref/prefs.php:116
+msgid "Language"
+msgstr "Език"
+
+#: classes/pref/prefs.php:117
+msgid "Theme"
+msgstr "Тема"
+
+#: classes/pref/prefs.php:118
+msgid "Don't enforce DISTINCT headlines"
+msgstr ""
+
+#: classes/pref/prefs.php:118
+#, fuzzy
+msgid "May produce duplicate entries"
+msgstr "Позволяване на дублирани статии"
+
+#: classes/pref/prefs.php:119
+#, fuzzy
+msgid "Show article and feed IDs"
+msgstr "Показване на статии"
+
+#: classes/pref/prefs.php:119
+#, fuzzy
+msgid "In the headlines buffer"
+msgstr "Подредба на заглавията по дата на хранилка"
+
+#: classes/pref/prefs.php:120
+#, fuzzy
+#| msgid "Disable updates"
+msgid "Disable conditional counter updates"
+msgstr "Забрана на обновяванията"
+
+#: classes/pref/prefs.php:120
+msgid "May increase server load"
+msgstr ""
+
+#: classes/pref/prefs.php:121
+#, fuzzy
+msgid "Grid view"
+msgstr "Пресни статии"
+
+#: classes/pref/prefs.php:121
+msgid "On wider screens, if always expanded"
+msgstr ""
+
+#: classes/pref/prefs.php:222
+msgid "The configuration was saved."
+msgstr "Конфигурацията е запазена."
+
+#: classes/pref/prefs.php:264
+msgid "Your personal data has been saved."
+msgstr "Личните Ви данни са запазени."
+
+#: classes/pref/prefs.php:294
+#, fuzzy
+msgid "Full name:"
+msgstr "Пълно име"
+
+#: classes/pref/prefs.php:299 js/PrefUsers.js:98
+#, fuzzy
+msgid "E-mail:"
+msgstr "E-mail"
+
+#: classes/pref/prefs.php:307 classes/pref/feeds.php:670
+#: plugins/af_psql_trgm/init.php:193 plugins/note/init.php:51
+#: plugins/af_readability/init.php:91 plugins/nsfw/init.php:98
+#: plugins/af_redditimgur/init.php:101 js/CommonDialogs.js:586
+#: js/CommonFilters.js:236 js/CommonFilters.js:320 js/CommonFilters.js:520
+#: js/PrefLabelTree.js:170 js/Article.js:358 js/PrefUsers.js:119
+msgid "Save"
+msgstr "Запазване"
+
+#: classes/pref/prefs.php:358
+#, fuzzy
+msgid "Old password:"
+msgstr "Стара парола"
+
+#: classes/pref/prefs.php:363 js/PrefUsers.js:84
+#, fuzzy
+msgid "New password:"
+msgstr "Нова парола"
+
+#: classes/pref/prefs.php:368
+#, fuzzy
+msgid "Confirm password:"
+msgstr "Потвърждение на парола"
+
+#: classes/pref/prefs.php:376
+msgid "Change password"
+msgstr "Промяна на парола"
+
+#: classes/pref/prefs.php:383
+#, php-format
+msgid ""
+"Authentication module used for this session (<b>%s</b>) does not provide an "
+"ability to set passwords."
+msgstr ""
+
+#: classes/pref/prefs.php:400
+#, fuzzy
+msgid "Generate password"
+msgstr "Генериране на нов URL"
+
+#: classes/pref/prefs.php:406 classes/pref/feeds.php:938 js/PrefHelpers.js:227
+msgid "Remove selected"
+msgstr "Премахване на избраното"
+
+#: classes/pref/prefs.php:442 classes/pref/prefs.php:494
+#, fuzzy
+msgid "Your password:"
+msgstr "Потвърждение на парола"
+
+#: classes/pref/prefs.php:450
+msgid "Disable OTP"
+msgstr "Забрана на еднократни пароли"
+
+#: classes/pref/prefs.php:472
+msgid "OTP secret:"
+msgstr ""
+
+#: classes/pref/prefs.php:499
+msgid "Verification code:"
+msgstr ""
+
+#: classes/pref/prefs.php:507
+msgid "Enable OTP"
+msgstr "Активиране на еднократна парола"
+
+#: classes/pref/prefs.php:521
+msgid "Personal data"
+msgstr "Лични данни"
+
+#: classes/pref/prefs.php:524
+msgid "Password"
+msgstr "Парола"
+
+#: classes/pref/prefs.php:527
+#, fuzzy
+msgid "App passwords"
+msgstr "Стара парола"
+
+#: classes/pref/prefs.php:530
+#, fuzzy
+msgid "Authenticator (OTP)"
+msgstr "Автентикация"
+
+#: classes/pref/prefs.php:541
+msgid "Some preferences are only available in default profile."
+msgstr "Някои предпочитания са налични само в профила по подразбиране."
+
+#: classes/pref/prefs.php:630
+#, fuzzy
+msgid "default"
+msgstr "По подразбиране"
+
+#: classes/pref/prefs.php:638
+msgid "Customize"
+msgstr "Персонализиране"
+
+#: classes/pref/prefs.php:640
+#, fuzzy
+msgid "More themes..."
+msgstr "Още действия..."
+
+#: classes/pref/prefs.php:671
+#, fuzzy
+msgid "Preview"
+msgstr "Пресни статии"
+
+#: classes/pref/prefs.php:697
+msgid "Register"
+msgstr "Регистриране"
+
+#: classes/pref/prefs.php:701 classes/pref/system.php:101
+msgid "Clear"
+msgstr "Изчистване"
+
+#: classes/pref/prefs.php:705 classes/pref/prefs.php:871
+#: plugins/bookmarklets/init.php:364 js/CommonDialogs.js:641
+#, fuzzy
+msgid "More info..."
+msgstr "още инфо"
+
+#: classes/pref/prefs.php:713
+#, fuzzy, php-format
+msgid "Current server time: %s"
+msgstr "Текущо сървърно време: %s (UTC)"
+
+#: classes/pref/prefs.php:761
+msgid "Save configuration"
+msgstr "Запазване на конфигурацията"
+
+#: classes/pref/prefs.php:764
+#, fuzzy
+msgid "Save and exit"
+msgstr "Отбелязване на по-горните като прочетени"
+
+#: classes/pref/prefs.php:771 js/PrefHelpers.js:127
+msgid "Manage profiles"
+msgstr "Управление на профили"
+
+#: classes/pref/prefs.php:776
+msgid "Reset to defaults"
+msgstr "Връщане по подразбиране"
+
+#: classes/pref/prefs.php:831 classes/pref/filters.php:645
+#: classes/pref/users.php:217 classes/pref/feeds.php:900 js/Feeds.js:644
+#: js/Feeds.js:639
+msgid "Search"
+msgstr "Търсене"
+
+#: classes/pref/prefs.php:839 classes/pref/prefs.php:1466
+#: classes/pref/filters.php:652 classes/pref/users.php:225
+#: classes/pref/feeds.php:907 js/CommonFilters.js:444 js/CommonFilters.js:476
+#: js/PrefFeedTree.js:506 js/PrefHelpers.js:187 js/Headlines.js:652
+msgid "All"
+msgstr "Всички"
+
+#: classes/pref/prefs.php:841 classes/pref/prefs.php:1468
+#: classes/pref/filters.php:654 classes/pref/users.php:227
+#: classes/pref/feeds.php:909 js/CommonFilters.js:446 js/CommonFilters.js:478
+#: js/CommonDialogs.js:241
+msgid "None"
+msgstr "Нищо"
+
+#: classes/pref/prefs.php:869
+#, php-format
+msgid ""
+"The following plugins use per-feed content hooks. This may cause excessive "
+"data usage and origin server load resulting in a ban of your instance: <b>"
+"%s</b>"
+msgstr ""
+
+#: classes/pref/prefs.php:885 js/CommonFilters.js:234
+#, fuzzy
+msgid "More info"
+msgstr "още инфо"
+
+#: classes/pref/prefs.php:888
+#, fuzzy
+#| msgid "Enable selected plugins"
+msgid "Enable selected"
+msgstr "Активиране на избраните добавки"
+
+#: classes/pref/prefs.php:891
+msgid "Reload"
+msgstr ""
+
+#: classes/pref/prefs.php:898
+#, fuzzy
+#| msgid "Perform updates"
+msgid "Check for updates"
+msgstr "Извършване на обновявания"
+
+#: classes/pref/prefs.php:905
+#, fuzzy
+#| msgid "Mail plugin"
+msgid "Install plugin"
+msgstr "Добавка за поща"
+
+#: classes/pref/prefs.php:918
+msgid "Personal data / Authentication"
+msgstr "Лични данни / Автентикация"
+
+#: classes/pref/prefs.php:932 classes/pref/feeds.php:1067
+msgid "Plugins"
+msgstr "Добавки"
+
+#: classes/pref/prefs.php:965
+msgid "Incorrect one time password"
+msgstr "Грешна еднократна парола"
+
+#: classes/pref/prefs.php:968 classes/pref/prefs.php:1006
+msgid "Incorrect password"
+msgstr "Грешна парола"
+
+#: classes/pref/prefs.php:1021
+#, php-format
+msgid "v%.2f, by %s"
+msgstr ""
+
+#: classes/pref/prefs.php:1034
+#, php-format
+msgid "v%s, by %s"
+msgstr ""
+
+#: classes/pref/prefs.php:1477
+msgid "Description"
+msgstr "Описание"
+
+#: classes/pref/prefs.php:1478
+#, fuzzy
+msgid "Created"
+msgstr "Създаване"
+
+#: classes/pref/prefs.php:1479
+#, fuzzy
+msgid "Last used"
+msgstr "Последно обновяване:"
+
+#: classes/pref/prefs.php:1524
+#, php-format
+msgid ""
+"Generated password <strong>%s</strong> for %s. Please remember it for future "
+"reference."
+msgstr ""
+
+#: classes/pref/system.php:24
+msgid "Test message from tt-rss"
+msgstr ""
+
+#: classes/pref/system.php:82 js/PrefHelpers.js:615
+msgid "Refresh"
+msgstr "Опресняване"
+
+#: classes/pref/system.php:87
+msgid "&lt;&lt;"
+msgstr ""
+
+#: classes/pref/system.php:91
+#, php-format
+msgid "Page %d of %d"
+msgstr ""
+
+#: classes/pref/system.php:96
+msgid "&gt;&gt;"
+msgstr ""
+
+#: classes/pref/system.php:105
+msgid "Severity:"
+msgstr ""
+
+#: classes/pref/system.php:109
+#, fuzzy
+msgid "Errors"
+msgstr "Грешка"
+
+#: classes/pref/system.php:110
+msgid "Warnings"
+msgstr ""
+
+#: classes/pref/system.php:111
+#, fuzzy
+msgid "Everything"
+msgstr "Изчистване на избора"
+
+#: classes/pref/system.php:121
+msgid "Error"
+msgstr "Грешка"
+
+#: classes/pref/system.php:122
+msgid "Filename"
+msgstr "Име на файл"
+
+#: classes/pref/system.php:123
+msgid "Message"
+msgstr "Съобщение"
+
+#: classes/pref/system.php:125
+msgid "Date"
+msgstr "Дата"
+
+#: classes/pref/system.php:169
+#, fuzzy
+msgid "Event log"
+msgstr "Изчистване на журнала"
+
+#: classes/pref/system.php:175
+#, fuzzy
+#| msgid "Save configuration"
+msgid "Mail configuration"
+msgstr "Запазване на конфигурацията"
+
+#: classes/pref/system.php:202
+msgid "To:"
+msgstr "До:"
+
+#: classes/pref/system.php:204
+#, fuzzy
+msgid "Send test email"
+msgstr "Изпращане на e-mail"
+
+#: classes/pref/system.php:210
+#, fuzzy
+msgid "PHP Information"
+msgstr "Извършване на действие"
+
+#: classes/pref/filters.php:197 classes/pref/filters.php:208
+#: classes/pref/filters.php:426 classes/pref/filters.php:847
+msgid "All feeds"
+msgstr "Всички хранилки"
+
+#: classes/pref/filters.php:219 classes/pref/filters.php:446
+msgid "(inverse)"
+msgstr "(обратно)"
+
+#: classes/pref/filters.php:215 classes/pref/filters.php:445
+#, php-format
+msgid "%s on %s in %s %s"
+msgstr "%s на %s в %s %s"
+
+#: classes/pref/filters.php:661
+msgid "Combine"
+msgstr "Комбиниране"
+
+#: classes/pref/filters.php:663 classes/pref/feeds.php:921
+#: classes/pref/feeds.php:936
+msgid "Reset sort order"
+msgstr "Нулиране на подредбата"
+
+#: classes/pref/filters.php:665 classes/pref/users.php:236
+#: js/CommonDialogs.js:578 js/CommonFilters.js:518
+msgid "Remove"
+msgstr "Премахване"
+
+#: classes/pref/filters.php:720
+msgid "[No caption]"
+msgstr "[Без надпис]"
+
+#: classes/pref/filters.php:722
+#, php-format
+msgid "%s (%d rule)"
+msgid_plural "%s (%d rules)"
+msgstr[0] "%s (%d правило)"
+msgstr[1] "%s (%d правила)"
+
+#: classes/pref/filters.php:736
+#, fuzzy
+msgid "matches any rule"
+msgstr "Съвпадение с някое правило"
+
+#: classes/pref/filters.php:737
+#, fuzzy
+msgid "inverse"
+msgstr "(обратно)"
+
+#: classes/pref/filters.php:740
+#, php-format
+msgid "%s (+%d action)"
+msgid_plural "%s (+%d actions)"
+msgstr[0] "%s (+%d действие)"
+msgstr[1] "%s (+%d действия)"
+
+#: classes/pref/filters.php:900 classes/pref/feeds.php:247
+#: classes/digest.php:116 classes/opml.php:544 classes/feeds.php:1250
+#: include/controls.php:177
+msgid "Uncategorized"
+msgstr "Без категория"
+
+#: classes/pref/users.php:56
+msgid "Registered"
+msgstr "Регистриран"
+
+#: classes/pref/users.php:61
+msgid "Last logged in"
+msgstr "Последно влязъл"
+
+#: classes/pref/users.php:66
+msgid "Subscribed feeds"
+msgstr "Абонирани хранилки"
+
+#: classes/pref/users.php:71
+#, fuzzy
+msgid "Stored articles"
+msgstr "Статии със звезда"
+
+#: classes/pref/users.php:101 classes/userhelper.php:223
+msgid "User not found"
+msgstr "Потребителят не е намерен"
+
+#: classes/pref/users.php:171
+#, fuzzy, php-format
+msgid "Added user %s with password %s"
+msgstr "Добавен потребител <b>%s</b> с парола <b>%s</b>"
+
+#: classes/pref/users.php:174
+#, fuzzy, php-format
+msgid "Could not create user %s"
+msgstr "Не може да се създаде потребител <b>%s</b>"
+
+#: classes/pref/users.php:177
+#, fuzzy, php-format
+msgid "User %s already exists."
+msgstr "Потребителят <b>%s</b> вече съществува."
+
+#: classes/pref/users.php:232
+msgid "Create user"
+msgstr "Създаване на потребител"
+
+#: classes/pref/users.php:272
+msgid "Click to edit"
+msgstr "Клик за редактиране"
+
+#: classes/pref/feeds.php:77 classes/pref/feeds.php:233
+#: classes/pref/feeds.php:281 classes/pref/feeds.php:287
+#: classes/pref/feeds.php:316
+#, php-format
+msgid "(%d feed)"
+msgid_plural "(%d feeds)"
+msgstr[0] "(%d хранилка)"
+msgstr[1] "(%d хранилки)"
+
+#: classes/pref/feeds.php:533
+#, fuzzy, php-format
+msgid "(%d day)"
+msgid_plural "(%d days)"
+msgstr[0] "(%d хранилка)"
+msgstr[1] "(%d хранилки)"
+
+#: classes/pref/feeds.php:535 classes/pref/feeds.php:583
+#, fuzzy
+msgid "Disabled"
+msgstr "Забрана на еднократни пароли"
+
+#: classes/pref/feeds.php:539
+#, php-format
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: classes/pref/feeds.php:565
+msgid "Check to enable field"
+msgstr "Отметка за активиране на полето"
+
+#: classes/pref/feeds.php:581
+#, fuzzy, php-format
+msgid "(%d days)"
+msgstr "(%d хранилка)"
+
+#: classes/pref/feeds.php:586 js/CommonDialogs.js:460
+msgid "Include in e-mail digest"
+msgstr "Включване в e-mail справката"
+
+#: classes/pref/feeds.php:587 js/CommonDialogs.js:461
+msgid "Always display image attachments"
+msgstr "Винаги да се показват прикачените изображения"
+
+#: classes/pref/feeds.php:589 js/CommonDialogs.js:463
+msgid "Cache media"
+msgstr ""
+
+#: classes/pref/feeds.php:590 js/CommonDialogs.js:464
+msgid "Mark updated articles as unread"
+msgstr "Отбелязване на обновените статии като нечетени"
+
+#: classes/pref/feeds.php:605 js/PrefFeedTree.js:426 js/CommonDialogs.js:500
+msgid "Place in category:"
+msgstr "Поставяне в категория:"
+
+#: classes/pref/feeds.php:613 js/Feeds.js:626 js/CommonDialogs.js:516
+#, fuzzy
+msgid "Language:"
+msgstr "Език"
+
+#: classes/pref/feeds.php:624 js/CommonDialogs.js:526
+#, fuzzy
+msgid "Update interval:"
+msgstr "Интервал по подразбиране за обновяване на хранилките"
+
+#: classes/pref/feeds.php:631 js/CommonDialogs.js:530
+msgid "Article purging:"
+msgstr "Изтриване на статия:"
+
+#: classes/pref/feeds.php:638 plugins/auth_internal/init.php:101
+#: js/PrefFeedTree.js:434
+msgid "Authentication"
+msgstr "Автентикация"
+
+#: classes/pref/feeds.php:647 plugins/bookmarklets/init.php:309
+#: include/login_form.php:112 js/CommonDialogs.js:549
+msgid "Password:"
+msgstr "Парола:"
+
+#: classes/pref/feeds.php:654
+msgid "Options"
+msgstr "Опции"
+
+#: classes/pref/feeds.php:671 plugins/note/init.php:52
+#: plugins/bookmarklets/init.php:282 js/CommonDialogs.js:587
+#: js/CommonFilters.js:237 js/CommonFilters.js:321 js/CommonFilters.js:521
+#: js/CommonFilters.js:525 js/Feeds.js:640 js/PrefFeedTree.js:454
+#: js/PrefHelpers.js:232 js/PrefHelpers.js:306
+msgid "Cancel"
+msgstr "Отказ"
+
+#: classes/pref/feeds.php:876
+msgid "Feeds with errors"
+msgstr "Хранилки с грешки"
+
+#: classes/pref/feeds.php:882
+msgid "Inactive feeds"
+msgstr "Неактивни хранилки"
+
+#: classes/pref/feeds.php:919
+msgid "Edit selected feeds"
+msgstr "Редактиране на избраните хранилки"
+
+#: classes/pref/feeds.php:923 js/PrefFeedTree.js:396
+msgid "Batch subscribe"
+msgstr "Партидно абониране"
+
+#: classes/pref/feeds.php:931
+msgid "Categories"
+msgstr "Категории"
+
+#: classes/pref/feeds.php:934
+msgid "Add category"
+msgstr "Добавяне на категория"
+
+#: classes/pref/feeds.php:987
+#, fuzzy
+msgid "Choose file..."
+msgstr "Създаване на филтър..."
+
+#: classes/pref/feeds.php:995
+#, fuzzy
+msgid "Import OPML"
+msgstr "Внасяне на мой OPML"
+
+#: classes/pref/feeds.php:1006
+msgid "Export OPML"
+msgstr "Изнасяне на OPML"
+
+#: classes/pref/feeds.php:1011
+#, fuzzy
+#| msgid "Include settings"
+msgid "Include tt-rss settings"
+msgstr "Включително настройките"
+
+#: classes/pref/feeds.php:1027
+msgid "Display URL"
+msgstr "Показване на URL"
+
+#: classes/pref/feeds.php:1032
+msgid "Clear all generated URLs"
+msgstr "Изчистване на всички генерирани URL-и"
+
+#: classes/pref/feeds.php:1044
+#, fuzzy
+msgid "My feeds"
+msgstr "Още хранилки"
+
+#: classes/pref/feeds.php:1049
+msgid "OPML"
+msgstr "OPML"
+
+#: classes/pref/feeds.php:1054
+#, fuzzy
+msgid "Sharing"
+msgstr "Споделяне"
+
+#: classes/userhelper.php:221
+#, fuzzy, php-format
+msgid "Changed password of user %s to %s"
+msgstr "Промяна паролата на потребител <b>%s</b> към <b>%s</b>"
+
+#: classes/opml.php:28 classes/opml.php:32
+msgid "OPML Utility"
+msgstr "OPML инструмент"
+
+#: classes/opml.php:36
+msgid "Importing OPML..."
+msgstr "Внасяне на OPML..."
+
+#: classes/opml.php:41
+msgid "Return to preferences"
+msgstr "Връщане към предпочитания"
+
+#: classes/opml.php:321
+#, php-format
+msgid "Adding feed: %s"
+msgstr "Добавяне на хранилка: %s"
+
+#: classes/opml.php:341
+#, php-format
+msgid "Duplicate feed: %s"
+msgstr "Дублирана хранилка: %s"
+
+#: classes/opml.php:355
+#, php-format
+msgid "Adding label %s"
+msgstr "Добавяне на етикет \"%s\""
+
+#: classes/opml.php:358
+#, php-format
+msgid "Duplicate label: %s"
+msgstr "Дублиран етикет: %s"
+
+#: classes/opml.php:370
+#, php-format
+msgid "Setting preference key %s to %s"
+msgstr "Задаване на ключ за предпочитания \"%s\" към \"%s\""
+
+#: classes/opml.php:406
+#, fuzzy, php-format
+msgid "Adding filter %s..."
+msgstr "Добавяне на филтър..."
+
+#: classes/opml.php:544
+#, php-format
+msgid "Processing category: %s"
+msgstr "Обработка на категория: %s"
+
+#: classes/opml.php:590
+#, php-format
+msgid "Upload failed with error code %d"
+msgstr "Качването се провали с код за грешка \"%d\""
+
+#: classes/opml.php:602
+msgid "Unable to move uploaded file."
+msgstr "Невъзможност за преместване на качения файл."
+
+#: classes/opml.php:606
+msgid "Error: please upload OPML file."
+msgstr "Грешка: моля, качете OPML файл!"
+
+#: classes/opml.php:619
+msgid "Error: unable to find moved OPML file."
+msgstr "Грешка: не може да се намери преместеният OPML файл."
+
+#: classes/opml.php:628
+msgid "Error while parsing document."
+msgstr "Грешка при разбора на документа."
+
+#: classes/config.php:335
+#, php-format
+msgid "Git error [RC=%d]: %s"
+msgstr ""
+
+#: classes/feeds.php:54 classes/feeds.php:467
+msgid "Feed not found."
+msgstr "Хранилката не е намерена."
+
+#: classes/feeds.php:119
+msgid "Never"
+msgstr "Никога"
+
+#: classes/feeds.php:198 classes/feeds.php:1122
+msgid "Archived articles"
+msgstr "Архивирани статии"
+
+#: classes/feeds.php:257
+msgid "Collapse article"
+msgstr "Свиване на статия"
+
+#: classes/feeds.php:280
+#, php-format
+msgid "Imported at %s"
+msgstr "Внесено в \"%s\""
+
+#: classes/feeds.php:356
+msgid "No unread articles found to display."
+msgstr "Не са намерени нечетени статии за показване."
+
+#: classes/feeds.php:359
+msgid "No updated articles found to display."
+msgstr "Не са намерени обновени статии за показване."
+
+#: classes/feeds.php:362
+msgid "No starred articles found to display."
+msgstr "Не са намерени статии със звезда за показване."
+
+#: classes/feeds.php:366
+msgid ""
+"No articles found to display. You can assign articles to labels manually "
+"from article header context menu (applies to all selected articles) or use a "
+"filter."
+msgstr ""
+"Не са намерени статии за показване. Можете да присвоите статии към етикети "
+"ръчно от контекстното меню на заглавието на статията (прилага се към всички "
+"избрани статии) или да използвате филтър."
+
+#: classes/feeds.php:368
+msgid "No articles found to display."
+msgstr "Не са намерени статии за показване."
+
+#: classes/feeds.php:385 classes/feeds.php:536
+#, php-format
+msgid "Feeds last updated at %s"
+msgstr "Хранилките са обновени за последно в %s"
+
+#: classes/feeds.php:397 classes/feeds.php:548
+msgid "Some feeds have update errors (click for details)"
+msgstr "Някои хранилки имат грешки при обновяването (клик за детайли)"
+
+#: classes/feeds.php:525
+msgid "No feed selected."
+msgstr "Не е избрана хранилка."
+
+#: classes/feeds.php:1114
+msgid "Starred articles"
+msgstr "Статии със звезда"
+
+#: classes/feeds.php:1116
+msgid "Published articles"
+msgstr "Публикувани статии"
+
+#: classes/feeds.php:1118
+msgid "Fresh articles"
+msgstr "Пресни статии"
+
+#: classes/feeds.php:1252
+msgid "Special"
+msgstr "Специални"
+
+#: classes/feeds.php:1343
+#, php-format
+msgid "Incorrect search syntax: %s."
+msgstr ""
+
+#: classes/feeds.php:1533
+#, php-format
+msgid "Search results: %s"
+msgstr "Резултати от търсенето: %s"
+
+#: classes/timehelper.php:8
+#, php-format
+msgid "%d min"
+msgstr ""
+
+#: plugins/auth_internal/init.php:112
+#, fuzzy
+#| msgid "Please enter label caption:"
+msgid "Please enter verification code (OTP):"
+msgstr "Моля, въведете надпис на етикет:"
+
+#: plugins/auth_internal/init.php:114
+#, fuzzy
+#| msgid "Content:"
+msgid "Continue"
+msgstr "Съдържание:"
+
+#: plugins/auth_internal/init.php:166
+msgid "Too many authentication attempts, throttled."
+msgstr ""
+
+#: plugins/auth_internal/init.php:247
+msgid "Password has been changed."
+msgstr "Паролата е сменена."
+
+#: plugins/auth_internal/init.php:249
+msgid "Old password is incorrect."
+msgstr "Старата парола е грешна."
+
+#: plugins/af_psql_trgm/init.php:31
+#, fuzzy, php-format
+msgid "Data saved (%s, %d)"
+msgstr "Данните са запазени (%s)"
+
+#: plugins/af_psql_trgm/init.php:121
+msgid "Show related articles"
+msgstr "Показване на свързани статии"
+
+#: plugins/af_psql_trgm/init.php:134
+#, fuzzy
+msgid "Mark similar articles as read (af_psql_trgm)"
+msgstr "Отбелязване на подобни статии като прочетени"
+
+#: plugins/af_psql_trgm/init.php:164
+msgid "Minimum similarity:"
+msgstr "Минимална подобност:"
+
+#: plugins/af_psql_trgm/init.php:172
+msgid ""
+"PostgreSQL trigram extension returns string similarity as a floating point "
+"number (0-1). Setting it too low might produce false positives, zero "
+"disables checking."
+msgstr ""
+
+#: plugins/af_psql_trgm/init.php:177
+msgid "Minimum title length:"
+msgstr "Минимална дължина на заглавие:"
+
+#: plugins/af_psql_trgm/init.php:187
+#, fuzzy
+msgid "Enable for all feeds."
+msgstr "Активиране на категории за хранилки"
+
+#: plugins/af_psql_trgm/init.php:206 plugins/af_readability/init.php:108
+msgid "Currently enabled for (click to edit):"
+msgstr "Текущо активирано за (клик за редактиране):"
+
+#: plugins/af_psql_trgm/init.php:226
+#, fuzzy
+msgid "Similarity (af_psql_trgm)"
+msgstr "Подобност (pg_trgm)"
+
+#: plugins/af_psql_trgm/init.php:232
+msgid "Mark similar articles as read"
+msgstr "Отбелязване на подобни статии като прочетени"
+
+#: plugins/note/init.php:26 plugins/note/note.js:6
+msgid "Edit article note"
+msgstr "Редактиране бележка на статия"
+
+#: plugins/af_readability/init.php:27
+#, fuzzy
+msgid "Data saved."
+msgstr "Данните са запазени (%s)"
+
+#: plugins/af_readability/init.php:44
+#, fuzzy
+msgid "Inline content"
+msgstr "Редактиране бележка на статия"
+
+#: plugins/af_readability/init.php:45
+#, fuzzy
+msgid "Append content"
+msgstr "Редактиране бележка на статия"
+
+#: plugins/af_readability/init.php:54
+#, fuzzy
+msgid "Toggle full article text"
+msgstr "Редактиране бележка на статия"
+
+#: plugins/af_readability/init.php:64
+msgid "Readability settings (af_readability)"
+msgstr ""
+
+#: plugins/af_readability/init.php:85
+msgid ""
+"Provide full-text services to core code (bookmarklets) and other plugins"
+msgstr ""
+
+#: plugins/af_readability/init.php:115
+msgid "(append)"
+msgstr ""
+
+#: plugins/af_readability/init.php:130
+#, fuzzy
+msgid "Readability"
+msgstr "Проверка за наличност"
+
+#: plugins/af_readability/init.php:135
+#, fuzzy
+msgid "Inline article content"
+msgstr "Редактиране бележка на статия"
+
+#: plugins/af_readability/init.php:141
+msgid "Append to summary, instead of replacing it"
+msgstr ""
+
+#: plugins/bookmarklets/init.php:88 js/CommonDialogs.js:93
+msgid "Subscribe"
+msgstr "Абониране"
+
+#: plugins/bookmarklets/init.php:101
+#, php-format
+msgid "Already subscribed to <b>%s</b>."
+msgstr "Вече сте абонирани за <b>%s</b>."
+
+#: plugins/bookmarklets/init.php:104
+#, php-format
+msgid "Subscribed to <b>%s</b>."
+msgstr "Абонирани сте за <b>%s</b>."
+
+#: plugins/bookmarklets/init.php:107
+#, php-format
+msgid "Could not subscribe to <b>%s</b>."
+msgstr "Невъзможно абониране за <b>%s</b>."
+
+#: plugins/bookmarklets/init.php:110
+#, php-format
+msgid "No feeds found in <b>%s</b>."
+msgstr "Няма намерени хранилки в <b>%s</b>."
+
+#: plugins/bookmarklets/init.php:116
+#, php-format
+msgid "Could not subscribe to <b>%s</b>.<br>Can't download the Feed URL."
+msgstr ""
+"Невъзможно абониране за <b>%s</b>.<br>Не може да се изтегли URL на хранилка."
+
+#: plugins/bookmarklets/init.php:127
+#, fuzzy
+msgid "Multiple feed URLs found:"
+msgstr "Намерени са множество URL-и на хранилки."
+
+#: plugins/bookmarklets/init.php:135
+msgid "Subscribe to selected feed"
+msgstr "Абониране за избраната хранилка"
+
+#: plugins/bookmarklets/init.php:153
+msgid "Edit subscription options"
+msgstr "Редактиране на абонаментните опции"
+
+#: plugins/bookmarklets/init.php:184 plugins/bookmarklets/init.php:361
+msgid "Share with Tiny Tiny RSS"
+msgstr "Споделяне с Tiny Tiny RSS"
+
+#: plugins/bookmarklets/init.php:256
+msgid "Title:"
+msgstr "Заглавие:"
+
+#: plugins/bookmarklets/init.php:261
+msgid "URL:"
+msgstr "URL:"
+
+#: plugins/bookmarklets/init.php:266
+msgid "Content:"
+msgstr "Съдържание:"
+
+#: plugins/bookmarklets/init.php:271
+msgid "Labels:"
+msgstr "Етикети:"
+
+#: plugins/bookmarklets/init.php:281
+msgid "Share"
+msgstr "Споделяне"
+
+#: plugins/bookmarklets/init.php:283
+msgid "Shared article will appear in the Published feed."
+msgstr "Споделените статии ще се появят в \"Публикувани статии\"."
+
+#: plugins/bookmarklets/init.php:322 include/login_form.php:177
+msgid "Log in"
+msgstr "Вход"
+
+#: plugins/bookmarklets/init.php:343
+#, php-format
+msgid "Subscribe to %s in Tiny Tiny RSS?"
+msgstr "Абониране за \"%s\" в Tiny Tiny RSS?"
+
+#: plugins/bookmarklets/init.php:350
+msgid "Bookmarklets"
+msgstr "Отметки"
+
+#: plugins/bookmarklets/init.php:352
+msgid ""
+"Drag the link below to your browser toolbar, open the feed you're interested "
+"in in your browser and click on the link to subscribe to it."
+msgstr ""
+"Завлачете линка по-долу до лентата с инструменти на браузъра Ви, отворете "
+"хранилката, която Ви интересува, в браузъра и изберете линка, за да се "
+"абонирате."
+
+#: plugins/bookmarklets/init.php:355
+msgid "Subscribe in Tiny Tiny RSS"
+msgstr "Абониране в Tiny Tiny RSS?"
+
+#: plugins/bookmarklets/init.php:358
+msgid "Use this bookmarklet to publish arbitrary pages using Tiny Tiny RSS"
+msgstr ""
+"Използвайте тази отметка за публикуване на произволни страници чрез Tiny "
+"Tiny RSS"
+
+#: plugins/af_comics/init.php:62
+msgid "Feeds supported by af_comics"
+msgstr "Хранилки, поддържани от af_comics"
+
+#: plugins/af_comics/init.php:64
+msgid "The following comics are currently supported:"
+msgstr "Текущо се поддържат следните комикси:"
+
+#: plugins/nsfw/init.php:39
+#, fuzzy
+#| msgid "Not work safe (click to toggle)"
+msgid "Not safe for work (click to toggle)"
+msgstr "Не се работи безопасно (клик за превключване)"
+
+#: plugins/nsfw/init.php:73
+msgid "NSFW Plugin"
+msgstr "NSFW добавка"
+
+#: plugins/nsfw/init.php:88
+#, fuzzy
+msgid "Tags to consider NSFW (comma-separated):"
+msgstr "Тагове предвид NSFW (разделени със запетаи)"
+
+#: plugins/nsfw/init.php:110
+msgid "Configuration saved."
+msgstr "Конфигурацията е запазена."
+
+#: plugins/af_redditimgur/init.php:45
+msgid "Reddit content settings (af_redditimgur)"
+msgstr ""
+
+#: plugins/af_redditimgur/init.php:63
+#, fuzzy
+msgid "Apply tags to NSFW posts (comma-separated list):"
+msgstr "Тагове предвид NSFW (разделени със запетаи)"
+
+#: plugins/af_redditimgur/init.php:72
+msgid "Extract missing content using Readability (requires af_readability)"
+msgstr ""
+
+#: plugins/af_redditimgur/init.php:79
+msgid "Enable additional duplicate checking"
+msgstr ""
+
+#: plugins/af_redditimgur/init.php:86
+#, php-format
+msgid "Rewrite Reddit URLs to %s"
+msgstr ""
+
+#: plugins/af_redditimgur/init.php:94
+msgid "Import score, limit maximum to:"
+msgstr ""
+
+#: plugins/af_redditimgur/init.php:125
+#, fuzzy
+msgid "Configuration saved"
+msgstr "Конфигурацията е запазена."
+
+#: plugins/toggle_sidebar/init.php:27
+#, fuzzy
+msgid "Toggle sidebar"
+msgstr "Превключване със/без звезда"
+
+#: plugins/share/init.php:42
+#, fuzzy
+msgid "Article unshared"
+msgstr "Статия"
+
+#: plugins/share/init.php:54
+msgid "Unshare all articles"
+msgstr "Премахване на споделянето на всички статии"
+
+#: plugins/share/init.php:64
+msgid "Shared URLs cleared."
+msgstr "Споделените URL-и са изчистени."
+
+#: plugins/share/init.php:83
+msgid "Share by URL"
+msgstr "Споделяне чрез URL"
+
+#: plugins/share/init.php:255
+msgid "You can share this article by the following unique URL:"
+msgstr "Можете да споделите тази статия чрез следния уникален URL:"
+
+#: plugins/share/init.php:267
+msgid "Article not found."
+msgstr "Статията не е намерена."
+
+#: plugins/share/init.php:272
+msgid "Unshare article"
+msgstr "Премахване на споделянето на статия"
+
+#: plugins/share/init.php:273 js/CommonDialogs.js:644
+msgid "Generate new URL"
+msgstr "Генериране на нов URL"
+
+#: include/login_form.php:124
+msgid "I forgot my password"
+msgstr "Забравих си паролата"
+
+#: include/login_form.php:129
+msgid "Profile:"
+msgstr "Профил:"
+
+#: include/login_form.php:142
+msgid "Use less traffic"
+msgstr "Използване на по-малко трафик"
+
+#: include/login_form.php:146
+msgid "Does not display images in articles, reduces automatic refreshes."
+msgstr ""
+"Да не се показват изображения в статии, съкратява автоматичните опреснявания."
+
+#: include/login_form.php:154 js/Feeds.js:282
+msgid "Safe mode"
+msgstr ""
+
+#: include/login_form.php:159
+msgid "Uses default theme and prevents all plugins from loading."
+msgstr ""
+
+#: include/login_form.php:167
+msgid "Remember me"
+msgstr "Запомни ме"
+
+#: include/sessions.php:32
+msgid "Session failed to validate (password changed)"
+msgstr "Валидацията на сесията се провали (паролата е променена)"
+
+#: include/sessions.php:36
+msgid "Session failed to validate (user not found)"
+msgstr "Валидацията на сесията се провали (потребителят не е намерен)"
+
+#: include/functions.php:49
+msgid "Detect automatically"
+msgstr ""
+
+#: js/Feeds.js:262
+#, fuzzy
+msgid "Your password is at default value"
+msgstr "Паролата Ви е със стойност по подразбиране. Моля, сменете я!"
+
+#: js/Feeds.js:264
+msgid ""
+"You are using default tt-rss password. Please change it in the Preferences "
+"(Personal data / Authentication)."
+msgstr ""
+
+#: js/Feeds.js:426
+msgid "Mark all articles as read?"
+msgstr "Отбелязване на всички статии като прочетени?"
+
+#: js/Feeds.js:430
+msgid "Marking all feeds as read..."
+msgstr "Отбелязване на всички хранилки като прочетени..."
+
+#: js/Feeds.js:447
+#, fuzzy
+msgid "Mark %w in %s older than 1 day as read?"
+msgstr ""
+"Отбелязване на всички статии в \"%s\", по-стари от 1 ден, като прочетени?"
+
+#: js/Feeds.js:450
+#, fuzzy
+msgid "Mark %w in %s older than 1 week as read?"
+msgstr ""
+"Отбелязване на всички статии в \"%s\", по-стари от 1 седмица, като прочетени?"
+
+#: js/Feeds.js:453
+#, fuzzy
+msgid "Mark %w in %s older than 2 weeks as read?"
+msgstr ""
+"Отбелязване на всички статии в \"%s\", по-стари от 2 седмици, като прочетени?"
+
+#: js/Feeds.js:456
+#, fuzzy
+msgid "Mark %w in %s as read?"
+msgstr "Отбелязване на всички статии в \"%s\" като прочетени?"
+
+#: js/Feeds.js:459
+#, fuzzy
+msgid "search results"
+msgstr "Резултати от търсенето: %s"
+
+#: js/Feeds.js:459
+#, fuzzy
+msgid "all articles"
+msgstr "Всички статии"
+
+#: js/Feeds.js:500
+#, javascript-format
+msgid "Mark all articles in %s as read?"
+msgstr "Отбелязване на всички статии в \"%s\" като прочетени?"
+
+#: js/Feeds.js:635
+msgid "Search syntax"
+msgstr "Синтаксис на търсенето"
+
+#: js/common.js:448
+msgid "Click to close"
+msgstr "Затваряне"
+
+#: js/PrefLabelTree.js:71
+#, fuzzy
+#| msgid "Edit rule"
+msgid "Edit label"
+msgstr "Редактиране на правило"
+
+#: js/PrefLabelTree.js:143
+msgid "Foreground:"
+msgstr "Преден план:"
+
+#: js/PrefLabelTree.js:144
+msgid "Background:"
+msgstr "Фон:"
+
+#: js/PrefLabelTree.js:189
+msgid "Reset selected labels to default colors?"
+msgstr "Връщане на избраните етикети към цветове по подразбиране?"
+
+#: js/PrefLabelTree.js:202 js/PrefLabelTree.js:222
+#, fuzzy
+msgid "No labels selected."
+msgstr "Не са избрани етикети."
+
+#: js/PrefLabelTree.js:209
+msgid "Remove selected labels?"
+msgstr "Премахване на избраните етикети?"
+
+#: js/PrefLabelTree.js:210
+msgid "Removing selected labels..."
+msgstr "Премахване на избраните етикети..."
+
+#: js/App.js:411
+msgid "Keyboard shortcuts"
+msgstr "Клавишни препратки"
+
+#: js/App.js:472
+msgid "Update daemon is not running."
+msgstr ""
+
+#: js/App.js:485
+msgid "Update daemon is not updating feeds."
+msgstr ""
+
+#: js/App.js:572
+msgid ""
+"URL scheme reported by your browser (%a) doesn't match server-configured "
+"SELF_URL_PATH (%b), check X-Forwarded-Proto."
+msgstr ""
+
+#: js/App.js:579
+msgid "Fatal error"
+msgstr ""
+
+#: js/App.js:604
+msgid "Unhandled exception"
+msgstr ""
+
+#: js/App.js:833
+#, fuzzy
+#| msgid "Updates are available from Git."
+msgid "Updates for Tiny Tiny RSS are available."
+msgstr "Налични са обновления от Git."
+
+#: js/App.js:836
+msgid "Updates for some local plugins are available."
+msgstr ""
+
+#: js/App.js:1065
+#, fuzzy
+msgid "Please enable mail or mailto plugin first."
+msgstr "Моля, първо активирайте добавката \"mail\"!"
+
+#: js/App.js:1116 js/App.js:1253 js/CommonDialogs.js:328
+msgid "You can't edit this kind of feed."
+msgstr "Не можете да редактирате този вид хранилка."
+
+#: js/App.js:1188
+#, fuzzy
+msgid "Please enable af_readability first."
+msgstr "Моля, първо активирайте добавката \"mail\"!"
+
+#: js/App.js:1201 js/App.js:1294
+msgid "Widescreen is not available in combined mode."
+msgstr "Няма широк екран в комбиниран режим."
+
+#: js/App.js:1262
+msgid "Please select some feed first."
+msgstr "Моля, първо изберете някоя хранилка!"
+
+#: js/App.js:1267
+msgid "You can't unsubscribe from the category."
+msgstr "Не можете да се отпишете от тази категория."
+
+#: js/App.js:1273 js/CommonDialogs.js:302 js/CommonDialogs.js:343
+#, javascript-format
+msgid "Unsubscribe from %s?"
+msgstr "Отписване от \"%s\"?"
+
+#: js/PrefFeedTree.js:73
+msgid "Edit category"
+msgstr "Редактиране на категория"
+
+#: js/PrefFeedTree.js:80
+msgid "Remove category"
+msgstr "Премахване на категория"
+
+#: js/PrefFeedTree.js:179
+#, javascript-format
+msgid ""
+"Remove category %s? Any nested feeds would be placed into Uncategorized."
+msgstr ""
+"Премахване на категория \"%s\"? Всички хранилки в нея ще бъдат сложени в "
+"\"Без категория\"."
+
+#: js/PrefFeedTree.js:180
+msgid "Removing category..."
+msgstr "Премахване на категория..."
+
+#: js/PrefFeedTree.js:192
+msgid "Unsubscribe from selected feeds?"
+msgstr "Отписване от избраните хранилки?"
+
+#: js/PrefFeedTree.js:194
+msgid "Unsubscribing from selected feeds..."
+msgstr "Отписване от избраните хранилки..."
+
+#: js/PrefFeedTree.js:207 js/PrefFeedTree.js:276 js/PrefFeedTree.js:292
+#: js/PrefFeedTree.js:497 js/CommonDialogs.js:230
+#, fuzzy
+msgid "No feeds selected."
+msgstr "Не е избрана хранилка."
+
+#: js/PrefFeedTree.js:242
+msgid "Remove selected categories?"
+msgstr "Премахване на избраните категории?"
+
+#: js/PrefFeedTree.js:243
+msgid "Removing selected categories..."
+msgstr "Премахване на избраните категории..."
+
+#: js/PrefFeedTree.js:255
+#, fuzzy
+msgid "No categories selected."
+msgstr "Не са избрани категории."
+
+#: js/PrefFeedTree.js:303
+#, fuzzy
+#| msgid "Edit Multiple Feeds"
+msgid "Edit multiple feeds"
+msgstr "Редактиране на множество хранилки"
+
+#: js/PrefFeedTree.js:332
+msgid "Save changes to selected feeds?"
+msgstr "Запазване на промените в избраните хранилки?"
+
+#: js/PrefFeedTree.js:344 js/CommonDialogs.js:430 js/PrefUsers.js:42
+#: js/CommonFilters.js:395
+msgid "Saving data..."
+msgstr "Запазване на данни..."
+
+#: js/PrefFeedTree.js:381
+msgid "Category title:"
+msgstr "Име на категория:"
+
+#: js/PrefFeedTree.js:384
+msgid "Creating category..."
+msgstr "Създаване на категория..."
+
+#: js/PrefFeedTree.js:399
+msgid "Subscribing to feeds..."
+msgstr "Абониране за хранилки..."
+
+#: js/PrefFeedTree.js:417
+#, fuzzy
+msgid "One valid feed per line (no detection is done)"
+msgstr ""
+"Добавете по една валидна RSS хранилка на ред (не се прави засичане на "
+"хранилки)"
+
+#: js/PrefFeedTree.js:470
+msgid "Feeds without recent updates"
+msgstr "Хранилки без скорошни обновления"
+
+#: js/PrefFeedTree.js:478 js/CommonDialogs.js:209
+msgid "Remove selected feeds?"
+msgstr "Премахване на избраните хранилки?"
+
+#: js/PrefFeedTree.js:479 js/CommonDialogs.js:210
+msgid "Removing selected feeds..."
+msgstr "Премахване на избраните хранилки..."
+
+#: js/PrefFeedTree.js:520
+msgid "Click to edit feed"
+msgstr "Клик за редактиране на хранилка"
+
+#: js/CommonDialogs.js:30
+msgid ""
+"Provided URL is a HTML page referencing multiple feeds, please select "
+"required feed from the dropdown menu below."
+msgstr ""
+
+#: js/CommonDialogs.js:122
+msgid ""
+"Failed to parse output. This can indicate server timeout and/or network "
+"issues. Backend output was logged to browser console."
+msgstr ""
+"Разборът на изхода се провали. Това може да е знак за просрочено време на "
+"сървъра и/или мрежови проблеми. Бекенд изходът е запазен в конзолата на "
+"браузъра."
+
+#: js/CommonDialogs.js:136
+#, javascript-format
+msgid "Subscribed to %s"
+msgstr "Абониране за \"%s\""
+
+#: js/CommonDialogs.js:145
+msgid "Specified URL seems to be invalid."
+msgstr "Указаният URL изглежда невалиден."
+
+#: js/CommonDialogs.js:148
+msgid "Specified URL doesn't seem to contain any feeds."
+msgstr "Указаният URL не изглежда да съдържа хранилки."
+
+#: js/CommonDialogs.js:161
+msgid "Expand to select feed"
+msgstr "Разгъване за избор на хранилка"
+
+#: js/CommonDialogs.js:173
+#, javascript-format
+msgid "Couldn't download the specified URL: %s"
+msgstr "Не може да се изтегли указаният URL: %s"
+
+#: js/CommonDialogs.js:176
+#, javascript-format
+msgid "XML validation failed: %s"
+msgstr "XML проверката се провали: %s"
+
+#: js/CommonDialogs.js:179
+msgid "You are already subscribed to this feed."
+msgstr "Вече сте абонирани за тази хранилка."
+
+#: js/CommonDialogs.js:201
+msgid "Feeds with update errors"
+msgstr "Хранилки с грешки при обновяване"
+
+#: js/CommonDialogs.js:283
+msgid "Please enter label caption:"
+msgstr "Моля, въведете надпис на етикет:"
+
+#: js/CommonDialogs.js:305
+msgid "Removing feed..."
+msgstr "Премахване на хранилка..."
+
+#: js/CommonDialogs.js:353
+#, fuzzy
+msgid "Please select an image file."
+msgstr "Моля, изберете файл с изображение за качване!"
+
+#: js/CommonDialogs.js:373
+msgid "Icon file is too large."
+msgstr ""
+
+#: js/CommonDialogs.js:376
+#, fuzzy
+msgid "Upload failed."
+msgstr "Качването приключи."
+
+#: js/CommonDialogs.js:406
+msgid "Remove stored feed icon?"
+msgstr "Премахване на съхранената икона на хранилка?"
+
+#: js/CommonDialogs.js:407
+msgid "Removing feed icon..."
+msgstr "Премахване икона на хранилка..."
+
+#: js/CommonDialogs.js:410
+msgid "Feed icon removed."
+msgstr "Иконата на хранилката е премахната."
+
+#: js/CommonDialogs.js:574
+#, fuzzy
+msgid "Upload new icon..."
+msgstr "Качване на нова икона за тази хранилка?"
+
+#: js/CommonDialogs.js:603
+#, fuzzy
+msgid "Show as feed"
+msgstr "Тази хранилка"
+
+#: js/CommonDialogs.js:605
+msgid "Generate new syndication address for this feed?"
+msgstr "Генериране на нов синдикиращ адрес за тази хранилка?"
+
+#: js/CommonDialogs.js:607
+msgid "Trying to change address..."
+msgstr "Опит за смяна на адрес..."
+
+#: js/CommonDialogs.js:625
+#, fuzzy
+msgid "Could not change feed URL."
+msgstr "Не може да се създаде потребител <b>%s</b>"
+
+#: js/CommonDialogs.js:632
+#, fuzzy
+msgid "%s can be accessed via the following secret URL:"
+msgstr "Можете да споделите тази статия чрез следния уникален URL:"
+
+#: js/PrefHelpers.js:20
+#, fuzzy
+msgid "Remove selected app passwords?"
+msgstr "Премахване на избраните категории?"
+
+#: js/PrefHelpers.js:45
+msgid "This will invalidate all previously generated feed URLs. Continue?"
+msgstr ""
+"Това ще отвалидира всички предходно генерирани URL-и за хранилката. "
+"Продължаване?"
+
+#: js/PrefHelpers.js:46 plugins/share/share_prefs.js:6
+msgid "Clearing URLs..."
+msgstr "Изчистване на URL-и..."
+
+#: js/PrefHelpers.js:49
+msgid "Generated URLs cleared."
+msgstr "Генерираните URL-и са изчистени."
+
+#: js/PrefHelpers.js:59
+#, fuzzy
+#| msgid "Digest"
+msgid "Digest preview"
+msgstr "Справка"
+
+#: js/PrefHelpers.js:113
+#, fuzzy
+msgid "Clear event log?"
+msgstr "Изчистване на журнала"
+
+#: js/PrefHelpers.js:135
+msgid "Name for cloned profile:"
+msgstr ""
+
+#: js/PrefHelpers.js:145
+#, fuzzy
+msgid "Please select a single profile to clone."
+msgstr "Моля, изберете файл с изображение за качване!"
+
+#: js/PrefHelpers.js:153
+msgid ""
+"Remove selected profiles? Active and default profiles will not be removed."
+msgstr ""
+"Премахване на избраните профили? Активните и подразбиращи профили няма да "
+"бъдат премахнати."
+
+#: js/PrefHelpers.js:154
+msgid "Removing selected profiles..."
+msgstr "Премахване на избраните профили..."
+
+#: js/PrefHelpers.js:163
+#, fuzzy
+msgid "No profiles selected."
+msgstr "Не са избрани профили."
+
+#: js/PrefHelpers.js:168
+msgid "Creating profile..."
+msgstr "Създаване на профил..."
+
+#: js/PrefHelpers.js:218
+msgid "(active)"
+msgstr "(активен)"
+
+#: js/PrefHelpers.js:219
+msgid "(empty)"
+msgstr ""
+
+#: js/PrefHelpers.js:242
+msgid "Activate selected profile?"
+msgstr "Активиране на избрания профил?"
+
+#: js/PrefHelpers.js:251
+msgid "Please choose a profile to activate."
+msgstr "Моля, изберете профил за активиране!"
+
+#: js/PrefHelpers.js:264
+msgid "Customize stylesheet"
+msgstr "Нагласяване стила на страницата"
+
+#: js/PrefHelpers.js:280
+#, fuzzy
+msgid ""
+"You can override colors, fonts and layout of your currently selected theme "
+"with custom CSS declarations here."
+msgstr ""
+"Тук можете да презаписвате цветове, шрифтове и слоеве от текущо избраната "
+"тема с потребителски CSS декларации. <a target=\"_blank\" class=\"visibleLink"
+"\" href=\"%s\">Този файл</a> може да се ползва като шаблон."
+
+#: js/PrefHelpers.js:289
+msgid ""
+"User CSS has been applied, you might need to reload the page to see all "
+"changes."
+msgstr ""
+
+#: js/PrefHelpers.js:329
+msgid "Reset to defaults?"
+msgstr "Връщане по подразбиране?"
+
+#: js/PrefHelpers.js:415
+msgid "Clear data"
+msgstr "Изчистване на данни"
+
+#: js/PrefHelpers.js:418
+msgid "Uninstall"
+msgstr ""
+
+#: js/PrefHelpers.js:430 js/PrefHelpers.js:589
+msgid "Could not find any plugins for this search query."
+msgstr ""
+
+#: js/PrefHelpers.js:437
+#, fuzzy, javascript-format
+#| msgid "Clear stored data for this plugin?"
+msgid "Clear stored data for %s?"
+msgstr "Изчистване на съхранените данни за тази добавка?"
+
+#: js/PrefHelpers.js:446
+#, fuzzy, javascript-format
+#| msgid "User plugins"
+msgid "Uninstall plugin %s?"
+msgstr "Потребителски добавки"
+
+#: js/PrefHelpers.js:455
+#, fuzzy
+#| msgid "Registration failed."
+msgid "Plugin uninstallation failed."
+msgstr "Регистрацията се провали."
+
+#: js/PrefHelpers.js:471
+#, fuzzy
+#| msgid "Mail plugin"
+msgid "Available plugins"
+msgstr "Добавка за поща"
+
+#: js/PrefHelpers.js:484
+#, fuzzy
+#| msgid "Link instance"
+msgid "Plugin installer"
+msgstr "Свързване на инсталация"
+
+#: js/PrefHelpers.js:487
+#, fuzzy, javascript-format
+#| msgid "Importing, please wait..."
+msgid "Installing %s, please wait..."
+msgstr "Внасяне. Моля, изчакайте..."
+
+#: js/PrefHelpers.js:502 js/PrefHelpers.js:544 js/PrefHelpers.js:655
+msgid "Operation failed: check event log."
+msgstr ""
+
+#: js/PrefHelpers.js:506
+msgid "Plugin has been installed."
+msgstr ""
+
+#: js/PrefHelpers.js:510
+msgid "Plugin is already installed."
+msgstr ""
+
+#: js/PrefHelpers.js:520 js/PrefHelpers.js:672 js/PrefHelpers.js:738
+#, javascript-format
+msgid "Exited with RC: %d"
+msgstr ""
+
+#: js/PrefHelpers.js:569
+msgid "Already installed"
+msgstr ""
+
+#: js/PrefHelpers.js:580
+#, fuzzy
+#| msgid "Last updated: %s"
+msgid "Updated: %s"
+msgstr "Последно обновяване: %s"
+
+#: js/PrefHelpers.js:597
+msgid "Looking for plugins..."
+msgstr ""
+
+#: js/PrefHelpers.js:616 js/PrefHelpers.js:758
+msgid "Close"
+msgstr "Затваряне"
+
+#: js/PrefHelpers.js:634
+#, fuzzy
+#| msgid "User plugins"
+msgid "Update plugins"
+msgstr "Потребителски добавки"
+
+#: js/PrefHelpers.js:649
+#, fuzzy
+#| msgid "Uploading, please wait..."
+msgid "Updating, please wait..."
+msgstr "Качване. Моля, изчакайте..."
+
+#: js/PrefHelpers.js:673
+#, fuzzy
+#| msgid "Update"
+msgid "Update done."
+msgstr "Обновяване"
+
+#: js/PrefHelpers.js:697
+#, fuzzy
+#| msgid "Updates are available from Git."
+msgid "No updates available"
+msgstr "Налични са обновления от Git."
+
+#: js/PrefHelpers.js:709
+#, javascript-format
+msgid "Checking: %s"
+msgstr ""
+
+#: js/PrefHelpers.js:716
+#, javascript-format
+msgid "%s: Operation failed: check event log."
+msgstr ""
+
+#: js/PrefHelpers.js:739
+#, fuzzy
+#| msgid "Last update:"
+msgid "Ready to update"
+msgstr "Последно обновяване:"
+
+#: js/PrefHelpers.js:784
+msgid "Please choose an OPML file first."
+msgstr "Моля, първо изберете OPML файл!"
+
+#: js/PrefHelpers.js:787
+msgid "Importing, please wait..."
+msgstr "Внасяне. Моля, изчакайте..."
+
+#: js/PrefHelpers.js:796
+msgid "OPML Import"
+msgstr "Внасяне на OPML"
+
+#: js/PrefHelpers.js:807
+msgid ""
+"If you have imported labels and/or filters, you might need to reload "
+"preferences to see your new data."
+msgstr ""
+"Ако имате внесени етикети и/или филтри, може да е нужно да презаредите "
+"предпочитанията, за да видите новите Ви данни."
+
+#: js/Headlines.js:642
+msgid "Cancel search"
+msgstr "Отмяна на търсенето"
+
+#: js/Headlines.js:650
+#, fuzzy
+msgid "Select..."
+msgstr "Избиране"
+
+#: js/Headlines.js:764 js/Headlines.js:818 js/Headlines.js:835
+msgid "Click to open next unread feed."
+msgstr "Отваряне на следващата непрочетена хранилка."
+
+#: js/Headlines.js:832
+#, fuzzy
+msgid "New articles found, reload feed to continue."
+msgstr "Не са намерени статии за показване."
+
+#: js/Headlines.js:889 js/Headlines.js:915 js/Headlines.js:927
+#: js/Headlines.js:1070 js/Headlines.js:1087 js/Headlines.js:1104
+#: js/Headlines.js:1241 js/Article.js:62
+#, fuzzy
+msgid "No articles selected."
+msgstr "Не е избрана статия."
+
+#: js/Headlines.js:1041
+#, javascript-format
+msgid "%d article selected"
+msgid_plural "%d articles selected"
+msgstr[0] "%d статия е избрана"
+msgstr[1] "%d статии са избрани"
+
+#: js/Headlines.js:1112
+#, javascript-format
+msgid "Delete %d selected article in %s?"
+msgid_plural "Delete %d selected articles in %s?"
+msgstr[0] "Изтриване на %d избрана статия в \"%s\"?"
+msgstr[1] "Изтриване на %d избрани статии в \"%s\"?"
+
+#: js/Headlines.js:1114
+#, javascript-format
+msgid "Delete %d selected article?"
+msgid_plural "Delete %d selected articles?"
+msgstr[0] "Изтриване на %d избрана статия?"
+msgstr[1] "Изтриване на %d избрани статии?"
+
+#: js/Headlines.js:1247
+#, javascript-format
+msgid "Mark %d selected article in %s as read?"
+msgid_plural "Mark %d selected articles in %s as read?"
+msgstr[0] "Отбелязване на %d избрана статия в \"%s\" като прочетена?"
+msgstr[1] "Отбелязване на %d избрани статии в \"%s\" като прочетени?"
+
+#: js/Headlines.js:1263
+msgid "No article is selected."
+msgstr "Не е избрана статия."
+
+#: js/Headlines.js:1298
+msgid "No articles found to mark"
+msgstr "Не са намерени статии за отбелязване"
+
+#: js/Headlines.js:1300
+#, javascript-format
+msgid "Mark %d article as read?"
+msgid_plural "Mark %d articles as read?"
+msgstr[0] "Отбелязване на %d статия като прочетена?"
+msgstr[1] "Отбелязване на %d статии като прочетени?"
+
+#: js/Headlines.js:1359
+msgid "Open original article"
+msgstr "Отваряне на оригиналната статия"
+
+#: js/Headlines.js:1366
+msgid "Display article URL"
+msgstr "Показване URL-а на статията"
+
+#: js/Headlines.js:1473
+msgid "Assign label"
+msgstr "Присвояване на етикет"
+
+#: js/Headlines.js:1478
+msgid "Remove label"
+msgstr "Премахване на етикет"
+
+#: js/Headlines.js:1515
+msgid "Select articles in group"
+msgstr "Избиране на статии в група"
+
+#: js/Headlines.js:1525
+msgid "Mark group as read"
+msgstr "Отбелязване на групата като прочетена"
+
+#: js/Headlines.js:1537
+msgid "Mark feed as read"
+msgstr "Отбелязване на хранилката като прочетена"
+
+#: js/PrefFilterTree.js:47 js/CommonFilters.js:224
+msgid "in"
+msgstr "в"
+
+#: js/PrefFilterTree.js:50
+msgid "Inverse"
+msgstr "Обръщане"
+
+#: js/PrefFilterTree.js:110 js/PrefFilterTree.js:139
+#, fuzzy
+msgid "No filters selected."
+msgstr "Не са избрани филтри."
+
+#: js/PrefFilterTree.js:114
+msgid "Combine selected filters?"
+msgstr "Комбиниране на избраните филтри?"
+
+#: js/PrefFilterTree.js:115
+msgid "Joining filters..."
+msgstr "Съединяване на филтри..."
+
+#: js/PrefFilterTree.js:126
+msgid "Remove selected filters?"
+msgstr "Премахване на избраните филтри?"
+
+#: js/PrefFilterTree.js:127
+msgid "Removing selected filters..."
+msgstr "Премахване на избраните филтри..."
+
+#: js/Article.js:36
+msgid "Please enter new score for selected articles:"
+msgstr "Моля, въведете нови точки за избраната статия:"
+
+#: js/Article.js:70
+msgid "Please enter new score for this article:"
+msgstr "Моля, въведете нови точки за тази статия:"
+
+#: js/Article.js:130
+msgid "Article URL:"
+msgstr "URL на статията:"
+
+#: js/Article.js:132
+#, fuzzy
+msgid "No URL could be displayed for this article."
+msgstr "Премахване споделянето на тази статия?"
+
+#: js/Article.js:154
+msgid "no tags"
+msgstr "няма тагове"
+
+#: js/Article.js:246
+msgid "comments"
+msgstr "коментари"
+
+#: js/Article.js:249
+msgid "comment"
+msgid_plural "comments"
+msgstr[0] "коментар"
+msgstr[1] "коментара"
+
+#: js/Article.js:340
+#, fuzzy
+msgid "Article tags"
+msgstr "Статия"
+
+#: js/Article.js:347
+msgid "Tags for this article (separated by commas):"
+msgstr "Тагове за тази статия (разделени със запетаи):"
+
+#: js/Article.js:367
+msgid "Saving article tags..."
+msgstr "Запазване таговете на статия..."
+
+#: js/FeedTree.js:105
+#, fuzzy
+msgid "Debug feed"
+msgstr "Дебъгване обновяването на хранилка"
+
+#: js/FeedTree.js:128
+#, fuzzy
+msgid "(Un)collapse"
+msgstr "Прибиране/изваждане на страничния панел"
+
+#: js/PrefUsers.js:19
+#, fuzzy
+msgid "Please enter username:"
+msgstr "Моля, въведете потребител:"
+
+#: js/PrefUsers.js:22
+msgid "Adding user..."
+msgstr "Добавяне на потребител..."
+
+#: js/PrefUsers.js:39
+#, fuzzy
+msgid "Edit user"
+msgstr "Редактиране на правило"
+
+#: js/PrefUsers.js:136 js/PrefUsers.js:175
+#, fuzzy
+msgid "No users selected."
+msgstr "Не са избрани потребители."
+
+#: js/PrefUsers.js:141
+#, fuzzy
+msgid "Please select one user."
+msgstr "Моля, изберете само един потребител!"
+
+#: js/PrefUsers.js:145
+msgid "Reset password of selected user?"
+msgstr "Смяна паролата на избрания потребител?"
+
+#: js/PrefUsers.js:146
+msgid "Resetting password for selected user..."
+msgstr "Смяна паролата на избрания потребител..."
+
+#: js/PrefUsers.js:161
+msgid ""
+"Remove selected users? Neither default admin nor your account will be "
+"removed."
+msgstr ""
+"Премахване на избраните потребители? Администраторът по подразбиране и "
+"Вашият акаунт няма да бъдат премахнати."
+
+#: js/PrefUsers.js:162
+msgid "Removing selected users..."
+msgstr "Премахване на избраните потребители..."
+
+#: js/CommonFilters.js:14
+#, fuzzy
+#| msgid "Edit Filter"
+msgid "Edit filter"
+msgstr "Редактиране на филтър"
+
+#: js/CommonFilters.js:14
+#, fuzzy
+#| msgid "Create filter"
+msgid "Create new filter"
+msgstr "Създаване на филтър"
+
+#: js/CommonFilters.js:44
+#, javascript-format
+msgid "Looking for articles (%d processed, %f found)..."
+msgstr ""
+
+#: js/CommonFilters.js:72
+#, fuzzy
+msgid "Articles matching this filter:"
+msgstr "Статии, съвпадащи с този филтър:"
+
+#: js/CommonFilters.js:74
+#, fuzzy
+msgid "Found %d articles matching this filter:"
+msgstr "Статии, съвпадащи с този филтър:"
+
+#: js/CommonFilters.js:83
+msgid "Error while trying to get filter test results."
+msgstr ""
+
+#: js/CommonFilters.js:95
+#, fuzzy
+#| msgid "Rescoring articles..."
+msgid "Looking for articles..."
+msgstr "Преточкуване на статии..."
+
+#: js/CommonFilters.js:174
+msgid "Edit rule"
+msgstr "Редактиране на правило"
+
+#: js/CommonFilters.js:174
+msgid "Add rule"
+msgstr "Добавяне на правило"
+
+#: js/CommonFilters.js:218
+msgid "Inverse regular expression matching"
+msgstr "Обръщане на съвпадението от регулярното условие"
+
+#: js/CommonFilters.js:222
+#, fuzzy
+msgid "on"
+msgstr "Нищо"
+
+#: js/CommonFilters.js:250
+msgid "Edit action"
+msgstr "Редактиране на действие"
+
+#: js/CommonFilters.js:250
+msgid "Add action"
+msgstr "Добавяне на действие"
+
+#: js/CommonFilters.js:360
+msgid "Remove filter?"
+msgstr "Премахване на филтър?"
+
+#: js/CommonFilters.js:365
+msgid "Removing filter..."
+msgstr "Премахване на филтър..."
+
+#: js/CommonFilters.js:450 js/CommonFilters.js:482 js/PrefHelpers.js:195
+msgid "Add"
+msgstr "Добавяне"
+
+#: js/CommonFilters.js:453 js/CommonFilters.js:485
+msgid "Delete"
+msgstr "Изтриване"
+
+#: js/CommonFilters.js:519 js/CommonFilters.js:523
+msgid "Test"
+msgstr "Проба"
+
+#: js/CommonFilters.js:524
+msgid "Create"
+msgstr "Създаване"
+
+#: plugins/af_psql_trgm/init.js:6
+msgid "Related articles"
+msgstr "Свързани статии"
+
+#: plugins/note/note.js:9
+msgid "Saving article note..."
+msgstr "Запазване бележка на статия..."
+
+#: plugins/af_readability/init.js:31
+#, fuzzy
+msgid "Unable to fetch full text for this article"
+msgstr "Моля, въведете нови точки за тази статия:"
+
+#: plugins/shorten_expanded/init.js:32
+#, fuzzy
+#| msgid "Email article"
+msgid "Expand article"
+msgstr "Изпращане на статия по e-mail"
+
+#: plugins/share/share.js:7
+msgid "Share article by URL"
+msgstr "Споделяне на статия чрез URL"
+
+#: plugins/share/share.js:9
+msgid "Generate new share URL for this article?"
+msgstr "Генериране на нов споделен URL за тази статия?"
+
+#: plugins/share/share.js:11
+msgid "Trying to change URL..."
+msgstr "Опит за смяна на URL..."
+
+#: plugins/share/share.js:34
+#, fuzzy
+msgid "Could not change URL."
+msgstr "Опит за смяна на URL..."
+
+#: plugins/share/share.js:42
+msgid "Remove sharing for this article?"
+msgstr "Премахване споделянето на тази статия?"
+
+#: plugins/share/share_prefs.js:5
+msgid "This will invalidate all previously shared article URLs. Continue?"
+msgstr ""
+"Това ще отвалидира всички предходно споделени URL-и на статията. "
+"Продължаване?"
+
+#: js/Feeds.js:284
+msgid ""
+"Tiny Tiny RSS is running in safe mode. All themes and plugins are disabled. "
+"You will need to log out and back in to disable it."
+msgstr ""
+
+#: js/Feeds.js:628
+msgid "Used for word stemming"
+msgstr ""
+
+#: js/App.js:612
+msgid "Stack trace"
+msgstr ""
+
+#: js/PrefFeedTree.js:369
+#, fuzzy
+msgid "Rename category to:"
+msgstr "Премахване на категория"
+
+#: js/PrefFeedTree.js:534
+msgid "Unsubscribe from selected feeds"
+msgstr "Отписване от избраните хранилки"
+
+#: js/CommonDialogs.js:53
+msgid "Available feeds"
+msgstr "Налични хранилки"
+
+#: js/CommonDialogs.js:86
+msgid "This feed requires authentication."
+msgstr "Тази хранилка изисква автентикация."
+
+#: js/CommonDialogs.js:506
+#, fuzzy
+msgid "Site URL:"
+msgstr "URL на статията:"
+
+#: js/PrefHelpers.js:229
+msgid "Clone"
+msgstr ""
+
+#: js/PrefHelpers.js:231
+#, fuzzy
+#| msgid "Activate profile"
+msgid "Activate"
+msgstr "Активиране на профил"
+
+#: js/PrefHelpers.js:299
+msgid "Apply"
+msgstr ""
+
+#: js/PrefHelpers.js:352
+msgid "Selected plugins have been enabled. Reload?"
+msgstr ""
+
+#: js/PrefHelpers.js:680
+#, fuzzy
+#| msgid "Upload complete."
+msgid "Updates complete"
+msgstr "Качването приключи."
+
+#: js/PrefHelpers.js:694
+#, javascript-format
+msgid "Updates pending for %d plugin"
+msgid_plural "Updates pending for %d plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: js/Headlines.js:654
+msgid "Invert"
+msgstr "Обръщане"
+
+#: js/Headlines.js:662
+msgid "Set score"
+msgstr "Задаване на точки"
+
+#: js/Headlines.js:667
+msgid "Delete permanently"
+msgstr ""
+
+#: js/Headlines.js:855
+msgid ""
+"Could not update headlines (invalid object received - see error console for "
+"details)"
+msgstr ""
+
+#: js/Article.js:207
+msgid "Attachments"
+msgstr "Прикачени"
+
+#: js/PrefUsers.js:76
+msgid "Access level: "
+msgstr "Ниво на достъп:"
+
+#: js/CommonFilters.js:70
+msgid "No recent articles matching this filter have been found."
+msgstr "Не са намерени скорошни статии, съвпадащи с този филтър."
+
+#, fuzzy
+#~ msgid "One time password:"
+#~ msgstr "Грешна еднократна парола"
+
+#, fuzzy
+#~ msgid "Published OPML"
+#~ msgstr "Публикувани"
+
+#~ msgid "Display published OPML URL"
+#~ msgstr "Показване на публикувания OPML URL"
+
+#~ msgid "Please enter your one time password:"
+#~ msgstr "Моля, въведете еднократната Ви парола:"
+
+#~ msgid "Public OPML URL"
+#~ msgstr "Публичен OPML URL"
+
+#~ msgid "Replace current OPML publishing address with a new one?"
+#~ msgstr "Замяна на текущо публикувания OPML адрес с нов?"
+
+#~ msgid "Your Public OPML URL is:"
+#~ msgstr "Вашият публичен OPML URL е:"
+
+#~ msgid "Click to expand article"
+#~ msgstr "Клик за разпъване на статия"
+
+#~ msgid "Create profile"
+#~ msgstr "Създаване на профил"
+
+#~ msgid "Remove selected profiles"
+#~ msgstr "Премахване на избраните профили"
+
+#~ msgid "Ignore Scoring"
+#~ msgstr "Незачитане на точкуване"
+
+#, fuzzy
+#~ msgid "Completed."
+#~ msgstr "Качването приключи."
+
+#~ msgid "Save data"
+#~ msgstr "Запазване на данните"
+
+#~ msgid "Changing your current password will disable OTP."
+#~ msgstr "Промяната на текущата парола ще забрани еднократната парола."
+
+#, fuzzy
+#~ msgid "Remove selected passwords"
+#~ msgstr "Премахване на избраните профили"
+
+#, fuzzy
+#~ msgid ""
+#~ "Scan the following code by the Authenticator application or copy the key "
+#~ "manually"
+#~ msgstr "Сканиране на следния код с приложението Authenticator:"
+
+#, fuzzy
+#~ msgid ""
+#~ "Use the following OTP key with a compatible Authenticator application"
+#~ msgstr "Сканиране на следния код с приложението Authenticator:"
+
+#~ msgid "Save and exit preferences"
+#~ msgstr "Запазване и изход от предпочитанията"
+
+#~ msgid "System plugins"
+#~ msgstr "Системни добавки"
+
+#~ msgid ""
+#~ "Using OPML you can export and import your feeds, filters, labels and Tiny "
+#~ "Tiny RSS settings."
+#~ msgstr ""
+#~ "Чрез OPML можете да изнасяте и внасяте Вашите хранилки, филтри, етикети и "
+#~ "Tiny Tiny RSS настройки."
+
+#~ msgid ""
+#~ "Your OPML can be published publicly and can be subscribed by anyone who "
+#~ "knows the URL below."
+#~ msgstr ""
+#~ "Вашият OPML може да се публикува публично и всеки, който знае долния URL, "
+#~ "може да се абонира."
+
+#~ msgid ""
+#~ "Published OPML does not include your Tiny Tiny RSS settings, feeds that "
+#~ "require authentication or feeds hidden from Popular feeds."
+#~ msgstr ""
+#~ "Публикуваният OPML не съдържа Вашите Tiny Tiny RSS настройки, хранилки с "
+#~ "автентикация и скрити хранилки от \"Популярни хранилки\"."
+
+#, fuzzy
+#~ msgid ""
+#~ "Published articles can be subscribed by anyone who knows the following "
+#~ "URL:"
+#~ msgstr ""
+#~ "Вашият OPML може да се публикува публично и всеки, който знае долния URL, "
+#~ "може да се абонира."
+
+#~ msgid "Close article"
+#~ msgstr "Затваряне на статия"
+
+#~ msgid "Shared articles"
+#~ msgstr "Споделени статии"
+
+#, fuzzy
+#~ msgid "Enable proxy for all remote images."
+#~ msgstr "Активиране на категории за хранилки"
+
+#~ msgid "Forward by email"
+#~ msgstr "Препращане по e-mail"
+
+#~ msgid "Mail addresses saved."
+#~ msgstr "Пощенските адреси са запазени."
+
+#~ msgid "You can set predefined email addressed here (comma-separated list):"
+#~ msgstr ""
+#~ "Тук можете да зададете предефинирани e-mail адреси (разделени със "
+#~ "запетаи):"
+
+#~ msgid "[Forwarded]"
+#~ msgstr "[Препратено]"
+
+#~ msgid "Multiple articles"
+#~ msgstr "Множество статии"
+
+#~ msgid "Subject:"
+#~ msgstr "Заглавие:"
+
+#, fuzzy
+#~ msgid "Forward by email (mailto:)"
+#~ msgstr "Препращане по e-mail"
+
+#, fuzzy
+#~ msgid "Click to open your mail client"
+#~ msgstr "Изберете следния линк, за да извикате пощенския Ви клиент:"
+
+#~ msgid "Close this dialog"
+#~ msgstr "Затваряне на този диалог"
+
+#~ msgid "You can disable all articles shared by unique URLs here."
+#~ msgstr ""
+#~ "Тук можете да деактивирате всички статии, споделени чрез уникални URL-и."
+
+#~ msgid "Session failed to validate (schema version changed)"
+#~ msgstr "Валидацията на сесията се провали (версията на схемата е променена)"
+
+#, fuzzy
+#~ msgid "Session failed to validate (UA changed)."
+#~ msgstr "Валидацията на сесията се провали (паролата е променена)"
+
+#~ msgid "Label Editor"
+#~ msgstr "Редактор на етикети"
+
+#~ msgid "Caption"
+#~ msgstr "Надпис"
+
+#~ msgid "Colors"
+#~ msgstr "Цветове"
+
+#~ msgid "Subscribe to Feed"
+#~ msgstr "Абониране за хранилка"
+
+#~ msgid "Edit Feed"
+#~ msgstr "Редактиране на хранилка"
+
+#, fuzzy
+#~ msgid "Upload failed: icon is too big."
+#~ msgstr "Качването се провали с код за грешка \"%d\""
+
+#~ msgid "Settings Profiles"
+#~ msgstr "Настройки на профили"
+
+#~ msgid "Edit article Tags"
+#~ msgstr "Редактиране таговете на статия"
+
+#~ msgid "User Editor"
+#~ msgstr "Редактор на потребител"
+
+#~ msgid "Create Filter"
+#~ msgstr "Създаване на филтър"
+
+#~ msgid "Save rule"
+#~ msgstr "Запазване на правило"
+
+#~ msgid "Save action"
+#~ msgstr "Запазване на действие"
+
+#~ msgid "Forward article by email"
+#~ msgstr "Препращане на статия по e-mail"
+
+#, fuzzy
+#~ msgid "Forward article by email (mailto:)"
+#~ msgstr "Препращане на статия по e-mail"
+
+#~ msgid "Error sending email:"
+#~ msgstr "Грешка при изпращане на e-mail:"
+
+#~ msgid "Amount of articles to display at once"
+#~ msgstr "Количество статии за показване наведнъж"
+
+#~ msgid "Sort feeds by unread articles count"
+#~ msgstr "Подреждане на хранилките по брой нечетени статии"
+
+#~ msgid "Reverse headline order (oldest first)"
+#~ msgstr "Обръщане подредбата на заглавията (първо най-старите)"
+
+#~ msgid ""
+#~ "Use feed-specified date to sort headlines instead of local import date."
+#~ msgstr ""
+#~ "Използване на датата от хранилката за подредба на заглавията вместо "
+#~ "локалната дата на вмъкване."
+
+#~ msgid "Strip unsafe tags from articles"
+#~ msgstr "Премахване на опасните тагове от статиите"
+
+#~ msgid "Strip all but most common HTML tags when reading articles."
+#~ msgstr ""
+#~ "Премахване на HTML кодовете при показване на статиите, освен най-"
+#~ "основните."
+
+#~ msgid "Your preferences are now set to default values."
+#~ msgstr "Предпочитанията Ви са зададени към стойности по подразбиране."
+
+#~ msgid "Enabled"
+#~ msgstr "Активирано"
+
+#~ msgid "Match any rule"
+#~ msgstr "Съвпадение с някое правило"
+
+#~ msgid "Inverse matching"
+#~ msgstr "Обратно съвпадение"
+
+#~ msgid ""
+#~ "This program requires XmlHttpRequest to function properly. Your browser "
+#~ "doesn't seem to support it."
+#~ msgstr ""
+#~ "Тази програма изисква XmlHttpRequest, за да работи правилно. Изглежда, че "
+#~ "Вашият браузър не го поддържа."
+
+#~ msgid ""
+#~ "This program requires cookies to function properly. Your browser doesn't "
+#~ "seem to support them."
+#~ msgstr ""
+#~ "Тази програма изисква бисквитки, за да работи правилно. Изглежда, че "
+#~ "Вашият браузър не ги поддържа."
+
+#~ msgid "Backend sanity check failed."
+#~ msgstr "Проверката за здравина на бекенда се провали."
+
+#~ msgid "Frontend sanity check failed."
+#~ msgstr "Проверката за здравина на фронтенда се провали."
+
+#~ msgid ""
+#~ "Incorrect database schema version. &lt;a href='db-updater.php'&gt;Please "
+#~ "update&lt;/a&gt;."
+#~ msgstr ""
+#~ "Некоректна версия на схемата на базата данни. &lt;a href='db-updater."
+#~ "php'&gt;Моля, обновете!&lt;/a&gt;."
+
+#~ msgid "Request not authorized."
+#~ msgstr "Заявката не е разрешена."
+
+#~ msgid "No operation to perform."
+#~ msgstr "Няма действие за извършване."
+
+#~ msgid ""
+#~ "Could not display feed: query failed. Please check label match syntax or "
+#~ "local configuration."
+#~ msgstr ""
+#~ "Хранилката не може да се покаже: провалена заявка. Моля, проверете "
+#~ "синтаксиса за съвпадение на етикета или локалната конфигурация."
+
+#~ msgid "Denied. Your access level is insufficient to access this page."
+#~ msgstr ""
+#~ "Отказано. Вашето ниво на достъп е недостатъчно за отваряне на тази "
+#~ "страница."
+
+#~ msgid "Configuration check failed"
+#~ msgstr "Проверката на конфигурацията се провали"
+
+#~ msgid ""
+#~ "Your version of MySQL is not currently supported. Please see official "
+#~ "site for more information."
+#~ msgstr ""
+#~ "Вашата версия на MySQL текущо не се поддържа. Моля, погледнете официалния "
+#~ "сайт за повече информация!"
+
+#~ msgid "SQL escaping test failed, check your database and PHP configuration"
+#~ msgstr ""
+#~ "Тестът за SQL escaping се провали. Проверете базата данни и PHP "
+#~ "конфигурацията!"
+
+#, fuzzy
+#~ msgid "Method not found"
+#~ msgstr "Хранилката не е намерена."
+
+#, fuzzy
+#~ msgid "Plugin not found"
+#~ msgstr "Потребителят не е намерен"
+
+#, fuzzy
+#~ msgid "Access level:"
+#~ msgstr "Ниво на достъп:"
+
+#~ msgid "Match"
+#~ msgstr "Съвпадение"
+
+#~ msgid "Apply actions"
+#~ msgstr "Прилагане на действията"
+
+#~ msgid "on field"
+#~ msgstr "върху поле"
+
+#~ msgid "Perform Action"
+#~ msgstr "Извършване на действие"
+
+#~ msgid "Feed Title"
+#~ msgstr "Заглавие на хранилка"
+
+#~ msgid "Feed URL"
+#~ msgstr "URL на хранилка"
+
+#, fuzzy
+#~ msgid "Site URL"
+#~ msgstr "URL на хранилка"
+
+#, fuzzy
+#~ msgid "Interval:"
+#~ msgstr "Интерфейс"
+
+#~ msgid "Login"
+#~ msgstr "Потребител"
+
+#~ msgid "Icon"
+#~ msgstr "Икона"
+
+#~ msgid "Replace"
+#~ msgstr "Замяна"
+
+#~ msgid "Clear colors"
+#~ msgstr "Изчистване на цветове"
+
+#~ msgid "One time passwords / Authenticator"
+#~ msgstr "Еднократни пароли / Authenticator"
+
+#~ msgid "Your access level is insufficient to open this tab."
+#~ msgstr "Вашето ниво на достъп е недостатъчно, за да отворите този раздел."
+
+#~ msgid "Edit"
+#~ msgstr "Редактиране"
+
+#~ msgid "User details"
+#~ msgstr "Детайли на потребител"
+
+#~ msgid "Subscribed feeds count"
+#~ msgstr "Бройка на абонираните хранилки"
+
+#~ msgid "Access Level"
+#~ msgstr "Ниво на достъп"
+
+#~ msgid "Last login"
+#~ msgstr "Последен вход"
+
+#~ msgid "No users defined."
+#~ msgstr "Не е указан потребител."
+
+#~ msgid "No matching users found."
+#~ msgstr "Не са намерени съвпадащи потребители."
+
+#~ msgid ""
+#~ "<b>Hint:</b> you need to fill in your login information if your feed "
+#~ "requires authentication, except for Twitter feeds."
+#~ msgstr ""
+#~ "<b>Съвет:</b> трябва да попълните информацията Ви за вход, ако хранилката "
+#~ "изисква автентикация, с изключение на Twitter хранилките."
+
+#~ msgid "Published & shared articles / Generated feeds"
+#~ msgstr "Публикувани и споделени статии / Генерирани хранилки"
+
+#~ msgid "Feeds require authentication."
+#~ msgstr "Хранилките изискват автентикация."
+
+#, fuzzy
+#~ msgid "Select articles"
+#~ msgstr "Избор на всички статии"
+
+#~ msgid "Feed or site URL"
+#~ msgstr "URL на хранилка/сайт"
+
+#, fuzzy
+#~ msgid "Search %s..."
+#~ msgstr "Търсене..."
+
+#~ msgid "unknown type"
+#~ msgstr "незнаен вид"
+
+#~ msgid "Global settings"
+#~ msgstr "Глобални настройки"
+
+#~ msgid "Forward selected article(s) by email."
+#~ msgstr "Препращане на избраните статии по e-mail."
+
+#~ msgid ""
+#~ "You should be able to edit the message before sending in your mail client."
+#~ msgstr ""
+#~ "Ще имате възможност да редактирате съобщението преди изпращане в "
+#~ "пощенския Ви клиент."
+
+#~ msgid "Help"
+#~ msgstr "Помощ"
+
+#~ msgid "Please select only one filter."
+#~ msgstr "Моля, изберете само един филтър!"
+
+#~ msgid "Create new account"
+#~ msgstr "Създаване на нов акаунт"
+
+#~ msgid "New user registrations are administratively disabled."
+#~ msgstr "Новите потребителски регистрации са забранени административно."
+
+#~ msgid ""
+#~ "Your temporary password will be sent to the specified email. Accounts, "
+#~ "which were not logged in once, are erased automatically 24 hours after "
+#~ "temporary password is sent."
+#~ msgstr ""
+#~ "Временната ви парола ще бъде изпратена на указания e-mail. Акаунти, в "
+#~ "които не е влизано нито веднъж, се изтриват автоматично 24 часа след "
+#~ "изпращане на временната парола."
+
+#~ msgid "Desired login:"
+#~ msgstr "Потребител:"
+
+#~ msgid "Check availability"
+#~ msgstr "Проверка за наличност"
+
+#~ msgid "How much is two plus two:"
+#~ msgstr "Колко е две плюс две:"
+
+#~ msgid "Submit registration"
+#~ msgstr "Изпращане на регистрацията"
+
+#~ msgid "Your registration information is incomplete."
+#~ msgstr "Регистрационната Ви информация е непълна."
+
+#~ msgid "Sorry, this username is already taken."
+#~ msgstr "Съжалявам, това потребителско име е заето."
+
+#~ msgid "Account created successfully."
+#~ msgstr "Акаунтът е създаден успешно."
+
+#~ msgid "New user registrations are currently closed."
+#~ msgstr "Текущо новите потребителски регистрации са затворени."
+
+#~ msgid "Tiny Tiny RSS data update script."
+#~ msgstr "Tiny Tiny RSS скрипт за обновяване на данните."
+
+#, fuzzy
+#~ msgid "Safe mode (no plugins)"
+#~ msgstr "Системни добавки"
+
+#~ msgid "Tag cloud"
+#~ msgstr "Облак с тагове"
+
+#~ msgid ""
+#~ "Update daemon is enabled in configuration, but daemon process is not "
+#~ "running, which prevents all feeds from updating. Please start the daemon "
+#~ "process or contact instance owner."
+#~ msgstr ""
+#~ "Обновяващият демон е активиран в конфигурацията, но процесът на демона не "
+#~ "е включен, което пречи на всички хранилки да се обновяват. Моля, включете "
+#~ "процеса на демона или се свържете със собственика на инсталацията!"
+
+#~ msgid ""
+#~ "Update daemon is taking too long to perform a feed update. This could "
+#~ "indicate a problem like crash or a hang. Please check the daemon process "
+#~ "or contact instance owner."
+#~ msgstr ""
+#~ "Обновяващият демон изисква твърде много време за обновяване на "
+#~ "хранилките. Това може да е знак за проблем като срив или забиване. Моля, "
+#~ "проверете процеса на демона или се свържете със собственика на "
+#~ "инсталацията!"
+
+#, fuzzy
+#~ msgid "Open Preferences"
+#~ msgstr "Предпочитания"
+
+#~ msgid "Selection toggle:"
+#~ msgstr "Превключване на избора:"
+
+#~ msgid "Selection:"
+#~ msgstr "Избрани:"
+
+#~ msgid "Move back"
+#~ msgstr "Назад"
+
+#~ msgid "Archive"
+#~ msgstr "Архивиране"
+
+#~ msgid "Feed:"
+#~ msgstr "Хранилка:"
+
+#~ msgid "Error explained"
+#~ msgstr "Обяснение на грешка"
+
+#~ msgid "More Feeds"
+#~ msgstr "Още хранилки"
+
+#~ msgid ""
+#~ "Remove selected feeds from the archive? Feeds with stored articles will "
+#~ "not be removed."
+#~ msgstr ""
+#~ "Премахване на избраните хранилки от архива? Хранилките със съхранени "
+#~ "статии няма да бъдат премахнати."
+
+#~ msgid "Archive %d selected article in %s?"
+#~ msgid_plural "Archive %d selected articles in %s?"
+#~ msgstr[0] "Архивиране на %d избрана статия в \"%s\"?"
+#~ msgstr[1] "Архивиране на %d избрани статии в \"%s\"?"
+
+#~ msgid "Move %d archived article back?"
+#~ msgid_plural "Move %d archived articles back?"
+#~ msgstr[0] "Връщане на %d архивирана статия?"
+#~ msgstr[1] "Връщане на %d архивирани статии?"
+
+#~ msgid ""
+#~ "Please note that unstarred articles might get purged on next feed update."
+#~ msgstr ""
+#~ "Моля имайте предвид, че статиите без звезда може да бъдат изтрити при "
+#~ "следващото обновяване на хранилката."
+
+#, fuzzy
+#~ msgid "No file was uploaded"
+#~ msgstr "Няма качени файлове."
+
+#~ msgid "Keyboard Shortcuts"
+#~ msgstr "Клавишни препратки"
+
+#, fuzzy
+#~ msgid "Don't cache files locally."
+#~ msgstr "Локално кеширане на изображенията"
+
+#~ msgid "Toggle embed original"
+#~ msgstr "Превключване на вложен оригинал"
+
+#~ msgid "Please enable embed_original plugin first."
+#~ msgstr "Моля, първо активирайте добавката \"embed_original\"!"
+
+#, fuzzy
+#~ msgid "Toggle night mode"
+#~ msgstr "Превключване на комбиниран режим"
+
+#~ msgid "Import and export"
+#~ msgstr "Внасяне и изнасяне"
+
+#~ msgid ""
+#~ "You can export and import your Starred and Archived articles for "
+#~ "safekeeping or when migrating between tt-rss instances of same version."
+#~ msgstr ""
+#~ "Можете да изнасяте и внасяте Вашите архивирани и със звезда статии като "
+#~ "резервно копие или при миграция между tt-rss инсталации с една и съща "
+#~ "версия."
+
+#~ msgid "Export my data"
+#~ msgstr "Изнасяне на моите данни"
+
+#~ msgid "Import"
+#~ msgstr "Внасяне"
+
+#~ msgid "Could not import: incorrect schema version."
+#~ msgstr "Неуспешно внасяне: грешна версия на схема."
+
+#~ msgid "Could not import: unrecognized document format."
+#~ msgstr "Неуспешно внасяне: непознат формат на документа."
+
+#~ msgid "Finished: "
+#~ msgstr "Завършени:"
+
+#~ msgid "%d article processed, "
+#~ msgid_plural "%d articles processed, "
+#~ msgstr[0] "%d обработена статия, "
+#~ msgstr[1] "%d обработени статии, "
+
+#~ msgid "%d imported, "
+#~ msgid_plural "%d imported, "
+#~ msgstr[0] "%d внесена, "
+#~ msgstr[1] "%d внесени, "
+
+#~ msgid "%d feed created."
+#~ msgid_plural "%d feeds created."
+#~ msgstr[0] "%d създадена хранилка."
+#~ msgstr[1] "%d създадени хранилки."
+
+#~ msgid "Could not load XML document."
+#~ msgstr "Неуспех при зареждането на XML документ."
+
+#~ msgid "Prepare data"
+#~ msgstr "Подготовка на данни"
+
+#, fuzzy
+#~ msgid "Upload failed with error code %d (%s)"
+#~ msgstr "Качването се провали с код за грешка \"%d\""
+
+#~ msgid "No file uploaded."
+#~ msgstr "Няма качени файлове."
+
+#~ msgid "Export Data"
+#~ msgstr "Изнасяне на данни"
+
+#~ msgid ""
+#~ "Finished, exported %d article. You can download the data <a "
+#~ "class='visibleLink' href='%u'>here</a>."
+#~ msgid_plural ""
+#~ "Finished, exported %d articles. You can download the data <a "
+#~ "class='visibleLink' href='%u'>here</a>."
+#~ msgstr[0] ""
+#~ "Готово, изнесена %d статия. Можете да изтеглите данните <a "
+#~ "class='visibleLink' href='%u'>тук</a>."
+#~ msgstr[1] ""
+#~ "Готово, изнесени %d статии. Можете да изтеглите данните <a "
+#~ "class='visibleLink' href='%u'>тук</a>."
+
+#~ msgid "Data Import"
+#~ msgstr "Внасяне на данни"
+
+#~ msgid "Please choose the file first."
+#~ msgstr "Моля, първо изберете файл!"
+
+#~ msgid "%d archived article"
+#~ msgid_plural "%d archived articles"
+#~ msgstr[0] "%d архивирана статия"
+#~ msgstr[1] "%d архивирани статии"
+
+#~ msgid "No feeds found."
+#~ msgstr "Няма намерени хранилки."
+
+#, fuzzy
+#~ msgid "Database update required"
+#~ msgstr "Обновяване на базата данни"
+
+#, fuzzy
+#~ msgid "Sending new password of user %s to %s"
+#~ msgstr "Изпращане на нова парола на потребител <b>%s</b> към <b>%s</b>"
+
+#~ msgid "[tt-rss] Password change notification"
+#~ msgstr "[tt-rss] Известие за смяна на парола"
+
+#~ msgid "Hide from Popular feeds"
+#~ msgstr "Скриване от \"Популярни хранилки\""
+
+#~ msgid ""
+#~ "These feeds have not been updated with new content for 3 months (oldest "
+#~ "first):"
+#~ msgstr ""
+#~ "Тези хранилки не са обновявани с ново съдържание от 3 месеца (най-старите "
+#~ "отгоре):"
+
+#~ msgid "Plugin"
+#~ msgstr "Добавка"
+
+#~ msgid "Version"
+#~ msgstr "Версия"
+
+#~ msgid "Author"
+#~ msgstr "Автор"
+
+#~ msgid "Popular feeds"
+#~ msgstr "Популярни хранилки"
+
+#~ msgid "Feed archive"
+#~ msgstr "Архив с хранилки"
+
+#~ msgid "limit:"
+#~ msgstr "лимит"
+
+#, fuzzy
+#~ msgid "Toggle feedlist"
+#~ msgstr "Свиване на списъка с хранилки"
+
+#, fuzzy
+#~ msgid "Automatically opens next unread feed after marking one as read"
+#~ msgstr ""
+#~ "Автоматично отваряне на следващата хранилка с нечетени статии при "
+#~ "отбелязване на текущата като прочетена"
+
+#~ msgid "Other interface tips are available in the Tiny Tiny RSS wiki."
+#~ msgstr "Още такива съвети има в Tiny Tiny RSS wiki."
+
+#~ msgid "Help topic not found."
+#~ msgstr "Помощната тема не е намерена."
+
+#~ msgid "Only main settings profile can be migrated using OPML."
+#~ msgstr "Само основните настройки на профила могат да се мигрират чрез OPML."
+
+#~ msgid "Wiki: Filters"
+#~ msgstr "Wiki: Филтри"
+
+#~ msgid "Interface"
+#~ msgstr "Интерфейс"
+
+#~ msgid ""
+#~ "When auto-detecting tags in articles these tags will not be applied "
+#~ "(comma-separated list)."
+#~ msgstr ""
+#~ "При авто засичане на тагове в статиите тези тагове няма да се прилагат "
+#~ "(разделени със запетаи)."
+
+#~ msgid "Automatically mark articles as read"
+#~ msgstr "Автоматично отбелязване на статиите като прочетени"
+
+#~ msgid "Automatically expand articles in combined mode"
+#~ msgstr "Автоматично разпъване на статиите в комбиниран режим"
+
+#~ msgid "Combined feed display"
+#~ msgstr "Комбинирано показване на хранилки"
+
+#~ msgid "Mark articles in e-mail digest as read"
+#~ msgstr "Отбелязване на статиите в e-mail справката като прочетени"
+
+#~ msgid "Enable API access"
+#~ msgstr "Активиране на API достъп"
+
+#~ msgid "Hide feeds with no unread articles"
+#~ msgstr "Скриване на хранилки без нечетени статии"
+
+#~ msgid "Click to register your SSL client certificate with tt-rss"
+#~ msgstr "Регистриране на клиентския Ви SSL сертификат в tt-rss"
+
+#, fuzzy
+#~ msgid "Do not embed media in articles"
+#~ msgstr "Без вграждане на изображения в статиите"
+
+#~ msgid "Group headlines in virtual feeds"
+#~ msgstr "Групиране на заглавия във виртуални хранилки"
+
+#~ msgid ""
+#~ "Special feeds, labels, and categories are grouped by originating feeds"
+#~ msgstr ""
+#~ "Специални хранилки, етикети и категории се групират по оригиналните "
+#~ "хранилки"
+
+#~ msgid "Feeds to subscribe, One per line"
+#~ msgstr "Хранилки за абониране. По една на ред"
+
+#~ msgid "Look for"
+#~ msgstr "Търсене за"
+
+#~ msgid ""
+#~ "This option enables marking articles as read automatically while you "
+#~ "scroll article list."
+#~ msgstr ""
+#~ "Тази опция активира автоматичното отбелязване на статиите като прочетени, "
+#~ "докато разглеждате списъка със статии."
+
+#~ msgid ""
+#~ "Shortest interval at which a feed will be checked for updates regardless "
+#~ "of update method"
+#~ msgstr ""
+#~ "Най-кратък интервал, през който хранилките ще се обновяват, независимо от "
+#~ "метода за обновяване"
+
+#~ msgid "Uses UTC timezone"
+#~ msgstr "Използва UTC часова зона"
+
+#~ msgid "Purge articles after this number of days (0 - disables)"
+#~ msgstr "Изтриване на статии след този брой дни (0 - без изтриване)"
+
+#~ msgid "Customize CSS stylesheet to your liking"
+#~ msgstr "Нагласяване CSS стила на страницата по Ваше усмотрение"
+
+#~ msgid "Select one of the available CSS themes"
+#~ msgstr "Изберете една от наличните CSS теми"
+
+#~ msgid "Access level"
+#~ msgstr "Ниво на достъп"
+
+#~ msgid ""
+#~ "One time passwords are currently enabled. Enter your current password "
+#~ "below to disable."
+#~ msgstr ""
+#~ "Еднократните пароли текущо са активни. Въведете текущата Ви парола по-"
+#~ "долу, за да ги забраните."
+
+#~ msgid "Enter your password"
+#~ msgstr "Въведете Вашата парола"
+
+#~ msgid ""
+#~ "You will need a compatible Authenticator to use this. Changing your "
+#~ "password would automatically disable OTP."
+#~ msgstr ""
+#~ "Нужен Ви е съвместим Authenticator, за да използвате това. Промяната на "
+#~ "паролата Ви автоматично забранява еднократната парола."
+
+#~ msgid "Enter the generated one time password"
+#~ msgstr "Въведете генерираната еднократна парола"
+
+#~ msgid "PHP GD functions are required for OTP support."
+#~ msgstr "Необходими са PHP GD функции за поддръжка на еднократни пароли."
+
+#~ msgid "Not logged in"
+#~ msgstr "Не сте влезли"
+
+#~ msgid "Sorry, your browser does not support sandboxed iframes."
+#~ msgstr "Съжалявам, браузърът Ви не поддържа тестови iframe-ове."
+
+#~ msgid " - "
+#~ msgstr " - "
+
+#~ msgid "Edit tags for this article"
+#~ msgstr "Редактиране на таговете за тази статия"
+
+#~ msgid "Originally from:"
+#~ msgstr "Оригинално от:"
+
+#~ msgid "(edit note)"
+#~ msgstr "(редактиране на бележка)"
+
+#~ msgid "mark feed as read"
+#~ msgstr "отбелязване на хранилката като прочетена"
+
+#~ msgid ""
+#~ "You will need to reload Tiny Tiny RSS for plugin changes to take effect."
+#~ msgstr ""
+#~ "Ще трябва да презаредите Tiny Tiny RSS, за да влязат в сила промените по "
+#~ "добавките."
+
+#~ msgid ""
+#~ "Published articles are exported as a public RSS feed and can be "
+#~ "subscribed by anyone who knows the URL specified below."
+#~ msgstr ""
+#~ "Публикуваните статии са изнесени като публична RSS хранилка и всеки, "
+#~ "който знае указания по-долу URL, може да се абонира."
+
+#~ msgid "Trying to unshare..."
+#~ msgstr "Опит за премахване на споделянето..."
+
+#~ msgid "Filename:"
+#~ msgstr "Име на файл:"
+
+#~ msgid "Your message has been sent."
+#~ msgstr "Съобщението Ви е изпратено."
+
+#~ msgid "View as RSS feed"
+#~ msgstr "Преглед като RSS хранилка"
+
+#~ msgid "View as RSS"
+#~ msgstr "Преглед като RSS"
+
+#~ msgid "Error Log"
+#~ msgstr "Журнал на грешките"
+
+#~ msgid "You can view this feed as RSS using the following URL:"
+#~ msgstr "Можете да видите тази хранилка като RSS на следния URL:"
+
+#~ msgid "No feeds are selected."
+#~ msgstr "Не са избрани хранилки."
+
+#~ msgid "No articles are selected."
+#~ msgstr "Не са избрани статии."
+
+#~ msgid "Can't create user: no login specified."
+#~ msgstr "Не може да се създаде потребител: не е указано име."
+
+#~ msgid "Clear all messages in the error log?"
+#~ msgstr "Изчистване на всички съобщения от журнала с грешки?"
+
+#~ msgid "Rescore feed"
+#~ msgstr "Преточкуване на хранилка"
+
+#~ msgid "Create label..."
+#~ msgstr "Създаване на етикет..."
+
+#~ msgid "Create filter..."
+#~ msgstr "Създаване на филтър..."
+
+#~ msgid "You can't rescore this kind of feed."
+#~ msgstr "Не можете да преточкувате този тип хранилка."
+
+#~ msgid "Rescore articles in %s?"
+#~ msgstr "Преточкуване на статиите в \"%s\"?"
+
+#~ msgid "Can't create label: missing caption."
+#~ msgstr "Не може да се създаде етикет: липсва надпис."
+
+#~ msgid "Firefox integration"
+#~ msgstr "Firefox интеграция"
+
+#~ msgid ""
+#~ "This Tiny Tiny RSS site can be used as a Firefox Feed Reader by clicking "
+#~ "the link below."
+#~ msgstr ""
+#~ "Този Tiny Tiny RSS сайт може да се използва като четец на хранилки във "
+#~ "Firefox чрез избиране на връзката по-долу."
+
+#~ msgid "Click here to register this site as a feed reader."
+#~ msgstr "Кликнете тук, за да регистрирате този сайт като четец на хранилки."
+
+#~ msgid "Rescore articles"
+#~ msgstr "Преточкуване на статии"
+
+#~ msgid "All done."
+#~ msgstr "Готово."
+
+#~ msgid "Manual purge"
+#~ msgstr "Ръчно изтриване"
+
+#~ msgid "Clear feed data"
+#~ msgstr "Изчистване данните на хранилката"
+
+#~ msgid "Please enter category title:"
+#~ msgstr "Моля, въведете име на категория:"
+
+#~ msgid "Please select only one feed."
+#~ msgstr "Моля, изберете само една хранилка!"
+
+#~ msgid "Erase all non-starred articles in selected feed?"
+#~ msgstr "Изтриване на всички статии без звезда от избраната хранилка?"
+
+#~ msgid "Clearing selected feed..."
+#~ msgstr "Изчистване на избраната хранилка..."
+
+#~ msgid "How many days of articles to keep (0 - use default)?"
+#~ msgstr "Статии на колко дни да се запазят (0 - по подразбиране)?"
+
+#~ msgid "Purging selected feed..."
+#~ msgstr "Изтриване на избраната хранилка..."
+
+#~ msgid "Clearing feed..."
+#~ msgstr "Изчистване на хранилка..."
+
+#~ msgid "Rescore articles in selected feeds?"
+#~ msgstr "Преточкуване на статиите в избраните хранилки?"
+
+#~ msgid "Rescoring selected feeds..."
+#~ msgstr "Преточкуване на избраните хранилки..."
+
+#~ msgid "Rescore all articles? This operation may take a lot of time."
+#~ msgstr "Преточкуване на всички статии? Това може да отнеме много време."
+
+#~ msgid "Rescoring feeds..."
+#~ msgstr "Преточкуване на хранилки..."
+
+#~ msgid "Unstar article"
+#~ msgstr "Премахване на звезда на статия"
+
+#~ msgid "Star article"
+#~ msgstr "Слагане на звезда на статия"
+
+#~ msgid "Unpublish article"
+#~ msgstr "Разпубликуване на статия"
+
+#~ msgid "Publish article"
+#~ msgstr "Публикуване на статия"
+
+#~ msgid "Resubscribe to push updates"
+#~ msgstr "Преабониране за прокарване на обновления"
+
+#~ msgid "Resets PubSubHubbub subscription status for push-enabled feeds."
+#~ msgstr ""
+#~ "Нулиране статуса на PubSubHubbub абонамента за хранилки с позволено "
+#~ "прокарване."
+
+#~ msgid ""
+#~ "Download more plugins at tt-rss.org <a class=\"visibleLink\" target="
+#~ "\"_blank\" href=\"http://tt-rss.org/forum/viewforum.php?f=22\">forums</a> "
+#~ "or <a target=\"_blank\" class=\"visibleLink\" href=\"http://tt-rss.org/"
+#~ "wiki/Plugins\">wiki</a>."
+#~ msgstr ""
+#~ "Изтеглете още добавки от tt-rss.org <a class=\"visibleLink\" target="
+#~ "\"_blank\" href=\"http://tt-rss.org/forum/viewforum.php?f=22\">форумите</"
+#~ "a> или <a target=\"_blank\" class=\"visibleLink\" href=\"http://tt-rss."
+#~ "org/wiki/Plugins\">wiki</a>."
+
+#~ msgid "Linked"
+#~ msgstr "Свързана"
+
+#~ msgid "Instance"
+#~ msgstr "Инсталация"
+
+#~ msgid "Instance URL"
+#~ msgstr "URL на инсталация"
+
+#~ msgid "Access key:"
+#~ msgstr "Ключ за достъп:"
+
+#~ msgid "Access key"
+#~ msgstr "Ключ за достъп"
+
+#~ msgid "Use one access key for both linked instances."
+#~ msgstr "Използване на един ключ за достъп за двете свързани инсталации."
+
+#~ msgid "Generate new key"
+#~ msgstr "Генериране на нов ключ"
+
+#~ msgid ""
+#~ "You can connect other instances of Tiny Tiny RSS to this one to share "
+#~ "Popular feeds. Link to this instance of Tiny Tiny RSS by using this URL:"
+#~ msgstr ""
+#~ "Можете да свържете други инсталации на Tiny Tiny RSS към тази, за да "
+#~ "споделяте популярни хранилки. Свързване към тази инсталация на Tiny Tiny "
+#~ "RSS чрез този URL:"
+
+#~ msgid "Last connected"
+#~ msgstr "Последно свързана"
+
+#~ msgid "Status"
+#~ msgstr "Статус"
+
+#~ msgid "Stored feeds"
+#~ msgstr "Съхранени хранилки"
+
+#~ msgid "Create link"
+#~ msgstr "Създаване на връзка"
+
+#~ msgid ""
+#~ "Reset subscription? Tiny Tiny RSS will try to subscribe to the "
+#~ "notification hub again on next feed update."
+#~ msgstr ""
+#~ "Нулиране на абонамента? Tiny Tiny RSS ще опита да се абонира към "
+#~ "известията отново при следващото обновяване на хранилките."
+
+#~ msgid "Subscription reset."
+#~ msgstr "Нулиране на абонамент."
+
+#~ msgid "Link Instance"
+#~ msgstr "Свързване на инсталация"
+
+#~ msgid "Edit Instance"
+#~ msgstr "Редактиране на инсталация"
+
+#~ msgid "Remove selected instances?"
+#~ msgstr "Премахване на избраните инсталации?"
+
+#~ msgid "Removing selected instances..."
+#~ msgstr "Премахване на избраните инсталации..."
+
+#~ msgid "No instances are selected."
+#~ msgstr "Не са избрани инсталации."
+
+#~ msgid "Please select only one instance."
+#~ msgstr "Моля, изберете само една инсталация!"
+
+#~ msgid "The error will be reported to the configured log destination."
+#~ msgstr "Грешката ще бъде записана в указаното място за журнал."
+
+#~ msgid "Report to tt-rss.org"
+#~ msgstr "Рапорт към tt-rss.org"
+
+#~ msgid ""
+#~ "Are you sure to report this exception to tt-rss.org? The report will "
+#~ "include information about your web browser and tt-rss configuration. Your "
+#~ "IP will be saved in the database."
+#~ msgstr ""
+#~ "Сигурни ли сте за рапорта на този случай към tt-rss.org? Рапортът ще "
+#~ "включва информация за браузъра Ви и tt-rss конфигурацията. Вашето IP ще "
+#~ "бъде запазено в базата данни."
+
+#~ msgid "More..."
+#~ msgstr "Още..."
+
+#~ msgid "Dismiss selected"
+#~ msgstr "Пропускане на избраните"
+
+#~ msgid "Dismiss read"
+#~ msgstr "Пропускане на прочетените"
+
+#~ msgid "Session failed to validate (incorrect IP)"
+#~ msgstr "Валидацията на сесията се провали (грешно IP)"
+
+#~ msgid "Details"
+#~ msgstr "Детайли"
+
+#~ msgid "All done. %d out of %d articles imported."
+#~ msgstr "Готово. %d от %d статии са внесени."
+
+#~ msgid "The document has incorrect format."
+#~ msgstr "Документът има некоректен формат."
+
+#~ msgid "Import starred or shared items from Google Reader"
+#~ msgstr "Внасяне на споделени и със звезда елементи от Google Reader"
+
+#~ msgid "Paste your starred.json or shared.json into the form below."
+#~ msgstr "Поставете Вашия starred.json или shared.json във формата по-долу!"
+
+#~ msgid "Import my Starred items"
+#~ msgstr "Внасяне на моите елементи със звезда"
+
+#, fuzzy
+#~ msgid "Statistics"
+#~ msgstr "Статус"
+
+#, fuzzy
+#~ msgid "Last matched articles"
+#~ msgstr "Статии със звезда"
+
+#, fuzzy
+#~ msgid "Clear database"
+#~ msgstr "Изчистване на данни"
+
+#, fuzzy
+#~ msgid "Currently stored as: %s"
+#~ msgstr "Текущо сървърно време: %s (UTC)"
+
+#~ msgid "Google Reader Import"
+#~ msgstr "Внасяне от Google Reader"
+
+#~ msgid "Please choose a file first."
+#~ msgstr "Моля, първо изберете файл!"
+
+#, fuzzy
+#~ msgid "Clear classifier database?"
+#~ msgstr "Изчистване данните на хранилката"
+
+#~ msgid "with parameters:"
+#~ msgstr "с параметри:"
+
+#~ msgid "Select by tags..."
+#~ msgstr "Избор по тагове..."
+
+#~ msgid "Limit search to:"
+#~ msgstr "Ограничаване търсенето до:"
+
+#~ msgid ""
+#~ "Complex expressions might not give results while testing due to issues "
+#~ "with database server regexp implementation."
+#~ msgstr ""
+#~ "Комплексни условия може да не дадат резултати при тестове, заради "
+#~ "проблеми в regexp имплементацията на сървъра за бази данни."
+
+#~ msgid "Old password cannot be blank."
+#~ msgstr "Старата парола не може да е празна."
+
+#~ msgid "New password cannot be blank."
+#~ msgstr "Новата парола не може да е празна."
+
+#~ msgid "Entered passwords do not match."
+#~ msgstr "Въведените пароли не съвпадат."
+
+#~ msgid "Function not supported by authentication module."
+#~ msgstr "Функцията не се поддържа от автентикационния модул."
+
+#~ msgid "Match:"
+#~ msgstr "Съвпадение:"
+
+#~ msgid "Any"
+#~ msgstr "Някой"
+
+#~ msgid "All tags."
+#~ msgstr "Всички тагове."
+
+#~ msgid "Which Tags?"
+#~ msgstr "Кои тагове?"
+
+#~ msgid "Display entries"
+#~ msgstr "Показване на записи"
+
+#~ msgid "Select item(s) by tags"
+#~ msgstr "Избиране на елемент(и) по тагове"
+
+#~ msgid "Unread First"
+#~ msgstr "Първо нечетени"
+
+#~ msgid "Unknown option: %s"
+#~ msgstr "Незнайна опция: %s"

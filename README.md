@@ -1,7 +1,10 @@
-Tiny Tiny RSS client for Android
-================================
+Tiny Tiny RSS
+=============
 
-http://tt-rss.org/tt-rss-android
+Web-based news feed aggregator, designed to allow you to read news from 
+any location, while feeling as close to a real desktop application as possible.
+
+http://tt-rss.org
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -16,4 +19,4 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-Copyright (c) 2011 Andrew Dolgov (unless explicitly stated otherwise).
+Copyright (c) 2005 Andrew Dolgov (unless explicitly stated otherwise).

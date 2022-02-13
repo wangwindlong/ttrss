@@ -12,3 +12,16 @@ Thumbs.db
 .idea/datasources.xml
 .idea/dataSources.ids
 .idea/libraries
+/.app_is_ready
+/messages.mo
+/node_modules
+/locale/**/*.po~
+/package-lock.json
+/plugins.local/*
+/themes.local/*
+/config.php
+/feed-icons/*
+/cache/*/*
+/lock/*
+/.vscode/settings.json
+/vendor/**/.git
