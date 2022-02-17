@@ -1844,6 +1844,7 @@ class Feeds extends Handler_Protected {
 			if (!empty($_REQUEST["debug"])) {
 				print "\n*** HEADLINES QUERY ***\n$query\n";
 			}
+			insertApiLog($query);
 
 			$res = $pdo->query($query);
 

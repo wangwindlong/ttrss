@@ -91,3 +91,8 @@ putenv('TTRSS_SIMPLE_UPDATE_MODE=true');
 * origin android code: https://git.tt-rss.org/fox/tt-rss-android
 * origin web code: https://git.tt-rss.org/fox/tt-rss/src/branch/master
 
+## 接口：api.php
+* getHeadlines 获取文章列表
+* getApiLevel  {"op":"getApiLevel","sid":"t26hoh5egkdf7aj497g9e0js8o"}
+* subscribeToFeed 订阅信息{"op":"subscribeToFeed","feed_url":"http://feed.smzdm.com","category_id":"11","sid":"t26hoh5egkdf7aj497g9e0js8o"}
+* 

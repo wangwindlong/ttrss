@@ -25,3 +25,4 @@ Thumbs.db
 /lock/*
 /.vscode/settings.json
 /vendor/**/.git
+/vendor

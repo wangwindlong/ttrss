@@ -185,6 +185,9 @@ class API extends Handler {
 		return $this->_wrap(self::STATUS_OK, $cats);
 	}
 
+	/**
+	 * @return bool 获取文章列表
+	 */
 	function getHeadlines(): bool {
 		$feed_id = clean($_REQUEST["feed_id"] ?? "");
 

@@ -512,3 +512,25 @@
 		return $ts;
 	}
 
+	function insertApiLog(string $sql) {
+		insertRow("ttrss_api_log", [
+			'name' => $_SERVER['SERVER_NAME'].':'.$_SERVER["SERVER_PORT"].$_SERVER["REQUEST_URI"],
+			'origin' => 'app调用接口',
+			'note' => $sql,
+			'starttime' => date("Y-m-d H:i:s"),
+		]);
+	}
+
+	function insertRow(string $tablename, array $map): array {
+		$row = ORM::for_table($tablename)->create();
+
+		$row->set($map);
+
+		if ($row->save()) {
+			return ["code" => 1, "row_id" => (int) $row->id];
+		}
+		return ["code" => 0, "row_id" => -1];
+	}
+
+
+
