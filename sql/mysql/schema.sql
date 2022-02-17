@@ -37,6 +37,7 @@ drop table if exists ttrss_app_passwords;
 drop table if exists ttrss_users;
 drop table if exists ttrss_themes;
 drop table if exists ttrss_sessions;
+drop table if exists ttrss_api_log;
 
 begin;
 
@@ -415,5 +416,15 @@ create table ttrss_error_log(
 	context text not null,
 	created_at datetime not null,
 	foreign key (owner_uid) references ttrss_users(id) ON DELETE SET NULL) ENGINE=InnoDB DEFAULT CHARSET=UTF8;
+
+CREATE TABLE `ttrss_api_log`
+(
+    `id`        int(10) NOT NULL,
+    `name`      varchar(50) DEFAULT NULL COMMENT 'api name',
+    `origin`    varchar(10) DEFAULT NULL COMMENT 'origin',
+    `note`      text COMMENT 'api content',
+    `starttime` datetime    DEFAULT NULL,
+    `endtime`   datetime    DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 commit;
