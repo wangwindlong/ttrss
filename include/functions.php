@@ -514,7 +514,7 @@
 
 	function insertApiLog(string $sql) {
 		insertRow("ttrss_api_log", [
-			'name' => $_SERVER['SERVER_NAME'].':'.$_SERVER["SERVER_PORT"].$_SERVER["REQUEST_URI"],
+			'name' => $_SERVER['SERVER_NAME'].':'.$_SERVER["SERVER_PORT"].$_SERVER["REQUEST_URI"].($_REQUEST['op'] ?? ''),
 			'origin' => 'app调用接口',
 			'note' => $sql,
 			'starttime' => date("Y-m-d H:i:s"),
