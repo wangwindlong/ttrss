@@ -6,6 +6,10 @@ class UrlHelper {
 		"tel"
 	];
 
+	const EXTRA_SCHEMES_BY_CONTENT_TYPE = [
+		"application/x-bittorrent" => [ "magnet" ],
+	];
+
 	// TODO: class properties can be switched to PHP typing if/when the minimum PHP_VERSION is raised to 7.4.0+
 	/** @var string */
 	static $fetch_last_error;
@@ -21,6 +25,7 @@ class UrlHelper {
 
 	/** @var string */
 	static $fetch_last_modified;
+
 
 	/** @var string */
 	static $fetch_effective_url;
@@ -52,11 +57,19 @@ class UrlHelper {
 	 * @param string $rel_url Possibly relative URL in the document
 	 * @param string $owner_element Owner element tag name (i.e. "a") (optional)
 	 * @param string $owner_attribute Owner attribute (i.e. "href") (optional)
+	 * @param string $content_type URL content type as specified by enclosures, etc.
 	 *
 	 * @return false|string Absolute URL or false on failure (either during URL parsing or validation)
 	 */
-	public static function rewrite_relative($base_url, $rel_url, string $owner_element = "", string $owner_attribute = "") {
+	public static function rewrite_relative($base_url,
+				$rel_url,
+				string $owner_element = "",
+				string $owner_attribute = "",
+				string $content_type = "") {
+
 		$rel_parts = parse_url($rel_url);
+
+		if (!$rel_url) return $base_url;
 
 		/**
 		 * If parse_url failed to parse $rel_url return false to match the current "invalid thing" behavior
@@ -80,6 +93,11 @@ class UrlHelper {
 				$owner_element == "a" &&
 				$owner_attribute == "href") {
 			return $rel_url;
+		// allow some extra schemes for links with feed-specified content type i.e. enclosures
+		} else if ($content_type &&
+				isset(self::EXTRA_SCHEMES_BY_CONTENT_TYPE[$content_type]) &&
+				in_array($rel_parts["scheme"], self::EXTRA_SCHEMES_BY_CONTENT_TYPE[$content_type])) {
+			return $rel_url;
 		// allow limited subset of inline base64-encoded images for IMG elements
 		} else if (($rel_parts["scheme"] ?? "") == "data" &&
 				preg_match('%^image/(webp|gif|jpg|png|svg);base64,%', $rel_parts["path"]) &&
@@ -92,17 +110,23 @@ class UrlHelper {
 			$rel_parts['host'] = $base_parts['host'] ?? "";
 			$rel_parts['scheme'] = $base_parts['scheme'] ?? "";
 
-			if (isset($rel_parts['path'])) {
+			if ($rel_parts['path'] ?? "") {
 
-				// experimental: if relative url path is not absolute (i.e. starting with /) concatenate it using base url path
-				// (i'm not sure if it's a good idea)
+				// we append dirname() of base path to relative URL path as per RFC 3986 section 5.2.2
+				$base_path = with_trailing_slash(dirname($base_parts['path'] ?? ""));
 
-				if (strpos($rel_parts['path'], '/') !== 0) {
-					$rel_parts['path'] = with_trailing_slash($base_parts['path'] ?? "") . $rel_parts['path'];
+				// 1. absolute relative path (/test.html) = no-op, proceed as is
+
+				// 2. dotslash relative URI (./test.html) - strip "./", append base path
+				if (strpos($rel_parts['path'], './') === 0) {
+					$rel_parts['path'] = $base_path . substr($rel_parts['path'], 2);
+				// 3. anything else relative (test.html) - append dirname() of base path
+				} else if (strpos($rel_parts['path'], '/') !== 0) {
+					$rel_parts['path'] = $base_path . $rel_parts['path'];
 				}
 
-				$rel_parts['path'] = str_replace("/./", "/", $rel_parts['path']);
-				$rel_parts['path'] = str_replace("//", "/", $rel_parts['path']);
+				//$rel_parts['path'] = str_replace("/./", "/", $rel_parts['path']);
+				//$rel_parts['path'] = str_replace("//", "/", $rel_parts['path']);
 			}
 
 			return self::validate(self::build_url($rel_parts));

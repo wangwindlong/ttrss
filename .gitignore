@@ -26,3 +26,4 @@ Thumbs.db
 /.vscode/settings.json
 /vendor/**/.git
 /vendor/*
+/.phpunit.result.cache

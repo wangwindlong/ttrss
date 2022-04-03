@@ -286,7 +286,33 @@ const App = {
 
 	},
 	isCombinedMode: function() {
-		return this.getInitParam("combined_display_mode");
+		return !!this.getInitParam("combined_display_mode");
+	},
+	setCombinedMode: function(combined) {
+		const value = combined ? "true" : "false";
+
+		xhr.post("backend.php", {op: "rpc", method: "setpref", key: "COMBINED_DISPLAY_MODE", value: value}, () => {
+			this.setInitParam("combined_display_mode",
+				!this.getInitParam("combined_display_mode"));
+
+			Article.close();
+			Headlines.renderAgain();
+		})
+	},
+	isExpandedMode: function() {
+		return !!this.getInitParam("cdm_expanded");
+	},
+	setExpandedMode: function(expand) {
+		if (App.isCombinedMode()) {
+			const value = expand ? "true" : "false";
+
+			xhr.post("backend.php", {op: "rpc", method: "setpref", key: "CDM_EXPANDED", value: value}, () => {
+				this.setInitParam("cdm_expanded", !this.getInitParam("cdm_expanded"));
+				Headlines.renderAgain();
+			});
+		} else {
+			alert(__("This function is only available in combined mode."));
+		}
 	},
 	getActionByHotkeySequence: function(sequence) {
 		const hotkeys_map = this.getInitParam("hotkeys");
@@ -797,7 +823,7 @@ const App = {
          this.setLoadingProgress(50);
 
          this._widescreen_mode = this.getInitParam("widescreen");
-         this.setWidescreen(this._widescreen_mode);
+         this.setWideScreenMode(this.isWideScreenMode(), true);
 
          Headlines.initScrollHandler();
 
@@ -882,7 +908,22 @@ const App = {
          }
       }
    },
-   setWidescreen: function(wide) {
+	isWideScreenMode: function() {
+		return !!this._widescreen_mode;
+	},
+   setWideScreenMode: function(wide, quiet = false) {
+
+		if (this.isCombinedMode() && !quiet) {
+			alert(__("Widescreen is not available in combined mode."));
+			return;
+		}
+
+		// reset stored sizes because geometry changed
+		Cookie.set("ttrss_ci_width", 0);
+		Cookie.set("ttrss_ci_height", 0);
+
+		this._widescreen_mode = wide;
+
       const article_id = Article.getActive();
       const headlines_frame = App.byId("headlines-frame");
       const content_insert = dijit.byId("content-insert");
@@ -1201,39 +1242,16 @@ const App = {
             }
          };
          this.hotkey_actions["toggle_widescreen"] = () => {
-            if (!this.isCombinedMode()) {
-               this._widescreen_mode = !this._widescreen_mode;
-
-               // reset stored sizes because geometry changed
-               Cookie.set("ttrss_ci_width", 0);
-               Cookie.set("ttrss_ci_height", 0);
-
-               this.setWidescreen(this._widescreen_mode);
-            } else {
-               alert(__("Widescreen is not available in combined mode."));
-            }
+				this.setWideScreenMode(!this.isWideScreenMode());
          };
          this.hotkey_actions["help_dialog"] = () => {
             this.hotkeyHelp();
          };
          this.hotkey_actions["toggle_combined_mode"] = () => {
-            const value = this.isCombinedMode() ? "false" : "true";
-
-            xhr.post("backend.php", {op: "rpc", method: "setpref", key: "COMBINED_DISPLAY_MODE", value: value}, () => {
-               this.setInitParam("combined_display_mode",
-                  !this.getInitParam("combined_display_mode"));
-
-               Article.close();
-               Headlines.renderAgain();
-            })
+				App.setCombinedMode(!App.isCombinedMode());
          };
          this.hotkey_actions["toggle_cdm_expanded"] = () => {
-            const value = this.getInitParam("cdm_expanded") ? "false" : "true";
-
-            xhr.post("backend.php", {op: "rpc", method: "setpref", key: "CDM_EXPANDED", value: value}, () => {
-               this.setInitParam("cdm_expanded", !this.getInitParam("cdm_expanded"));
-               Headlines.renderAgain();
-            });
+				App.setExpandedMode(!App.isExpandedMode());
          };
          this.hotkey_actions["article_span_grid"] = () => {
             Article.cdmToggleGridSpan(Article.getActive());
@@ -1294,18 +1312,14 @@ const App = {
             Feeds.toggleUnread();
             break;
          case "qmcToggleWidescreen":
-            if (!this.isCombinedMode()) {
-               this._widescreen_mode = !this._widescreen_mode;
-
-               // reset stored sizes because geometry changed
-               Cookie.set("ttrss_ci_width", 0);
-               Cookie.set("ttrss_ci_height", 0);
-
-               this.setWidescreen(this._widescreen_mode);
-            } else {
-               alert(__("Widescreen is not available in combined mode."));
-            }
+            App.setWideScreenMode(!App.isWideScreenMode());
             break;
+			case "qmcToggleCombined":
+				App.setCombinedMode(!App.isCombinedMode());
+				break;
+			case "qmcToggleExpanded":
+				App.setExpandedMode(!App.isExpandedMode());
+				break;
          case "qmcHKhelp":
             this.hotkeyHelp()
             break;
