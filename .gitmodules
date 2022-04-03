@@ -1,0 +1,3 @@
+[submodule "plugins/mercury_fulltext"]
+	path = plugins/mercury_fulltext
+	url = https://github.com/HenryQW/mercury_fulltext.git
